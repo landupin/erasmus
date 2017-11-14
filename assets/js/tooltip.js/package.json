@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "tooltip.js",
+        "scope": null,
+        "escapedName": "tooltip.js",
+        "name": "tooltip.js",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/soeren/go/src/github.com/leeander/kibitag/public"
+    ]
+  ],
+  "_from": "tooltip.js@latest",
+  "_id": "tooltip.js@1.1.5",
+  "_inCache": true,
+  "_location": "/tooltip.js",
+  "_nodeVersion": "8.1.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/tooltip.js-1.1.5.tgz_1501680734387_0.8328888202086091"
+  },
+  "_npmUser": {
+    "name": "fezvrasta",
+    "email": "federico.zivolo@gmail.com"
+  },
+  "_npmVersion": "4.6.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "tooltip.js",
+    "scope": null,
+    "escapedName": "tooltip.js",
+    "name": "tooltip.js",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tooltip.js/-/tooltip.js-1.1.5.tgz",
+  "_shasum": "740703c7c0a52ff72bd3ae3e78c12a8609997a71",
+  "_shrinkwrap": null,
+  "_spec": "tooltip.js",
+  "_where": "/home/soeren/go/src/github.com/leeander/kibitag/public",
+  "bugs": {
+    "url": "https://github.com/FezVrasta/popper.js/issues"
+  },
+  "dependencies": {
+    "popper.js": "^1.0.2"
+  },
+  "description": "A kickass library to create tooltips, based on Popper.js",
+  "devDependencies": {
+    "@popperjs/bundle": "^1.0.0",
+    "@popperjs/eslint-config-popper": "^1.0.0",
+    "@popperjs/test": "^1.0.0",
+    "@popperjs/test-utils": "^1.0.0",
+    "eslint": "^4.1.1",
+    "eslint-plugin-jasmine": "^2.6.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "740703c7c0a52ff72bd3ae3e78c12a8609997a71",
+    "tarball": "https://registry.npmjs.org/tooltip.js/-/tooltip.js-1.1.5.tgz"
+  },
+  "homepage": "https://github.com/FezVrasta/popper.js#readme",
+  "main": "./dist/umd/tooltip.js",
+  "maintainers": [
+    {
+      "name": "fezvrasta",
+      "email": "federico.zivolo@gmail.com"
+    }
+  ],
+  "module": "./dist/esm/tooltip.js",
+  "name": "tooltip.js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FezVrasta/popper.js.git"
+  },
+  "scripts": {
+    "build": "node bundle.js",
+    "coverage": "NODE_ENV=coverage npm run test",
+    "lint": "eslint .",
+    "prepublish": "npm run build",
+    "pretest": "npm run lint",
+    "test": "popper-karma"
+  },
+  "version": "1.1.5"
+}
