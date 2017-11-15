@@ -38,6 +38,7 @@ func main() {
 	mux.ServeFiles("/assets/*filepath", http.Dir("assets"))
 
 	//fire the server up
+	log.Println("fired it up at port :8080")
 	http.ListenAndServe(":8080", mux)
 }
 
