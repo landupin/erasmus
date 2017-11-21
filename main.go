@@ -24,9 +24,8 @@ func init() {
 	//adding includes to all templates
 	soc.ParseFiles("templates/includes.html")
 	pol.ParseFiles("templates/includes.html")
-}
 
-func main() {
+	/*from main*/
 	mux = httprouter.New()
 	//routing specific paths
 	mux.GET("/", index)
@@ -37,26 +36,10 @@ func main() {
 	//routing assets
 	mux.ServeFiles("/assets/*filepath", http.Dir("assets"))
 
-	//fire the server up
-	log.Println("fired it up at port :8080")
-	http.ListenAndServe(":8080", mux)
 }
 
 //handle the specific routes
 func index(w http.ResponseWriter, _ *http.Request, _ httprouter.Params) {
-/*
-	d := struct{
-		Kibitagsets Settings
-		Error bool
-		SubKind formKind
-	}{
-		getSettings(),
-		false,
-		formKind{},
-	}
-
-*/
-
 	err := glob.ExecuteTemplate(w, "index.html", nil)
 	HandleError(w, err)
 	return

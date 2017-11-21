@@ -4,25 +4,66 @@
 <body>
     {{template "navigation"}}
 
-    <section class="container mb-3">
+    <section id="heading" class="container mb-5">
         <h1 class="h1">Dear visitor!</h1>
         <p>
-            Welcome to out webpage! You are invited to explore the most important facts about the "Cold War".
+            Welcome to our webpage! You are invited to explore the most important facts about the "Cold War".
             We are sure that you'll learn a lot of interesting and exciting aspects of a period that has influence until
             today. "Explore" means: Find your own way through the network of pictures, films, explanations and
-            interviews with witnesses:
+            interviews with witnesses.
         </p>
     </section>
 
+    <!--
     <section class="container mb-3">
-        <h1 class="h1">Political</h1>
-        <a role="button" class="btn btn-outline-info btn-lg mb-2" href="/political/vietnam">Vietnam</a>
+        <div class="row">
+            <div class="col-md-6 ">
+            <h1 class="h1">Political</h1>
+            </div>
+            <div class="col-md-6">
+                <h1 class="h1">Social</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2" href="/political/vietnam">Vietnam</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-6 row">
+            <div class="col-md-6">
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2" href="/social/espionage">Espionage</a>
+            </div>
+        </div>
+
+    </section>
+    -->
+
+    <section class="container mb-3">
+        <div class="row">
+            <!-- political -->
+            <div class="col-md-6 ">
+                <h1 class="h1 text-center">Political</h1>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2" href="/political/vietnam">Vietnam</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- social -->
+            <div class="col-md-6">
+                <h1 class="h1 text-center">Social</h1>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2" href="/social/espionage">Espionage</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-
-    <section class="container mb-3">
-        <h1 class="h1">Social</h1>
-        <a role="button" class="btn btn-outline-info btn-lg mb-2" href="/social/espionage">Espionage</a>
-    </section>
-
-{{template "footer"}}
+    {{template "footer"}}

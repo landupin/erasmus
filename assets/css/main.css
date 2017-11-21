@@ -1,3 +1,11 @@
 #favicon {
     width: 100px;
 }
+
+.pic {
+    border-radius: 0.5em;
+}
+
+#heading {
+    border-bottom: 2px solid aliceblue;
+}
