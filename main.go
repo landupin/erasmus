@@ -3,16 +3,13 @@ package erasmus
 import (
 	"html/template"
 	"net/http"
-	"github.com/julienschmidt/httprouter"
+	"strings"
 )
 
 //templates
 var glob *template.Template
 var soc *template.Template
 var pol *template.Template
-
-//router
-var mux *httprouter.Router
 
 func init() {
 	//parsing the templates
@@ -24,39 +21,37 @@ func init() {
 	soc.ParseFiles("templates/includes.html")
 	pol.ParseFiles("templates/includes.html")
 
-	/*from main*/
-	mux = httprouter.New()
 	//routing specific paths
-	mux.GET("/", index)
+	http.HandleFunc("/", index)
 
-	mux.GET("/political/:article", political)
-	mux.GET("/social/:article", social)
+	http.HandleFunc("/political", political)
+	http.HandleFunc("/social", social)
 
 	//routing assets
-	mux.GET("/assets/*filepath", assets)
+	http.HandleFunc("/assets/", assets)
 }
 
 //handle the specific routes
-func index(w http.ResponseWriter, _ *http.Request, _ httprouter.Params) {
+func index(w http.ResponseWriter, _ *http.Request) {
 	err := glob.ExecuteTemplate(w, "index.html", nil)
 	HandleError(w, err)
 	return
 }
 
-func assets(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
-	assets_path := "https://storage.googleapis.com/cold-war-cojobo.appspot.com/assets"
-	http.Redirect(w, r, assets_path+p.ByName("filepath"), http.StatusSeeOther)
+func assets(w http.ResponseWriter, r *http.Request) {
+	assets_path := "https://storage.googleapis.com/cold-war-cojobo.appspot.com"
+	http.Redirect(w, r, assets_path+r.URL.RequestURI(), http.StatusSeeOther)
 	return
 }
 
-func political(w http.ResponseWriter, _ *http.Request, parms httprouter.Params) {
-	err := pol.ExecuteTemplate(w, parms[0].Value+".html", nil)
+func political(w http.ResponseWriter, r *http.Request) {
+	err := pol.ExecuteTemplate(w, getParam(r,1)+".html", nil)
 	HandleError(w, err)
 	return
 }
 
-func social(w http.ResponseWriter, _ *http.Request, parms httprouter.Params) {
-	err := soc.ExecuteTemplate(w, parms[0].Value+".html", nil)
+func social(w http.ResponseWriter, r *http.Request) {
+	err := soc.ExecuteTemplate(w, getParam(r,1)+".html", nil)
 	HandleError(w, err)
 	return
 }
@@ -65,5 +60,18 @@ func social(w http.ResponseWriter, _ *http.Request, parms httprouter.Params) {
 func HandleError(w http.ResponseWriter, err error) {
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+}
+
+/* map the requested path and return a parameter set by getCode int */
+func getParam(r *http.Request, getCode int) (string) {
+	p := strings.Split(r.URL.Path, "/")
+
+	if len(p)==0 {
+		return "index"
+	} else if len(p)<getCode{
+		return ""
+	} else {
+		return p[getCode]
 	}
 }
