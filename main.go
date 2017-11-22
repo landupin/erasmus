@@ -1,9 +1,8 @@
-package main
+package erasmus
 
 import (
 	"html/template"
 	"net/http"
-	"log"
 	"github.com/julienschmidt/httprouter"
 )
 
@@ -34,8 +33,7 @@ func init() {
 	mux.GET("/social/:article", social)
 
 	//routing assets
-	mux.ServeFiles("/assets/*filepath", http.Dir("assets"))
-
+	mux.GET("/assets/*filepath", assets)
 }
 
 //handle the specific routes
@@ -45,14 +43,20 @@ func index(w http.ResponseWriter, _ *http.Request, _ httprouter.Params) {
 	return
 }
 
-func political(w http.ResponseWriter, _ *http.Request, parms httprouter.Params)  {
-	err := pol.ExecuteTemplate(w, parms[0].Value + ".html", nil)
+func assets(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
+	assets_path := "https://storage.googleapis.com/cold-war-cojobo.appspot.com/assets"
+	http.Redirect(w, r, assets_path+p.ByName("filepath"), http.StatusSeeOther)
+	return
+}
+
+func political(w http.ResponseWriter, _ *http.Request, parms httprouter.Params) {
+	err := pol.ExecuteTemplate(w, parms[0].Value+".html", nil)
 	HandleError(w, err)
 	return
 }
 
-func social(w http.ResponseWriter, _ *http.Request, parms httprouter.Params)  {
-	err := soc.ExecuteTemplate(w, parms[0].Value + ".html", nil)
+func social(w http.ResponseWriter, _ *http.Request, parms httprouter.Params) {
+	err := soc.ExecuteTemplate(w, parms[0].Value+".html", nil)
 	HandleError(w, err)
 	return
 }
@@ -61,6 +65,5 @@ func social(w http.ResponseWriter, _ *http.Request, parms httprouter.Params)  {
 func HandleError(w http.ResponseWriter, err error) {
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
-		log.Fatalln(err)
 	}
 }

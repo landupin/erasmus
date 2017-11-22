@@ -1,3 +1,5 @@
-# Still ToDo
+# A history project website
 
-### nothing ;P
+- **backend:** golang
+- **frontend:** bootstrap
+- **planned:** frontend as a progressive web app
