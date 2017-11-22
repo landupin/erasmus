@@ -1,6 +1,9 @@
 runtime: go
 api_version: go1
 
+#application: cold-war-cojobo
+#version: 0
+
 handlers:
 - url: /.*
   script: _go_app

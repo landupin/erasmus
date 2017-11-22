@@ -24,8 +24,8 @@ func init() {
 	//routing specific paths
 	http.HandleFunc("/", index)
 
-	http.HandleFunc("/political", political)
-	http.HandleFunc("/social", social)
+	http.HandleFunc("/political/", political)
+	http.HandleFunc("/social/", social)
 
 	//routing assets
 	http.HandleFunc("/assets/", assets)
@@ -45,15 +45,13 @@ func assets(w http.ResponseWriter, r *http.Request) {
 }
 
 func political(w http.ResponseWriter, r *http.Request) {
-	err := pol.ExecuteTemplate(w, getParam(r,1)+".html", nil)
+	err := pol.ExecuteTemplate(w, getArticle(r)+".html", nil)
 	HandleError(w, err)
-	return
 }
 
 func social(w http.ResponseWriter, r *http.Request) {
-	err := soc.ExecuteTemplate(w, getParam(r,1)+".html", nil)
+	err := pol.ExecuteTemplate(w, getArticle(r)+".html", nil)
 	HandleError(w, err)
-	return
 }
 
 /* send the client the answer HTTP 500 */
@@ -64,14 +62,12 @@ func HandleError(w http.ResponseWriter, err error) {
 }
 
 /* map the requested path and return a parameter set by getCode int */
-func getParam(r *http.Request, getCode int) (string) {
+func getArticle(r *http.Request) (string) {
 	p := strings.Split(r.URL.Path, "/")
 
-	if len(p)==0 {
+	if p[2]=="" {
 		return "index"
-	} else if len(p)<getCode{
-		return ""
 	} else {
-		return p[getCode]
+		 return p[2]
 	}
 }
