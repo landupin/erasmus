@@ -1,5 +1,13 @@
 {{template "header"}}
 
+    <style>
+        .nav-link {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+
 </head>
 <body>
     {{template "navigation"}}
@@ -46,10 +54,13 @@
             <div class="col-md-6 ">
                 <h1 class="h1 text-center">Political</h1>
 
-                <div class="row">
-                    <div class="col-md-12">
-                        <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2" href="/political/vietnam">Vietnam</a>
-                    </div>
+                <div>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/political/berlin-wall">Berlin Wall and reunification</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/political/cuba">Cuba</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/political/korea">Korea</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/political/africa">Africa & latin-america</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/political/vietnam">Vietnam</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/political/uprising">Uprising in the eastern block</a>
                 </div>
             </div>
 
@@ -57,10 +68,16 @@
             <div class="col-md-6">
                 <h1 class="h1 text-center">Social</h1>
 
-                <div class="row">
-                    <div class="col-md-12">
-                        <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2" href="/social/espionage">Espionage</a>
-                    </div>
+                <div>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/social/sport">Sport</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/social/religion">Religion</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/social/espionage">Espionage</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/social/space-race">Space race</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/social/propaganda">Propaganda and censorship</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/social/under-communism">Living under communism</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/social/counter-culture">Counter culture</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/social/pop-culture">Pop culture (musics)</a>
+                    <a role="button" class="btn btn-outline-info btn-lg btn-block mb-2 nav-link" href="/social/freedom">Freedom</a>
                 </div>
             </div>
         </div>
