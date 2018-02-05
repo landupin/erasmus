@@ -117,16 +117,16 @@ func logout(w http.ResponseWriter, r *http.Request) {
 	http.Redirect(w, r, "/", http.StatusSeeOther)
 }
 
-/* send the client the answer HTTP 500 */
+
 func HandleError(w http.ResponseWriter, err error) {
 	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
+		//http.Error(w, err.Error(), http.StatusInternalServerError)
 
-		/*send the client the "in-work"-page
+		/*send the client the "in-work"-page*/
 		err = glob.ExecuteTemplate(w, "in-work.html", nil)
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
-		}*/
+		}
 	}
 }
 
