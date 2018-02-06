@@ -1,0 +1,105 @@
+{{template "header"}}
+<script src="/assets/js/display.js"></script>
+
+<style>
+    .pic {
+        border-radius: 0.5em;
+    }
+    #heading {
+        border-bottom: 2px solid aliceblue;
+    }
+</style>
+</head>
+<body>
+
+<section id="welcome">
+
+    {{template "navigation"}}
+
+    <header id="skimmers" class="container">
+        <div class="inner">
+            <div id="heading" class="mb-3">
+                <p id="topic" class="h1"></p>
+            </div>
+            <div id="paragraph">
+                <p class="font-weight-bold">
+                    Everybody knows that music, movies, books, television and other media are not just for fun,
+                    and especially during the Cold war, music was a „weapon“ used to manipulate  people. In
+                    the Soviet Union all music produced was generally expected to conform to the ideas of the
+                    party. Music in the West was anti authoritarian.
+                </p>
+            </div>
+
+            <div class="text-center mb-3">
+                <div class="d-inline-block text-left">
+                    <div>
+                        <a href="http://3.bp.blogspot.com/-0BsuG3mh694/U_zSuTNx98I/AAAAAAAACqs/WF8au2g_EXY/s1600/RnR-War-headline-sideways.jpg" target="_blank">
+                            <img id="pic" class="img-fluid" src="http://3.bp.blogspot.com/-0BsuG3mh694/U_zSuTNx98I/AAAAAAAACqs/WF8au2g_EXY/s1600/RnR-War-headline-sideways.jpg" alt="newspaper">
+                        </a>
+                    </div>
+                    <small class="text-muted">newspaper</small>
+                </div>
+            </div>
+
+
+            <div id="show" class="mb-3">
+                <a role="button" class="btn btn-primary btn-lg btn-block mb-2" href="#swimmers"
+                   onclick="refactorMore('show')">Read On</a>
+            </div>
+        </div>
+    </header>
+</section>
+
+<section id="swimmers" class="container pt-4">
+    <ul>
+        <li>
+            The Beatles – USSR „how lucky we are, we are back in the USSR“ (1968)
+        </li>
+        <li>
+            Black Sabbath – Children of the Grave – „revolution in their minds – the children start to
+            march, against the world in which they have to live“ (1971)
+        </li>
+        <li>
+            John Lenon – Imgine (1971) – Lennon was asking us to imagine a place where things that
+            divide people did not exist.
+        </li>
+        <li>
+            <blockquote class="blockquote">
+                <p class="mb-0">„I do not think there are any Russians<br>and there ain´t no Yanks<br>just corporate criminals<br>playin´ with tanks.“</p>
+                <footer class="blockquote-footer">The Call – The Walls Came Down (1983)</footer>
+            </blockquote>
+        </li>
+        <li>
+            Nena -99 Red Balloons – (1984) – release of 99 balloons triggers governments to scramble
+            fighter jets to intercept then, ultimately leading to nuclear war
+        </li>
+        <li>
+            Sting – Russians – (1985)
+        </li>
+        <li>
+            Scorpions – Wind of Change –(1989) – the change in politic is that there is no border anymore
+        </li>
+    </ul>
+</section>
+
+<section id="divers" class="container pt-4 mb-3">
+    <p>Further reading:</p>
+    <ul>
+        <li>
+        </li>
+    </ul>
+</section>
+
+<div id="hide" class="container mb-3">
+    <a role="button" class="btn btn-outline-secondary btn-lg btn-block mb-2" href="#"
+       onclick="refactorMore('hide')">Read Less</a>
+</div>
+
+<script>
+    //hide the swimmers section OnLoad
+    document.getElementById('swimmers').style.display = "none";
+    document.getElementById('divers').style.display = "none";
+    document.getElementById('hide').style.display = "none";
+</script>
+
+{{template "footer"}}
