@@ -117,7 +117,7 @@ func logout(w http.ResponseWriter, r *http.Request) {
 	http.Redirect(w, r, "/", http.StatusSeeOther)
 }
 
-/* send the client the answer HTTP 500 */
+
 func HandleError(w http.ResponseWriter, err error) {
 	if err != nil {
 		//http.Error(w, err.Error(), http.StatusInternalServerError)
