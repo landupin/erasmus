@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "gotrue-js": "^0.9.20"
+  }
+}
