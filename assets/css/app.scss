@@ -1,0 +1,16 @@
+//$mdc-theme-primary: #9c27b0; // Purple 500
+//$mdc-theme-secondary: #ffab40; // Orange A200
+//$mdc-theme-background: #fff; // White
+
+@import "@material/button/mdc-button";
+@import "@material/toolbar/mdc-toolbar";
+@import "@material/drawer/mdc-drawer";
+@import "@material/list/mdc-list";
+@import "@material/theme/mdc-theme";
+@import "@material/typography/mdc-typography";
+
+
+.foo-button {
+    @include mdc-button-ink-color(teal);
+    @include mdc-states(teal);
+}
