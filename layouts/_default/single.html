@@ -1,0 +1,29 @@
+{{define "main"}}
+
+<section id="skimmer" class="mdc-toolbar-fixed-adjust">
+    <h1>{{.Title}}</h1>
+    <small>edited last: {{.Date.Format "2006-01-02"}}</small>
+    <div>
+        <img src="{{$.Param "imageLink"}}" alt="{{.Param "imageDescription"}}">
+        <small>{{.Param "imageDescription"}}</small>
+    </div>
+    <p>{{.Param "skimmer"}}</p>
+</section>
+
+<section role="main">
+    <h2>
+
+        <svg id="svg-down" style="max-width: 1rem; transform: rotate(90deg)" viewBox="0 0 24 24"
+             xmlns="http://www.w3.org/2000/svg" fill="magenta" stroke-width="4">
+            <path d="M6 0 l 12 12 l -12 12"></path>
+        </svg>
+        <button class="button mdc-button">See More</button>
+    </h2>
+
+
+    <main>
+    {{.Content}}
+    </main>
+</section>
+
+{{end}}

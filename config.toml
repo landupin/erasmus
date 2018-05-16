@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Exploring the Cold War"
+sectionPagesMenu = "main"
+
+[params]
+    titleShort = "Cold War"
