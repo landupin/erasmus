@@ -1,28 +1,75 @@
 <!DOCTYPE html>
-<html lang="{{ $.Site.LanguageCode | default "en" }}">
+<html lang="{{ $.Site.LanguageCode | default " en " }}">
+
 <head>
-    <meta charset="utf-8">
-{{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
+    <meta charset="utf-8"> {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
     <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }} {{ end }}{{ end }}</title>
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600" rel="stylesheet">
+    <!--
     <link rel="stylesheet" href="https://landupin.tk/material-icons.css">
     <link rel="stylesheet" href="{{ "/assets/bundle.css" | absURL }}">
+    -->
 
+    <style>
+        * {
+            /*padding: 0;
+            border: none;
+            margin: 0;*/
+            color: inherit;
+            font: inherit;
+            box-sizing: border-box;
+        }
 
-{{ block "favicon" . }}
-      {{ partial "site-favicon.html" . }}
-{{ end }}
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            padding: 0 8px;
+            flex: 1;
+        }
+
+        button {
+            appearance: none;
+            -webkit-appearance: none;
+            background: inherit;
+            color: inherit;
+            border: none;
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a:visited {
+            color: inherit;
+        }
+    </style>
+
+    <link rel="stylesheet" href="{{ "/css/header.css" | absURL}}">
+    <link rel="stylesheet" href="{{ "/css/footer.css" | absURL}}">
+    
+    {{ block "favicon" . }} {{ partial "site-favicon.html" . }} {{ end }}
 
 </head>
 
-<body class=" {{ $.Param "body_classes"  | default ""}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
+<body class=" {{ $.Param " body_classes "  | default " "}}{{ with getenv "HUGO_ENV " }} {{ . }}{{ end }}">
+    {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
 
-{{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
-{{ block "main" . }}{{ end }}
+    <main>{{ block "main" . }}{{ end }}</main>
 
-{{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
-{{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
+    {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
+    {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
 </body>
+
 </html>

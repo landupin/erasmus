@@ -2,6 +2,9 @@
 title: "Espionage"
 date: 2018-03-28T23:47:31+02:00
 draft: true
+menu:
+  main:
+    parent: 'Social'
 article: true
 
 skimmer: "From 1955-1975, a ‘Cold War-era Proxy war’ took part between North Vietnam who invaded South Vietnam;

@@ -2,6 +2,10 @@
 title: "Vietnam"
 date: 2018-03-29T00:31:13+02:00
 draft: true
+menu:
+  main:
+    parent: 'Political'
+
 article: true
 
 skimmer: "From 1955-1975, a ‘Cold War-era Proxy war’ took part between North Vietnam who invaded South Vietnam;
