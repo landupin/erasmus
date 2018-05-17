@@ -56,8 +56,8 @@
         }
     </style>
 
-    <link rel="stylesheet" href="{{ "/css/header.css" | absURL}}">
-    <link rel="stylesheet" href="{{ "/css/footer.css" | absURL}}">
+    <link rel="stylesheet" href="{{ "/css/header.css" | relURL}}">
+    <link rel="stylesheet" href="{{ "/css/footer.css" | relURL}}">
     
     {{ block "favicon" . }} {{ partial "site-favicon.html" . }} {{ end }}
 
