@@ -1,27 +1,34 @@
-<nav>
-    <ul>
-        {{ range . }}
-        <li>
-            <a href="{{.URL}}">{{ .Name }}</a>
-            {{ if .HasChildren }}
-            <ul>
-                {{ range .Children }}
-                <li>
-                    <a href="{{.URL}}">{{ .Name }}</a>
-                    {{ if .HasChildren }}
-                    <ul class="third">
-                        {{ range .Children }}
-                        <li>
-                            <a href="{{.URL}}">{{ .Name }}</a>
-                        </li>
+<aside>
+    <h1>Navigation</h1>
+    <nav>
+        <ul>
+            {{ range . }}
+            <li {{ if .HasChildren }} class="slide" {{ end }}>
+                {{ if .HasChildren }}
+                <span>{{ .Name }}</span>
+                <ul>
+                    {{ range .Children }}
+                    <li {{ if .HasChildren }} class="slide" {{ end }}>
+                        {{ if .HasChildren }}
+                        <span>{{ .Name }}</span>
+                        <ul>
+                            {{ range .Children }}
+                            <li>
+                                <a href="{{.URL}}">{{ .Name }}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                        {{ else }}
+                        <a href="{{.URL}}">{{ .Name }}</a>
                         {{ end }}
-                    </ul>
+                    </li>
                     {{ end }}
-                </li>
+                </ul>
+                {{else}}
+                <a href="{{.URL}}">{{ .Name }}</a>                
                 {{ end }}
-            </ul>
+            </li>
             {{ end }}
-        </li>
-        {{ end }}
-    </ul>
-</nav>
+        </ul>
+    </nav>
+</aside>

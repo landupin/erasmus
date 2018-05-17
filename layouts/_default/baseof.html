@@ -14,9 +14,6 @@
 
     <style>
         * {
-            /*padding: 0;
-            border: none;
-            margin: 0;*/
             color: inherit;
             font: inherit;
             box-sizing: border-box;
@@ -57,14 +54,15 @@
     </style>
 
     <link rel="stylesheet" href="{{ "/css/header.css" | relURL}}">
+    <link rel="stylesheet" href="{{ "/css/aside.css" | relURL}}">
     <link rel="stylesheet" href="{{ "/css/footer.css" | relURL}}">
-    
     {{ block "favicon" . }} {{ partial "site-favicon.html" . }} {{ end }}
 
 </head>
 
 <body class=" {{ $.Param " body_classes "  | default " "}}{{ with getenv "HUGO_ENV " }} {{ . }}{{ end }}">
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+    {{ block "aside" . }}{{ partial "crab-menu.html" .Site.Menus.main }}{{ end }}
 
     <main>{{ block "main" . }}{{ end }}</main>
 

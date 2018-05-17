@@ -9,7 +9,8 @@ header {
     align-items: center;
 
     padding: 8px 12px;
-    background-color: #098760;
+    /*background-color: #098760;*/
+    background-color: #4d6ba0;
     color: white;
     transition: box-shadow .2s linear,-webkit-box-shadow .2s linear;
 }
@@ -59,7 +60,7 @@ header button.menu:focus::before {
     transform: scale(1);
 }
 
-header button.menu:active::after {
+header button.menu.active::after {
     transition: transform 225ms ease-in-out,
                 opacity 75ms ease-in-out;
     opacity: .32;

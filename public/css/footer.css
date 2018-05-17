@@ -13,7 +13,7 @@ footer * {
 footer h5 {
     font-size: 1.64rem;
     line-height: 110%;
-    margin: 1.0933333333rem 0 .656rem 0;
+    margin: 1.0933333333rem 0 1.25rem 0;
     font-weight: 400;
 }
 
@@ -49,12 +49,14 @@ footer .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;    
 }
 
 @media (min-width: 993px){
-    .container * {
+    .container > * {
         width: 50%;
         align-items: flex-start;
+        justify-content: flex-start;
     }
 
     .container .left {
@@ -69,6 +71,10 @@ footer .container {
 .container .right ul {
     list-style-type: none;
     padding: 0;
+}
+
+.container .right ul li {
+    padding-bottom: 20px;
 }
 
 .footer-copyright {
