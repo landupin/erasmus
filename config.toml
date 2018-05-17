@@ -7,8 +7,8 @@ title = "Exploring the Cold War"
 
 [[menu.main]]
     name = "Political"
-    url = "/political/"
+    url = "/categoties/political/"
 
 [[menu.main]]
     name = "Social"
-    url = "/social/"
+    url = "/categories/social/"
