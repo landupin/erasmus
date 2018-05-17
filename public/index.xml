@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Exploring the Cold War</title>
+    <title>Index Title on Exploring the Cold War</title>
     <link>http://example.org/</link>
-    <description>Recent content on Exploring the Cold War</description>
+    <description>Recent content in Index Title on Exploring the Cold War</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 29 Mar 2018 00:33:20 +0200</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vietnam</title>
+      <link>http://example.org/political/vietnam/</link>
+      <pubDate>Thu, 29 Mar 2018 00:31:13 +0200</pubDate>
+      
+      <guid>http://example.org/political/vietnam/</guid>
+      <description>credit: https://fontawesome.comlicense: https://creativecommons.org/licenses/by/4.0/ The Vietnam War was a long, costly and divisive conflict that pitted the communist government of North Vietnam against South Vietnam and its principal ally, the United States. The conflict was intensified by the ongoing Cold War between the United States and the Soviet Union. More than 3 million people (including over 58,000 Americans) were killed in the Vietnam War, and more than half of the dead were Vietnamese civilians.</description>
+    </item>
+    
+    <item>
+      <title>Espionage</title>
+      <link>http://example.org/social/espionage/</link>
+      <pubDate>Wed, 28 Mar 2018 23:47:31 +0200</pubDate>
+      
+      <guid>http://example.org/social/espionage/</guid>
+      <description>The Cold War is often considered the golden age of espionage, a time when the United States and Soviet Union, used all available tools to uncover each other’s secrets by operating with great secrecy and living double lives so they can infiltrate enemy governments. They certainly spent large amounts of money recruiting, training and outfitting spies and agents. The purpose of espionage was to collect information about the enemy, their army and technical abilities, their actions and intentions.</description>
+    </item>
     
   </channel>
 </rss>
