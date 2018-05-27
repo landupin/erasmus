@@ -1,5 +1,4 @@
 document.querySelectorAll("aside span").forEach((v, i) => {
-    console.log(v);
     v.addEventListener("click", function handler(e) {
         if (this.classList.contains("slide-opened")){
             this.parentNode.style.height = "43px";            

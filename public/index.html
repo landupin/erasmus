@@ -11,49 +11,15 @@
     
 
     <style>
-        * {
-            color: inherit;
-             
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        main {
-            padding: 0 8px;
-            flex: 1;
-        }
-
-        button {
-            appearance: none;
-            -webkit-appearance: none;
-            background: inherit;
-            color: inherit;
-            border: none;
-        }
-
-        button:focus {
-            outline: none;
-        }
-
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        a:visited {
-            color: inherit;
-        }
+        
     </style>
 
+    <link rel="stylesheet" href="/css/main.css">    
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/aside.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/gallery.css">
+    
       
 
 </head>
@@ -81,6 +47,12 @@
                 
                 <span>Political</span>
                 <ul>
+                    
+                    <li >
+                        
+                        <a href="/political/berlin-wall/">Berlin wall and reunification</a>
+                        
+                    </li>
                     
                     <li >
                         
@@ -123,9 +95,7 @@
     </nav>
 </aside>
 
-    <main>
-
-
+    <main> 
 
 <h1 id="dear-visitor">Dear visitor!</h1>
 
@@ -133,6 +103,283 @@
 that you&rsquo;ll learn a lot of interesting and exciting aspects of a period that has influence until today. &ldquo;Explore&rdquo; means:
 Find your own way through the network of pictures, films, explanations and interviews with witnesses.</p>
 
+<style>
+    .mdc-typography--headline6 {
+        font-size: 1.25rem;
+        font-weight: 500;
+        letter-spacing: .0125em;
+    }
+
+    .mdc-typography--headline5,
+    .mdc-typography--headline6 {
+        font-family: Roboto, sans-serif;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        line-height: 2rem;
+        text-decoration: inherit;
+        text-transform: inherit;
+    }
+
+    .demo-title {
+        border-bottom: 1px solid rgba(0, 0, 0, .87);
+    }
+
+    .mdc-typography--subtitle1,
+    .mdc-typography--subtitle2 {
+        font-family: Roboto, sans-serif;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        text-decoration: inherit;
+        text-transform: inherit;
+    }
+
+    .mdc-typography--subtitle1 {
+        font-size: 1rem;
+        line-height: 1.75rem;
+        font-weight: 400;
+        letter-spacing: .00937em;
+    }
+</style>
+
+<h2 class="demo-title mdc-typography--headline6">Choose a topic</h2>
+<div>
+    <h3 class="mdc-typography--subtitle1"></h3>
+    <ul class="mdc-image-list standard-image-list mdc-image-list--with-text-protection">
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <img class="mdc-image-list__image" src="http://www.echo-online.de/img_L2ZtLzgxOS90aHVtYm5haWxzLzQxMjgzNS5qcGcuMjYzNjI0MzYuanBn_L2ZtLzgxOS90aHVtYm5haWxzLzQxMjgzNS5qcGcuMjYzNjI0MzguanBn.jpg"
+                    alt="Text label">
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Berlin Wall and reunification</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Cuba</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Korea</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Africa & Latin America</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Vietnam</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Uprising in the eastern block</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Sport</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Religion</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Espionage</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Space race</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Propaganda and censorship</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Living under communism</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Counter culture</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Pop culture (musics)</span>
+            </div>
+        </li>
+        <li class="mdc-image-list__item">
+            <div class="mdc-image-list__image-aspect-container">
+                <svg class="mdc-image-list__image" version="1.1" id="placeholder" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400"
+                    enable-background="new 0 0 600 400">
+                    <rect x="0" fill="#EDECEB" width="600" height="400" />
+                    <path fill="#FFFFFF" d="M234.539,148.5v103h130.922v-103H234.539z M354.908,240.33H245.707v-80.661h109.201V240.33L354.908,240.33z"
+                    />
+                    <polygon fill="#FFFFFF" points="251.58,231.643 274.088,207.984 282.521,211.633 309.13,183.308 319.604,195.836 324.329,192.982 
+                        349.898,231.643 " />
+                    <circle fill="#FFFFFF" cx="277.582" cy="180.18" r="9.83" />
+                </svg>
+            </div>
+            <div class="mdc-image-list__supporting">
+                <span class="mdc-image-list__label">Freedom</span>
+            </div>
+        </li>
+    </ul>
+</div>
 
 </main>
 
@@ -140,7 +387,7 @@ Find your own way through the network of pictures, films, explanations and inter
     <div class="container">
         <div class="left">
             <h5 class="white-text">Exploring the Cold War</h5>
-            <p class="grey-text text-lighten-4">We are an international students group from Europe digging through our history.</p>
+            <p class="grey-text text-lighten-4">We are an international students group from Europe digging through our history</p>
         </div>
         <div class="right">
             <h5 class="white-text">More about us</h5>
@@ -152,7 +399,7 @@ Find your own way through the network of pictures, films, explanations and inter
                     <a class="grey-text text-lighten-3" href="#!">Contact us</a>
                 </li>
                 <li>
-                    <a class="grey-text text-lighten-3" href="#!">Terms</a>
+                    <a class="grey-text text-lighten-3" href="#!">Policy</a>
                 </li>
             </ul>
         </div>

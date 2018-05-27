@@ -37,6 +37,7 @@ div.scrim {
     background-color: #000;
     opacity: .7;
     transition: opacity 300ms ease-in;
+    z-index: 2;
 }
 
 div.scrim:hover {
@@ -84,6 +85,9 @@ aside ul li{
 aside ul li span,
 aside ul li a {
     width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     padding: 12px 48px 12px 24px;
 }
 

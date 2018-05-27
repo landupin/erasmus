@@ -10,9 +10,10 @@ header {
 
     padding: 8px 12px;
     /*background-color: #098760;*/
-    background-color: #4d6ba0;
-    color: white;
+    background-color: #0d47a1;
+    color: rgba(255, 255, 255, 1);
     transition: box-shadow .2s linear,-webkit-box-shadow .2s linear;
+    z-index: 1;
 }
 
 header.scrolled {
