@@ -11,4 +11,5 @@ the `templates` folder contents the old version of the website
 
 # usage
 
-the old version gets shipped by default. if you want the neew version instead, add `/next/` into the domain: `https.example.com/next/path/to/a/page`
+ - run the server with the gcloud sdk
+ - the old version gets shipped by default. if you want the neew version instead, add `/next/` into the domain: `https.example.com/next/path/to/a/page`
