@@ -88,7 +88,7 @@ Picture 4: Opening Ceremonies at the 1984 Summer olympics, in Los Angeles.
 - [Miracle on ice](https://www.youtube.com/watch?v=8gfD134ED54)
 - [Red Army, the story of the Soviet Union's famed Red Army hockey team through the eyes of fits players](https://www.imdb.com/title/tt3264102/)
 - [Miracle, the story of Herb Brooks, the player-turned-coach who led the 1989 U.S. Olympic hockey team to victory](https://www.imdb.com/title/tt3264102/)
-- [Timeline] (http://digitalarchive.wilsoncenter.org/theme/sport-in-the-cold-war)
+- [Timeline](http://digitalarchive.wilsoncenter.org/theme/sport-in-the-cold-war)
 - [1952-1992 Olympics](http://www.pbs.org/wnet/secrets/the-cold-war-sporting-front/53/)
 - [A pdcast on sports in the Cold War](https://soundcloud.com/coldwar-sport/the-cinematic-cold-war?in=the-wilson-center/sets/sport-in-the-cold-war)
 -[A podcast on how the Cold War created doping](https://www.wnyc.org/story/how-cold-war-created-modern-sports-doping/)
