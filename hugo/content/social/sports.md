@@ -93,4 +93,5 @@ Picture 4: Opening Ceremonies at the 1984 Summer olympics, in Los Angeles.
 - [A pdcast on sports in the Cold War](https://soundcloud.com/coldwar-sport/the-cinematic-cold-war?in=the-wilson-center/sets/sport-in-the-cold-war)
 -[A podcast on how the Cold War created doping](https://www.wnyc.org/story/how-cold-war-created-modern-sports-doping/)
 - [Statistics and Facts about Olympics during the Cold War](http://proxy.espn.com/oly/summer08/fanguide/history?year=1980&amp;type=resume)
--[Advanced/In-Depth Walkthrough of sports during the Cold War](http://www.humankinetics.com/excerpts/excerpts/sport-in-the-cold-war
+-[Advanced/In-Depth Walkthrough of sports during the Cold War](http://www.humankinetics.com/excerpts/excerpts/sport-in-the-cold-war)
+{{% /diver %}}
