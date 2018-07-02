@@ -39,9 +39,9 @@ func main() {
 	http.HandleFunc("/ping", ping)
 
 	//next version - not working!!!!!!!!!!!!!!!!!!!!!!11!!!!elf
-	http.HandleFunc("/next", next)
-	http.HandleFunc("/next/timeline", timeline)
-	http.Handle("/next/article", http.StripPrefix("/next", http.FileServer(http.Dir("hugo/public"))))
+	http.HandleFunc("/next/", next)
+	http.HandleFunc("/next/timeline/", timeline)
+	http.Handle("/next/article/", http.StripPrefix("/next/article", http.FileServer(http.Dir("hugo/public"))))
 
 	//fmt.Println("listening at port :8080")
 	//http.ListenAndServe(":8080", nil)

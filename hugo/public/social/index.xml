@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Social overview on Exploring the Cold War</title>
-    <link>/next/social/</link>
+    <link>/next/article/social/</link>
     <description>Recent content in Social overview on Exploring the Cold War</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Mar 2018 01:09:39 +0200</lastBuildDate>
     
-	<atom:link href="/next/social/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/next/article/social/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Espionage</title>
-      <link>/next/social/espionage/</link>
+      <link>/next/article/social/espionage/</link>
       <pubDate>Wed, 28 Mar 2018 23:47:31 +0200</pubDate>
       
-      <guid>/next/social/espionage/</guid>
+      <guid>/next/article/social/espionage/</guid>
       <description>The Cold War is often considered the golden age of espionage, a time when the United States and Soviet Union, used all available tools to uncover each other’s secrets by operating with great secrecy and living double lives so they can infiltrate enemy governments. They certainly spent large amounts of money recruiting, training and outfitting spies and agents. The purpose of espionage was to collect information about the enemy, their army and technical abilities, their actions and intentions.</description>
     </item>
     
