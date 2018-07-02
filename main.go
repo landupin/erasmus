@@ -38,12 +38,38 @@ func main() {
 	//test routing
 	http.HandleFunc("/ping", ping)
 
-	//next version
-	http.Handle("/next/", http.StripPrefix("/next", http.FileServer(http.Dir("hugo/public"))))
+	//next version - not working!!!!!!!!!!!!!!!!!!!!!!11!!!!elf
+	http.HandleFunc("/next", next)
+	http.HandleFunc("/next/timeline", timeline)
+	http.Handle("/next/article", http.StripPrefix("/next", http.FileServer(http.Dir("hugo/public"))))
 
 	//fmt.Println("listening at port :8080")
 	//http.ListenAndServe(":8080", nil)
 	appengine.Main()
+}
+
+func next(w http.ResponseWriter, r *http.Request) {
+	splash, err := template.ParseFiles("splash.html")
+	if err != nil {
+		HandleError(w, err)
+	}
+
+	if err := splash.ExecuteTemplate(w, "splash.html", nil); err != nil {
+		HandleError(w, err)
+	}
+
+}
+
+func timeline(w http.ResponseWriter, r *http.Request) {
+	timelines, err := template.ParseFiles("timeline.html")
+	if err != nil {
+		HandleError(w, err)
+	}
+
+	if err := timelines.ExecuteTemplate(w, "timeline.html", nil); err != nil {
+		HandleError(w, err)
+	}
+
 }
 
 //handle the ping
@@ -63,8 +89,8 @@ func index(w http.ResponseWriter, r *http.Request) {
 }
 
 func assets(w http.ResponseWriter, r *http.Request) {
-	assets_path := "https://storage.googleapis.com/cold-war-cojobo.appspot.com"
-	http.Redirect(w, r, assets_path+r.URL.RequestURI(), http.StatusSeeOther)
+	assetsPath := "https://storage.googleapis.com/cold-war-cojobo.appspot.com"
+	http.Redirect(w, r, assetsPath+r.URL.RequestURI(), http.StatusSeeOther)
 	return
 }
 
@@ -134,7 +160,7 @@ func logout(w http.ResponseWriter, r *http.Request) {
 	http.Redirect(w, r, "/", http.StatusSeeOther)
 }
 
-/* send the client the answer HTTP 500 */
+// HandleError send the client the answer HTTP 500
 func HandleError(w http.ResponseWriter, err error) {
 	if err != nil {
 		//http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -153,12 +179,12 @@ func getArticle(r *http.Request) string {
 
 	if p[2] == "" {
 		return "index"
-	} else {
-		return p[2]
 	}
+
+	return p[2]
 }
 
-/* return true when the client is loggedd-in */
+// CheckSession return true when the client is loggedd-in
 func CheckSession(r *http.Request) bool {
 	cookie, err := r.Cookie("logged-in")
 
@@ -175,7 +201,7 @@ func CheckSession(r *http.Request) bool {
 	return true
 }
 
-/* check on login and handle when not logged in, otherwise return true */
+// HandleSession check on login and handle when not logged in, otherwise return true
 func HandleSession(w http.ResponseWriter, r *http.Request) bool {
 	if CheckSession(r) == false {
 		err := glob.ExecuteTemplate(w, "login.html", nil)
