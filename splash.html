@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring the Cold War</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            font-size: inherit;
+            color: inherit;
+            overflow-x: hidden;
+            width: 100vw;
+        }
+
+        main {
+            height: 100vh;
+            width: 100vw;
+            background-image: url(/next/article/assets/splashBG.png);
+            background-attachment: fixed;
+            /*background-repeat: no-repeat;*/
+            background-size: cover;
+            background-position: center;
+
+            color: white;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        main section {
+            width: 100%;
+            margin: 0;
+            background-color: rgba(0, 0, 0, .8);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main section h1 {
+            font-size: 2rem;
+            font-weight: 350;
+        }
+
+        main section h1 span {
+            text-transform: uppercase;
+            font-size: 1.25em;
+        }
+
+        main section p {
+            font-size: 2em;
+            font-weight: 300;
+        }
+
+        main footer {
+            width: 3rem;
+            height: 3rem;
+
+
+            bottom: 3rem;
+        }
+
+        main footer svg {
+            fill: white;
+            width: 3rem;
+            height: 3rem;
+        }
+
+        /* NAVIAGTION */
+
+        article {
+            width: 100vw;
+            height: 100vh;
+            padding-top: 1.5rem;
+        }
+
+        article blockquote {
+            text-align: center;
+            margin: 0 40px 2rem;
+        }
+
+        article blockquote span {
+            display: block;
+            font-size: 1.5em;
+        }
+
+        article blockquote span:nth-child(1) {
+            font-size: 2.5em;
+            margin-bottom: 1rem;
+        }
+
+        article blockquote cite {
+            font-size: 1em;
+        }
+
+        article nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-size: 16px;
+        }
+
+        article nav div {
+            width: 33.333333%;
+        }
+
+        article nav .logo {
+            display: block;
+            width: -webkit-fill-available;
+            width: -moz-available;
+        }
+
+        article nav .button {
+            height: 50%;
+            margin-left: 2rem;
+        }
+
+        article nav .button a {
+            text-transform: capitalize;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Welcome to
+                <span>"exploring the cold war"</span> Erasmus+ Project</h1>
+            <p>Come and explore the Cold War in just 5 Minutes</p>
+        </section>
+        <footer>
+            <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24">
+                <path d="M7.41,8.59L12,13.17l4.59-4.58L18,10l-6,6l-6-6L7.41,8.59z" />
+                <path fill="none" d="M0,0h24v24H0V0z" />
+            </svg>
+        </footer>
+    </main>
+
+    <article>
+        <blockquote>
+            <span>What even was the Cold War?</span>
+            <span>Between 1946 &ndash; 1990, from the ruins of war, two superpowers rose.</span>
+            <span>
+                The United States and the Soviet Union dominate the world.
+                <br> Fearful and suspicious they spy on one another.
+                <br> Each builds up enough nuclear weapons to kill everyone.
+                <br> Avoiding head-on conflict, they shadow-box in wars around the world.
+                <br>
+                <strong>Then, with little warning the Soviet Union's empire collapses.</strong>
+            </span>
+            <cite>&mdash; The Imperial War Museum, Manchester, UK (2018)</cite>
+        </blockquote>
+        <nav>
+            <div class="button-wrap">
+                <section class="button">
+                    <a>topics</a>
+                    <div class="button-card">some explanation</div>
+                </section>
+                <section class="button">
+                        <a>resources</a>
+                        <div class="button-card">some explanation</div>
+                </section>
+            </div>
+            <div class="logo-wrap">
+                <img class="logo" src="/assets/images/favicon.png" alt="logo">
+            </div>
+            <div class="button-wrap">
+                <section class="button">
+                        <a>games</a>
+                        <div class="button-card">some explanation</div>
+                </section>
+                <section class="button">
+                        <a>timelines</a>
+                        <div class="button-card">some explanation</div>
+                </section>
+            </div>
+        </nav>
+    </article>
+</body>
+
+</html>
