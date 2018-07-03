@@ -7,11 +7,9 @@ menu:
 
 article: true
 
-skimmer: "In 1959, Fidel Castro became the leader of Cuba, and later on April 17, 1961, Cuban exiles trained by the CIA led the failed Bay of Pigs invasion to overthrow Fidel Castro. In October 1962, the US spotted Soviet nuclear weaponry on Cuba causing the US to blockade Cuba, leading to worldwide terror of nuclear warfare called the Cuban Missile Crisis.
-"
+skimmer: "In 1959, Fidel Castro became the leader of Cuba, and later on April 17, 1961, Cuban exiles trained by the CIA led the failed Bay of Pigs invasion to overthrow Fidel Castro. In October 1962, the US spotted Soviet nuclear weaponry on Cuba causing the US to blockade Cuba, leading to worldwide terror of nuclear warfare called the Cuban Missile Crisis."
+imageLink: "ttp://1.bp.blogspot.com/-aDapwWKFHIY/VHGF-BlrF4I/AAAAAAAAj4k/0DdY4AjEI3s/s1600/fidel-castro-john-f-kenne"
 
-{{ < image "ttp://1.bp.blogspot.com/-aDapwWKFHIY/VHGF-BlrF4I/AAAAAAAAj4k/0DdY4AjEI3s/s1600/fidel-castro-john-f-kenne" >}}
-{{< /image}}
 ---
 
 {{% swimmer %}}

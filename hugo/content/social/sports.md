@@ -1,9 +1,9 @@
 ---
-title: "Berlin wall and reunification"
+title: "Sport"
 date: 2018-05-17T00:31:13+02:00
 menu:
   main:
-    parent: 'Political'
+    parent: 'Social'
 
 article: true
 
@@ -27,7 +27,7 @@ representative of the USA really built a further sense of rivalry between the tw
 Nation had always thought of chess as a display of the intellectual superiority of the Soviets, and to be
 overcome by the opposing nation was certainly a harsh blow.
 
-source ändern
+
 {{< image "https://imgur.com/r/HistoryPorn/xT8J4dR" >}}
 Picture 1: A shot taken during the tense chess match
 {{< /image >}}
