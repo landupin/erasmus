@@ -26,3 +26,5 @@ the old version gets shipped by default. if you want the neew version instead, a
 - timeline thing in sidemenu for articles
 - improve article topbar and skimmer
 - article overview popup thing
+- national skimmer sections -> including menu
+- cuba article -> image tag -> image on the right side with text around
