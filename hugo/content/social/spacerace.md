@@ -39,3 +39,24 @@ The American mission Apollo 11 can be considered the end of the Space Race.
 
 To conclude, one can say that the USSR had a head start in the Space Race with their successes such as Sputnik 1 and Yuri Gagarin but as the years passed, the USA caught up and ended the race with their remarkable moon landing. Today, the USA and Russia work together to make progress in the technology and science of space. As of now, a German, a Russian and an American woman are working together in the International Space Station (ISS).
 {{<image "https://cdni.rbth.com/rbthmedia/images/web/en-rbth/images/2014-10/top/ISS_Expedition_37_673.jpg">}}
+
+{{% divers %}}
+
+####Films
+-[Apollo 13](https://www.youtube.com/watch?v=KtEIMC58sZo&feature=youtu.be)
+-[Hidden Figures](https://www.youtube.com/watch?v=RK8xHq6dfAo&feature=youtu.be)
+
+####Books
+-Brief history of the Space Race
+-The Rocket Men
+
+####Other Links
+-[Challenge To Apollo: The Soviet Union and the Space Race](https://www.youtube.com/watch?v=xvaEvCNZymo)
+-[Here you can learn something about the first woman in space Valentina Tereshkova](https://www.space.com/21571-valentina-tereshkova.html)
+-[The BBC documentary summarizes the early space race from the Soviet perspective](https://www.bbc.co.uk/programmes/p028l0f1)
+-[Video of John F.Kennedy's “Landing a man on the moon" Address to Congress - May 25, 1961](https://www.youtube.com/watch?v=TUXuV7XbZvU&feature=youtu.be)
+-[Short video of the launch of Yuri Gagarin on April 12 1961.](https://www.youtube.com/watch?v=bJzygLptwf8&feature=youtu.be)
+-[Video summarising the Space Race](https://www.youtube.com/watch?v=xvaEvCNZymo&feature=youtu.be)
+-[CBS News report on the launch of Sputnik 1](https://www.youtube.com/watch?v=qdQHuiV_9AI&feature=youtu.be)
+-[Video of the moon landing - July 20, 1969](https://www.youtube.com/watch?v=sTBIr65cL_E&feature=youtu.be)
+-[Information about Human Spaceflight Programs](https://www.hq.nasa.gov/office/pao/History/humansp.html)

@@ -63,7 +63,7 @@ Picture 6: Photo evidence of missiles on Cuba
 {{< /image >}}
 {{% /swimmer %}}
 
-{{% diver% }}
+{{% diver %}}
 -[reading material - Cuban missile crisis](https://history.state.gov/milestones/1961-1968/cuban-missile-crisis)
 -[reading material- bay of pigs](http://spartacus-educational.com/COLDbayofpigs.htm)
 -[timeline](http://nuclearfiles.org/menu/key-issues/nuclear-weapons/history/cold-war/cuban-missile-crisis/timeline.htm)
