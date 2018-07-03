@@ -13,6 +13,7 @@
 
         a {
             text-decoration: none;
+            color: black;
         }
 
         body {
@@ -62,7 +63,7 @@
             font-size: 1.25em;
         }
 
-        main section p {
+        main section h2 {
             font-size: 2em;
             font-weight: 300;
         }
@@ -96,14 +97,16 @@
             margin: 0 40px 2rem;
         }
 
+        article blockquote h2 {
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: 350;
+            margin-bottom: 1rem;
+        }
+
         article blockquote span {
             display: block;
             font-size: 1.5em;
-        }
-
-        article blockquote span:nth-child(1) {
-            font-size: 2.5em;
-            margin-bottom: 1rem;
         }
 
         article blockquote cite {
@@ -139,10 +142,17 @@
         }
 
         article nav .button a {
+            display: block;
+            height: 100%;
+        }
+
+        article nav .button h3 {
             text-transform: capitalize;
 
             display: block;
             padding: 1rem 1rem;
+            margin: 0;
+            font-weight: 350;
             font-size: 1.5em;
             box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
         }
@@ -271,7 +281,7 @@
         <section>
             <h1>Welcome to
                 <span>"exploring the cold war"</span> Erasmus+ Project</h1>
-            <p>Come and explore the Cold War in just 5 Minutes</p>
+            <h2>Come and explore the Cold War in just 5 Minutes</h2>
         </section>
         <footer>
             <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24">
@@ -283,7 +293,7 @@
 
     <article id="navigation">
         <blockquote>
-            <span>What was the Cold War?</span>
+            <h2>What was the Cold War?</h2>
             <span>Between 1946 &ndash; 1990, from the ruins of war, two superpowers rose.</span>
             <span>
                 The United States and the Soviet Union dominate the world.
@@ -298,16 +308,20 @@
         <nav>
             <div class="button-wrap">
                 <section class="button">
-                    <a>topics</a>
-                    <div class="button-card">
-                        <p>Political and Social factors to explain the diverse nature of the Cold War</p>
-                    </div>
+                    <a href="/next/article">
+                        <h3>topics</h3>
+                        <div class="button-card">
+                            <p>Political and Social factors to explain the diverse nature of the Cold War</p>
+                        </div>
+                    </a>
                 </section>
                 <section class="button">
-                    <a>resources</a>
-                    <div class="button-card">
-                        <p>Worksheets, Interviews, Information for teachers and more</p>
-                    </div>
+                    <a href="#">
+                        <h3>resources</h3>
+                        <div class="button-card">
+                            <p>Worksheets, Interviews, Information for teachers and more</p>
+                        </div>
+                    </a>
                 </section>
             </div>
             <div class="logo-wrap">
@@ -315,16 +329,21 @@
             </div>
             <div class="button-wrap">
                 <section class="button">
-                    <a>games</a>
-                    <div class="button-card">
-                        <p>Test your knowledge in fun and exciting ways</p>
-                    </div>
+                    <a href="#">
+                        <h3>games</h3>
+                        <div class="button-card">
+                            <p>Test your knowledge in fun and exciting ways</p>
+                        </div>
+                    </a>
                 </section>
                 <section class="button">
-                    <a>timelines</a>
-                    <div class="button-card">
-                        <p>National and international dates and historic events displayed chronologically</p>
-                    </div>
+                    <a href="#">
+
+                        <h3>timelines</h3>
+                        <div class="button-card">
+                            <p>National and international dates and historic events displayed chronologically</p>
+                        </div>
+                    </a>
                 </section>
             </div>
         </nav>
