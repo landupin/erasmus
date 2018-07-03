@@ -43,20 +43,20 @@ To conclude, one can say that the USSR had a head start in the Space Race with t
 {{% divers %}}
 
 ####Films
--[Apollo 13](https://www.youtube.com/watch?v=KtEIMC58sZo&feature=youtu.be)
--[Hidden Figures](https://www.youtube.com/watch?v=RK8xHq6dfAo&feature=youtu.be)
+- [Apollo 13](https://www.youtube.com/watch?v=KtEIMC58sZo&feature=youtu.be)
+- [Hidden Figures](https://www.youtube.com/watch?v=RK8xHq6dfAo&feature=youtu.be)
 
 ####Books
--Brief history of the Space Race
--The Rocket Men
+- Brief history of the Space Race
+- The Rocket Men
 
 ####Other Links
--[Challenge To Apollo: The Soviet Union and the Space Race](https://www.youtube.com/watch?v=xvaEvCNZymo)
--[Here you can learn something about the first woman in space Valentina Tereshkova](https://www.space.com/21571-valentina-tereshkova.html)
--[The BBC documentary summarizes the early space race from the Soviet perspective](https://www.bbc.co.uk/programmes/p028l0f1)
--[Video of John F.Kennedy's “Landing a man on the moon" Address to Congress - May 25, 1961](https://www.youtube.com/watch?v=TUXuV7XbZvU&feature=youtu.be)
--[Short video of the launch of Yuri Gagarin on April 12 1961.](https://www.youtube.com/watch?v=bJzygLptwf8&feature=youtu.be)
--[Video summarising the Space Race](https://www.youtube.com/watch?v=xvaEvCNZymo&feature=youtu.be)
--[CBS News report on the launch of Sputnik 1](https://www.youtube.com/watch?v=qdQHuiV_9AI&feature=youtu.be)
--[Video of the moon landing - July 20, 1969](https://www.youtube.com/watch?v=sTBIr65cL_E&feature=youtu.be)
--[Information about Human Spaceflight Programs](https://www.hq.nasa.gov/office/pao/History/humansp.html)
+- [Challenge To Apollo: The Soviet Union and the Space Race](https://www.youtube.com/watch?v=xvaEvCNZymo)
+- [Here you can learn something about the first woman in space Valentina Tereshkova](https://www.space.com/21571-valentina-tereshkova.html)
+- [The BBC documentary summarizes the early space race from the Soviet perspective](https://www.bbc.co.uk/programmes/p028l0f1)
+- [Video of John F.Kennedy's “Landing a man on the moon" Address to Congress - May 25, 1961](https://www.youtube.com/watch?v=TUXuV7XbZvU&feature=youtu.be)
+- [Short video of the launch of Yuri Gagarin on April 12 1961.](https://www.youtube.com/watch?v=bJzygLptwf8&feature=youtu.be)
+- [Video summarising the Space Race](https://www.youtube.com/watch?v=xvaEvCNZymo&feature=youtu.be)
+- [CBS News report on the launch of Sputnik 1](https://www.youtube.com/watch?v=qdQHuiV_9AI&feature=youtu.be)
+- [Video of the moon landing - July 20, 1969](https://www.youtube.com/watch?v=sTBIr65cL_E&feature=youtu.be)
+- [Information about Human Spaceflight Programs](https://www.hq.nasa.gov/office/pao/History/humansp.html)
