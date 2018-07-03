@@ -28,3 +28,5 @@ the old version gets shipped by default. if you want the neew version instead, a
 - article overview popup thing
 - national skimmer sections -> including menu
 - cuba article -> image tag -> image on the right side with text around
+- smooth scroll on splash page
+- colorful buttons in nav on splash page

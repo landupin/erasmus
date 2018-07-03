@@ -46,11 +46,17 @@
         main section {
             width: 100%;
             margin: 0;
-            background-color: rgba(0, 0, 0, .8);
+            flex: 1;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+        }
+
+        main section div {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            text-align: center;
         }
 
         main section h1 {
@@ -84,6 +90,8 @@
 
         /* NAVIAGTION */
 
+        /*MOBILE: 5 rows: column, column, logo, column, column*/
+
         article {
             width: 100vw;
             min-height: 100vh;
@@ -113,22 +121,21 @@
             font-size: 1em;
         }
 
+
+        /**/
+
         article nav {
             width: 90%;
             margin: 0 auto;
             flex: 1;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: space-around;
             font-size: 16px;
         }
 
-        article nav .button-wrap,
-        .logo-wrap {
-            width: 33.333333%;
-        }
-
         article nav .logo {
+            /* NEEDS TO BE SMALLER maybe*/
             display: block;
             width: -webkit-fill-available;
             width: -moz-available;
@@ -139,6 +146,10 @@
             /*margin-left: 2rem;*/
             margin-bottom: 10%;
             box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+        }
+
+        article nav .button:hover {
+            box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2), 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12);
         }
 
         article nav .button a {
@@ -157,8 +168,55 @@
             box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
         }
 
+        article nav .button h3:hover {
+            box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+
+        }
+
         article nav .button-card {
             margin: .5rem 1rem;
+        }
+
+        @media (min-width: 601px) {
+            /*TABLET: 3 rows: 2 colums, logo, 2 colums*/
+            article nav .button-wrap {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            article nav .logo-wrap {
+                padding: 0 25%;
+            }
+
+            article nav .button {
+                width: 45%;
+            }
+        }
+
+        @media (min-width: 993px) {
+            /*DESKTOP: 3 colums: 2 rows, logo, 2 rows */
+            /**/
+            article nav {
+                flex-direction: row;
+            }
+
+            article nav .button-wrap,
+            .logo-wrap {
+                width: 33.333333%;
+            }
+
+            article nav .button-wrap {
+                display: block;
+            }
+
+
+            article nav .logo-wrap {
+                padding: 0;
+            }
+
+            article nav .button {
+                width: 100%;
+            }
         }
 
         /* FOOTER */
@@ -220,6 +278,11 @@
             justify-content: flex-start;
         }
 
+        article footer .container .right {
+            margin-top: 2rem;
+        }
+
+
         article footer .container * {
             text-align: center;
         }
@@ -250,6 +313,11 @@
                 width: 10%;
                 flex: 10 10;
                 align-items: flex-end;
+                margin: 0;
+            }
+
+            article footer .container .right ul li {
+                text-align: right;
             }
         }
 
@@ -260,7 +328,6 @@
 
         article footer .container .right ul li {
             padding-bottom: 20px;
-            text-align: right;
         }
 
         article footer .footer-copyright {
@@ -279,15 +346,19 @@
 <body>
     <main>
         <section>
-            <h1>Welcome to
-                <span>"exploring the cold war"</span> Erasmus+ Project</h1>
-            <h2>Come and explore the Cold War in just 5 Minutes</h2>
+            <div>
+                <h1>Welcome to
+                    <span>"exploring the cold war"</span> Erasmus+ Project</h1>
+                <h2>Come and explore the Cold War in just 5 minutes</h2>
+            </div>
         </section>
         <footer>
-            <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24">
-                <path d="M7.41,8.59L12,13.17l4.59-4.58L18,10l-6,6l-6-6L7.41,8.59z" />
-                <path fill="none" d="M0,0h24v24H0V0z" />
-            </svg>
+            <a role="button" href="#navigation" id="scrollToNav">
+                <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24">
+                    <path d="M7.41,8.59L12,13.17l4.59-4.58L18,10l-6,6l-6-6L7.41,8.59z" />
+                    <path fill="none" d="M0,0h24v24H0V0z" />
+                </svg>
+            </a>
         </footer>
     </main>
 
