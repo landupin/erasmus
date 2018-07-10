@@ -30,6 +30,7 @@ The first woman in space, Valentina Tereshkova, was sent by the Soviets in 1963,
 In 1964, the new Soviet leader Leonid Ilyich Brezhnev cancelled all space missions to focus on the moon landing. The Soviet space programme reached its peak with the first man entering free space in 1965. The first Apollo mission failed as the three astronauts suffocated in the capsule when testing it. In the crash of Soyuz 1, the USSR lost their lead in the Space Race because they spent 18 months repairing it. The US began a chain of successful events starting with the first ever pictures of earth taken from a spacecraft. The next Apollo mission had a livestream of the Earth and Moon with millions of people watching it.
 
 {{<image "https://www.nasa.gov/sites/default/files/images/297755main_GPN-2001-000009_full.jpg">}}
+
 {{< /image >}}
 
 Finally, the most remarkable event in space history occurred when Apollo 11 was successfully carried out. On July 20 1969, Buzz Aldrin and Neil Armstrong were the first people to step on the moon’s surface.Neil Armstrong described the event as "one small step for man, one giant leap for mankind."
