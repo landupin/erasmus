@@ -7,10 +7,7 @@ menu:
     parent: 'Social'
 article: true
 
-skimmer: "From 1955-1975, a ‘Cold War-era Proxy war’ took part between North Vietnam who invaded South Vietnam;
-          to expand their communist ideology and were supported by the Soviet Union and China. However, due to
-          USAs Communism Containment Policy, South Vietnam received American much support, but in 1975 America
-          withdrew all troops as defeat was inevitable."
+skimmer: "These cruel times occurred right after the Second World War and gradually spread into the countries which were controlled by USSR. It immediately affected people&#39;s lives in many ways such as economic, cultural or religious. However, the worst thing of this regime was the lack of freedom in everyday life."
 imageLink: "http://www.sbs.com.au/news/sites/sbs.com.au.news/files/styles/full/public/vietnam_8.jpg"
 imageDescription: "American military in Vietnam territory"
 ---
