@@ -8,7 +8,7 @@ menu:
 article: true
 
 skimmer: "During the Cold War, nations used sports to promote their political, social, and economic development. Between the end of World War II and the collapse of Communism, “Cold War sport” went beyond the bipolar USA-USSR rivalry to also include Africa, Asia, and Latin America. With success and failure measured every four years at the Olympic Games, sport assumed more significance during the Cold War than at any other time in its history."
-
+---
 {{% swimmer %}}
 ###The Chess Championships of 1972
 
