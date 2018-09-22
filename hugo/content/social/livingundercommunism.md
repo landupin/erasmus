@@ -7,47 +7,57 @@ menu:
     parent: 'Social'
 article: true
 
-skimmer: "These cruel times occurred right after the Second World War and gradually spread into the countries which were controlled by USSR. It immediately affected people&#39;s lives in many ways such as economic, cultural or religious. However, the worst thing of this regime was the lack of freedom in everyday life."
-imageLink: "http://www.sbs.com.au/news/sites/sbs.com.au.news/files/styles/full/public/vietnam_8.jpg"
-imageDescription: "American military in Vietnam territory"
+skimmer: "These cruel times occurred right after the Second World War and gradually spread into the countries which were controlled by USSR. It immediately affected people's lives in many ways such as economic, cultural or religious. However, the worst thing of this regime was the lack of freedom in everyday life."
 ---
 
-During the Cold War, information was a key commodity. It was vital to know what the adversary was up to, as the possibility of using the hi-tech surveillance that is used today was not around, yet. Instead of trusting technology they relied on spies: people who infiltrated enemy territory and tried to discover information while staying undetected.
-Soviet espionage in the United States during the Cold War was a continuation and further development of World War II nuclear espionage, and Cold Warespionage was depicted in works such as “James Bond” and “Matt Helm” booksand movies.
+###Life Under Communism in East Germany
 
-###Literature and movies
-The topic of Espionage and especially the matter of spies and secret agents during the Cold War is often adopted in literature and various movies. Probably the most popular and iconic spy movie series is the James Bond series with many movies for example *“From Russia with love”* (1963) *“Goldfinger”* (1964) which have a direct connection to the topic of Espionage and Cold War. In fact, there are 16 James Bond movies which where published in the time of the Cold war.
-Besides this famous movie series there are many other more recent published movies with a similar topic for example the thriller “Bridge of Spies” (2015) or the more humorous “The man from U.N.C.L.E.” (2015).
-The wide variety of movies shows how fascinated people are still today by this topic. And there are not just movies which cover the topic of the Cold War, there are also lots of books, for example the book series from Ian Fleming about James Bond which was an inspiration for the eponymous movies.
-Besides these more entertaining examples there are of course many informing and historically correct documentaries and books which teach you something about how the live of a spy during the Cold War really was. Because in the big Hollywood movies which are very popular the life of a spy is often excessively action packed and exciting.
+Children brought up in non-communist families were not given the right to the education that children following
+the regime were given. Socialized children at home were expected to never attempt to rise to any position due to
+this.
+When trying to leave the GRD, a ransom would have to had been paid for each person. This was because the
+regime required money to buy better surveillance equipment.
+Telephone calls, letters and any other forms of long-distance communication were always being monitored by
+the GRD.
+Surveillance was everywhere in East Germany during the Cold War and citizens were often forced to live two
+different lifestyles. What they said and did at home was one thing, but they had to be careful when speaking
+publicly at school or work.
+Despite essentials for life being cheap (i.e. bread, water), salaries were low and many things we take for granted
+today were seen as luxuries due to being insanely expensive.
+Unemployment was almost non-existent as work was found for every man and woman in East Germany.
+As soon as the regime had collapsed, many requested Stasi files to see what the government had picked up on
+whilst spying on citizens.
+Many citizens were very much isolated from Western culture, for example, many children may have grown up
+not knowing what a Barbie doll was.
 
-So to conclude you could say that the topic of espionage during the Cold War is oftentimes covered in Literature and movies of any kind and genre and still today there is a big interest into this topic so the production of literature and movies to this topic will not stop soon.
-
-###Famous Spies/Agents and major spy rings
-{{<image "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Julius_and_Ethel_Rosenberg_NYWTS.jpg/1200px-Julius_and_Ethel_Rosenberg_NYWTS.jpg">}}
+###Image Link to be fixed
+{{<image "http://allthatsinteresting.com/thumb/500.500.http://allthatsinteresting.com/wordpress/wp-content/uploads/2014/10/couple-
+peers-over-berlin-wall.jpgas.">}}
 {{< /image>}}
 
-Married in 1939, they lived in the New York City. Julius and Ethel Rosenberg were devoted communists who headed a spy ring that passed military secrets to the Soviets. The scheme got underway sometime after 1940, when Julius became a civilian engineer with the U.S. Army Signal Corps. He was dismissed in 1945 once the military learned of his communist sympathies, but not before recruiting Ethel’s brother, an Army machinist working on the Manhattan Project, to turn over handwritten notes and sketches pertaining to the atomic bomb. Meanwhile, other Rosenberg recruits purportedly delivered thousands of pages of documents detailing new radar and aircraft technologies. At trial following their 1950 arrest, Ethel’s brother testified against them, and a judge sentenced them to death, declaring their crime “worse than murder.”
+###Life Under Communism in Czechoslovakia
+The state was controlling the economy which was working very poorly, as basic citizen supplies were often not
+found.
+Many foods such as coconuts and mandarins were seen as luxuries, and therefore were only present at times like
+Christmas.
 
-President Dwight D. Eisenhower then sealed their fate by denying a petition for executive clemency. The two were sent to the electric chair at New York State’s Sing Sing prison on June 19, 1953, marking the first time American civilians had ever been executed for espionage. Although worldwide protests erupted over the Rosenbergs’ treatment, with many people feeling they had fallen victim to McCarthy-era red baiting, the post-Soviet release of decrypted KGB messages proved that Julius had in fact been a spy. The evidence against Ethel is less ironclad, and her guilt remains in dispute.
-
-{{<image "http://3.bp.blogspot.com/_183Y-MLUV4A/TNGMjWBpSYI/AAAAAAAAADQ/kwRHZT0ujuc/s1600/Fuchs.jpg">}}
-{{< /image>}}
-
-Following Adolf Hitler’s rise to power in 1933, Klaus Fuchs fled his native Germany for the United Kingdom, where he received a doctorate in physics and eventually became a citizen. During World War II he was invited to join Britain’s clandestine atomic bomb development program, despite his known communist leanings, and from there was sent to the United States to take part in the Manhattan Project. Upon returning to the U.K., Fuchs secured a prestigious post at a nuclear energy research center. In 1950, however, he was apprehended after U.S. agents discovered that for years he had been handing nuclear secrets to the Soviets, who by now had their own atomic bomb. Fuch confessed, telling the authorities that he “had complete confidence in Russian policy” and that “the Western Allies deliberately allowed Russia and Germany to fight each other to the death.” Though Fuchs claimed not to know his American contact’s true name, the FBI quickly traced a trail back to the Rosenberg spy ring, resulting in the arrest of the Rosenbergs and several co-conspirators. Compared to the Rosenbergs, Fuchs got off easy. After nine years in British prison, he immigrated to East Germany, where he continued working as a nuclear physicist until his retirement in 1979. A winner of the Karl Marx Medal, East Germany’s highest civilian honor, Fuchs died in 1988 at age 76.
-
-{{<image "https://www.historyonthenet.com/wp-content/uploads/2014/10/spycamera.jpg">}}
-The F-21 pocket camera invented by the KGB
-{{< /image>}}
-
-{{<image "https://www.historyonthenet.com/wp-content/uploads/2014/10/spylipstick.jpg">}}
-Lipstick gun used in the Cold War
+Criticizing the state of course meant that you would be disadvantaged by the state in many ways. Children could
+be unaccepted into universities, companies could decide not to offer people jobs, and so on.
+There were thousands of police members working undercover to listen in on conversations in daily life and were
+often found to be random people payed to report any news to government officials.
+Not being employed at the time was a crime. Work was found for everyone of all classes and there was no
+unemployment.
+Of course, living in a communist country, everyone worked for the government in some way or another.
+Life was very similar to that of the control in East Germany, however, it can be noted that surveillance and
+boarder control was less prominent in Czechoslovakia.
+{{<image "https://i.pinimg.com/originals/b6/15/03/b61503005e7aaabde6fe8b9eb873cd43.jpg">}}
 {{< /image>}}
 
 {{% /swimmer  %}}
 
 {{% diver% }}
--[A very huge collection of Literature in the Cold War](http://intellit.muskingum.edu/maintoc.html)
--[Russian spies, Cambridge five](https://en.wikipedia.org/wiki/Cambridge_Five)
--[Secret files reveal techniques of Cold War Soviet spies](https://www.telegraph.co.uk/news/uknews/defence/11814627/Secret-files-reveal-techniques-of-Cold-War-Soviet-spies.html)
--[The Soviet master spies](https://www.youtube.com/watch?v=fmKcqP_O53g)
+-[The nature of the regimes required outward agreement and loyalty from their citizens, so those who wanted to live without trouble from the state had to create and maintain a stark divide between their public lives, in which they displayed obedience and deference to the government´s demands, and their private lives, where they could speak more freely.](https://www.socialismrealised.eu/catalogue/what-we-dont-talk-about/)
+-[While many talked openly at home about political and social issues, in public it was necessary to use official and conformist language. This was not only the case in the world of adultsht, but also in that of children, who at school in particular were confronted with the official, propaganda-defined version of reality](https://www.socialismrealised.eu/catalogue/back-to-the-past/)
+-[Invasion of privacy was one of the repressive strategies of the State Security apparatus. Extortion and pressure via family members was sometimes more effective than directly persecuting the opponents of the regime. Police harrassment was hard to bear without familial trust and strong emotional ties.](https://www.socialismrealised.eu/catalogue/invasion-of-privacy/)
+
+{{% /diver% }}
