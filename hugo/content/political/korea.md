@@ -100,4 +100,3 @@ that the US would discontinue &quot;provocative&quot; joint military exercises w
 -[Short animated video](https://youtu.be/yxaegqvl4aE)
 -[2018 situation between US and North Korea](https://en.wikipedia.org/wiki/2018_North_Korea%E2%80%93United_States_summit)
 {{% /diver %}}
-f
