@@ -38,9 +38,10 @@ func main() {
 	//test routing
 	http.HandleFunc("/ping", ping)
 
-	//next version - not working!!!!!!!!!!!!!!!!!!!!!!11!!!!elf
+	//next version
 	http.HandleFunc("/next/", next)
 	http.HandleFunc("/next/timeline/", timeline)
+	http.HandleFunc("/next/about", about)
 	http.Handle("/next/article/", http.StripPrefix("/next/article", http.FileServer(http.Dir("hugo/public"))))
 
 	//fmt.Println("listening at port :8080")
