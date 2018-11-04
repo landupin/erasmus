@@ -1,6 +1,6 @@
 ---
 title: "Berlin wall and reunification"
-date: 2018-05-17T00:31:13+02:00
+date: 2018-11-04T00:31:13+02:00
 menu:
   main:
     parent: 'Political'
