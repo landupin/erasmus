@@ -13,7 +13,7 @@ imageLink: "https://thaipoliticalprisoners.files.wordpress.com/2011/01/censorshi
 
 {{% swimmer %}}
 
-{{<image "https://i.pinimg.com/originals/79/04/8e/79048ea90ebfee830fb9e1553159cbb4.jpg">}}
+{{< image "https://i.pinimg.com/originals/79/04/8e/79048ea90ebfee830fb9e1553159cbb4.jpg">}}
 Picture 2: Stalin spreading communism all over the world https://sk.pinterest.com/pin/575897871091961023/
 {{< /image>}}
 
@@ -24,11 +24,11 @@ In the USSR, kids were mostly influenced with communist propaganda in school and
 Movies were heavily propagandistic because it was a perfect way to influence people with something they are entertained by. The enemy stereotype of Soviet Russia could easily be conveyed. Especially in Hollywood films on the cold war were extremely popular. For example Invasion U.S.A (1952); Red Nightmare (1962); From Russia with Love (1963) and also Rocky IV (1982) is about the conflict between the US and USSR.
 In conclusion and in summary one can say that the US and USSR tried to influence their own people in believing their system is best possible system and tried to defame their enemy´s system with propaganda in the media and society. 
 
-{{<image "https://i.pinimg.com/originals/24/76/0e/24760ecc336962e41f6cab51e3de0382.jpg">}}
+{{< image "https://i.pinimg.com/originals/24/76/0e/24760ecc336962e41f6cab51e3de0382.jpg">}}
 Picture 3: Soviet propaganda poster
 {{< /image>}}
 
-{{<image "https://d1ox703z8b11rg.cloudfront.net/uploads_image/012ed077-fbfb-4f24-8f81-f51fc3b029c3/c3c30392e17ddf92b06b4f660afb4de1.jpeg">}}
+{{< image "https://d1ox703z8b11rg.cloudfront.net/uploads_image/012ed077-fbfb-4f24-8f81-f51fc3b029c3/c3c30392e17ddf92b06b4f660afb4de1.jpeg">}}
 American cartoon
 {{< /image>}}
 {{% /swimmer %}}

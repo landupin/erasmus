@@ -15,7 +15,7 @@ imageLink: "https://i1.wp.com/collegetribune.ie/wp-content/uploads/2017/02/Prote
 
 Vietnam became important to the Eastern and western blocs, the east wanted to win more communist satellite states and the west feared a communist revolt. The US supported South Vietnam with equipment and advise. This proxy war, which was typical of the Cold War, became almost like a conflict between the Soviet Union and US. Images and news from the war, for example the “Napalm Girl”, could now be seen on televisions across the world, they shocked people and many became opposed to what was happening. The divide between supporters and opponents of the Vietnam War was an important factor contributing to the rise of the counterculture movement. The movement began as an anti-war culture which then grew into the “hippy movement”, a desire for peace.
 
-{{<image "https://www.haaretz.com/polopoly_fs/1.5651584.1515409903!/image/1018316866.jpg_gen/derivatives/landscape_625/1018316866.jpg" >}}
+{{< image "https://www.haaretz.com/polopoly_fs/1.5651584.1515409903!/image/1018316866.jpg_gen/derivatives/landscape_625/1018316866.jpg">}}
 Picture 3: Soviet propaganda poster
 {{< /image>}}
 

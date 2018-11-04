@@ -14,45 +14,40 @@ imageLink: "http://mediad.publicbroadcasting.net/p/radiowest/files/201710/101217
 
 {{% swimmer %}}
 
-###Uprisings in Czechoslovakia
+### Uprisings in Czechoslovakia
 
 Czechoslovakia was a part of the Soviet block from 1948 to 1989. The rule of the Communist party started with the Victorious February (1948) and end Velvet Revolution (November 1989).
 
-{{ <image "https://qph.fs.quoracdn.net/main-qimg-ca9b7ba294a79b97d18bd2b3349072fa">}}
-{{ < /image >}}
+{{< image "https://qph.fs.quoracdn.net/main-qimg-ca9b7ba294a79b97d18bd2b3349072fa">}}
+{{< /image>}}
 
 In the first election (May 26, 1946) the Communist party won and achieved the majority in parliament. Moreover, they also completely controlled the police. In protest most non-communist politicians resigned including president Beneš (February 20, 1948), Gottwald took his place. In 1949 he had imposed the death penalty on impartials in connection with the preparation of the May anti-communist uprising.
 
-
-
 The 1960s was a period of liberalization. Alexander Dubček became the first secretary of the communist party in Czechoslovakia (1968), he started to practise socialism “with the human face” (with a more relaxed approach). The Prague Spring was a period of liberalization, meetings of writers and a demonstrations of university students. However, the Soviet Union did not like these liberalizations. As a reaction,  the protesting students were beaten not only in the streets, but also in their dormitory buildings. On top of this, on 21st August 1968, the Soviet Union and other members of the Warsaw Pact invaded the country to halt the reforms.
-
 
 {{< image "https://cdn.britannica.com/09/62009-004-D2601400.jpg">}}
 Alexander Dubček
-{{< /image  >}}
+{{< /image>}}
 
 For the first few months, there was a lot of aversion and hostility, however for the following months, people became discouraged and opposed less as a result.
-
-
 
 In the 1980s the socio-political decline from the 70s was continuing to show. It culminated with the Velvet Revolution. These were the bloodless events which helped to remove the Communist regime in Czechoslovakia. The initiators of this were students, as well as some actors and other well-known people. Two major movements were formed, Public Against Violence in Slovakia,  and Civic Forum in Czechia. After the police brutality on students the public protested by organising walkouts. On 27th November 1989 there was a large protest and in early December, after the resignation of communists, a new state government was created.
 
 {{< image "https://eu.boell.org/sites/default/files/styles/980x/public/uploads/2014/09/praha_1989_sametova_revoluce.jpg">}}
 {{< /image>}}
 
--[More about Alexander Dubček](https://www.historylearningsite.co.uk/modern-world-history-1918-to-1980/the-cold-war/alexander-dubcek/)
--[The rise of communists in Czechoslovakia](https://thevieweast.wordpress.com/tag/victorious-february/)
--[Jan Palach - the student who set himself on fire](https://en.wikipedia.org/wiki/Jan_Palach)
--[Short video about Warsaw pact invasion (1968)](https://www.youtube.com/watch?v=kBBuwRD0CRE)
--[Candle demonstration in Bratislava](https://en.wikipedia.org/wiki/Candle_demonstration_in_Bratislava)
--[Interesting article about Velvet revolution](https://www.nonviolent-conflict.org/czechoslovakias-velvet-revolution-1989/)
--[Information on the Communist party of Czechoslovakia](https://en.wikipedia.org/wiki/Communist_Party_of_Czechoslovakia)
--[Short history of Czechoslovakia (The emergence of Czechoslovakia, the war years, the communist era and Velvet revolution)](https://www.encyclopedia.com/history/modern-europe/czech-and-slovak-history/czechoslovakia)
--[Life during the communist era in Czechoslovakia](https://www.private-prague-guide.com/article/life-during-the-communist-era-in-czechoslovakia/)
+- [More about Alexander Dubček](https://www.historylearningsite.co.uk/modern-world-history-1918-to-1980/the-cold-war/alexander-dubcek/)
+- [The rise of communists in Czechoslovakia](https://thevieweast.wordpress.com/tag/victorious-february/)
+- [Jan Palach - the student who set himself on fire](https://en.wikipedia.org/wiki/Jan_Palach)
+- [Short video about Warsaw pact invasion (1968)](https://www.youtube.com/watch?v=kBBuwRD0CRE)
+- [Candle demonstration in Bratislava](https://en.wikipedia.org/wiki/Candle_demonstration_in_Bratislava)
+- [Interesting article about Velvet revolution](https://www.nonviolent-conflict.org/czechoslovakias-velvet-revolution-1989/)
+- [Information on the Communist party of Czechoslovakia](https://en.wikipedia.org/wiki/Communist_Party_of_Czechoslovakia)
+- [Short history of Czechoslovakia (The emergence of Czechoslovakia, the war years, the communist era and Velvet revolution)](https://www.encyclopedia.com/history/modern-europe/czech-and-slovak-history/czechoslovakia)
+- [Life during the communist era in Czechoslovakia](https://www.private-prague-guide.com/article/life-during-the-communist-era-in-czechoslovakia/)
 
 ********************************************************************************
-##Poland
+## Poland
 
 Poland was one the most devastated countries after the Second World War, nearly 20% of the population died, including almost the whole Jewish population. 
 The post-war years were marred by economic depression and social unrest. Following pressure from the Soviet Union, the Communist government rejected an offer of support from the United States to rebuild the country, which was known as the Marshall plan
@@ -69,27 +64,27 @@ Strikes and demonstrations broke out in Gdansk and some other cities in 1970, du
 A turning point for the opposition came in 1980 when a strike at the shipyard in Gdansk forced the government to accept the creation of Solidarity (Solidarność), a free trade union under the leadership of Lech Wałęsa. Hard struggles between the free trade unions and the Communist regime took place over virtually the next ten years, including many demonstrations that ended in fatalities and mass arrests.
 In 1989, after the collapse of Communism, Tadeusz Mazowiecki was elected as the first non-Communist Prime Minister  in any Soviet bloc country.
 
-{{ image "https://cdn.britannica.com/50/71350-004-75E35FF9.jpg"}}
+{{< image "https://cdn.britannica.com/50/71350-004-75E35FF9.jpg">}}
 Churchill(England), Roosevelt(United States) and Stalin(USSR) at the Yalta Conference.
-{{ /image }}
+{{< /image>}}
 
 ********
 Poznań 1956 protests  "We demand bread!" (secret police photo)
 Source: https://en.wikipedia.org/wiki/Pozna%C5%84_1956_protest
 
 
-{{ image "http://histclo.com/imagef/date/2010/08/pol-dest01s.jpg" }}
+{{< image "http://histclo.com/imagef/date/2010/08/pol-dest01s.jpg">}}
 Polish town after WWII
-{{ /image }}
+{{< /image>}}
 
--[An article about Poland´s role in Cold War](https://www.enotes.com/homework-help/how-did-poland-play-role-causing-cold-war-381199)
--[A webpage with several articles about Poland in WWII and Cold War (with timeline)](https://www.timetoast.com/timelines/cold-war-a-polish-perspective)
--[A video about communism in Poland](https://www.youtube.com/watch?v=soSz64AI-NI)
+- [An article about Poland´s role in Cold War](https://www.enotes.com/homework-help/how-did-poland-play-role-causing-cold-war-381199)
+- [A webpage with several articles about Poland in WWII and Cold War (with timeline)](https://www.timetoast.com/timelines/cold-war-a-polish-perspective)
+- [A video about communism in Poland](https://www.youtube.com/watch?v=soSz64AI-NI)
 
-###Hungarian Revolution 1956
+### Hungarian Revolution 1956
 Hungary had been controlled by Russia since 1945. The death of Stalin brought people in many Eastern European countries the hope of freedom and change, but as the 1956 uprising in Hungary proved, this was not to be the case.
 
-####Hungarian revolution
+#### Hungarian revolution
 The death of Stalin led many Hungarians to hope that Hungary also would be de-Stalinised. In July 1956, the Stalinist Secretary of the Hungarian Communist Party, Rakosi, fell from power.
 
 During October 1956, students, workers and soldiers in Hungary attacked the AVH (the secret police) and Russian soldiers, and smashed a statue of Stalin.
@@ -107,13 +102,14 @@ At  dawn on 4 November 1956, 1000 Russian tanks rolled into Budapest. They destr
 The Hungarian people fought the Russian troops with machine guns. Some 4000 Hungarians were killed.
 Khrushchev named Russian supporter, Janos Kadar, as prime minister.
 
-####Timeline
+#### Timeline
 Khrushchevs policy of de-Stalinisation caused problems in many Eastern European Communist countries, where people hated the hard-line Stalinist regimes that Russia had put in place. There was also trouble in Poland in 1956, and Khrushchev had to send in Russian troops.
+
 1. The Hungarians were patriotic, and they hated Russian control, especially:
--The secret police called the AVH in Hungary.
--Russian control of the economy, which had made Hungary poor.
--Russian control of what the schools taught.
--Censorship and lack of freedom.
+  - The secret police called the AVH in Hungary.
+  - Russian control of the economy, which had made Hungary poor.
+  - Russian control of what the schools taught.
+  - Censorship and lack of freedom.
 2. The Hungarians were religious, but the Communist Party had banned religion, and imprisoned Cardinal Mindszenty.
 3. Hungarians thought that the United Nations or the new US president, Eisenhower, would help them.
 
@@ -127,9 +123,9 @@ Effects
 {{% /swimmer %}}
 
 {{% diver %}}
--[Video showing what the revolution was like](https://www.youtube.com/watch?v=ihS_D0Btaz8)
--[Extra reading on the Hungarian revolution](http://www.enrs.eu/pl/news/1113-the-hungarian-revolution-1956)
--[http://www.enrs.eu/pl/news/1113-the-hungarian-revolution-1956](http://www.enrs.eu/pl/news/1113-the-hungarian-revolution-1956)
--[https://libcom.org/library/hungarian-revolution-195](https://libcom.org/library/hungarian-revolution-1956)
--[https://budapestbeacon.com/hungarian-revolution-1956/](https://budapestbeacon.com/hungarian-revolution-1956/)
+- [Video showing what the revolution was like](https://www.youtube.com/watch?v=ihS_D0Btaz8)
+- [Extra reading on the Hungarian revolution](http://www.enrs.eu/pl/news/1113-the-hungarian-revolution-1956)
+- [http://www.enrs.eu/pl/news/1113-the-hungarian-revolution-1956](http://www.enrs.eu/pl/news/1113-the-hungarian-revolution-1956)
+- [https://libcom.org/library/hungarian-revolution-195](https://libcom.org/library/hungarian-revolution-1956)
+- [https://budapestbeacon.com/hungarian-revolution-1956/](https://budapestbeacon.com/hungarian-revolution-1956/)
 {{% /diver %}}

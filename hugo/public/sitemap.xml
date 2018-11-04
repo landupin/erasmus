@@ -58,21 +58,6 @@
   </url>
   
   <url>
-    <loc>/next/political/</loc>
-    <lastmod>2018-03-29T01:09:39+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/next/social/</loc>
-    <lastmod>2018-03-29T01:09:39+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/next/</loc>
-    <lastmod>2018-03-29T00:33:20+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/next/political/vietnam/</loc>
     <lastmod>2018-03-29T00:31:13+02:00</lastmod>
   </url>
@@ -89,6 +74,24 @@
   
   <url>
     <loc>/next/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/next/</loc>
+    <lastmod>2018-05-17T00:31:13+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/next/political/</loc>
+    <lastmod>2018-05-17T00:31:13+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/next/social/</loc>
+    <lastmod>2018-05-17T00:31:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   

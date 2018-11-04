@@ -19,7 +19,7 @@ As for the Eastern bloc, citizens who openly showed interest in their Christian 
 Religion was also an excuse for the Americans to hate the Soviets even more. The Americans claimed that God was on their side, and they called the Soviets ‘godless atheists’. The Soviets condemned religion - after all, Karl Marx, the founder of the Communist ideology claimed that religion was the ‘opiate of the masses’.
 There are some key examples of the importance of faith when resisting communism. In Poland, the opposition frequently gathered during Catholic liturgies and celebrations. Pope John Paul II, who was Polish himself, supported them when he travelled to Gniezno (the birthplace of Polish Christianity), on June 3rd 1979 to speak to the churches throughout Communist Europe and Christians in the Soviet bloc. He was also a key factor in bringing about freedom in Poland alongside with the Solidarity trade union. This inspired similar events in other Communist countries. 
 
-{{<image "https://www.aciprensa.com/imagespp/LechWalesaJPII_030511.jpg">}}
+{{< image "https://www.aciprensa.com/imagespp/LechWalesaJPII_030511.jpg">}}
 {{< /image>}}
 
 The famous Monday demonstrations in Leipzig, city in the former GDR (German Democratic Republic or East Germany) took place after prayers for peace at St Nikolai Church. Protesters gathered around this church in 1989; eventually these protests contributed to the fall of the Berlin Wall and the Communist regime.
@@ -27,7 +27,7 @@ Meanwhile, in Spain religion was part of the national identity. Before the Cold 
 When the Civil War finished, the Catholic religion supported Franco’s dictatorship. His regime was called national and catholic. There were a lot of religious people from movements like Opus Dei who were ministers in the Spanish Government. However, in the 60’s, some religious people started to show their opposition to  Franco’s  dictatorship. There was even a prison only for religious people. 
 Today, in Spain you can practice whatever religion you want, because freedom of religion is guaranteed by the 1978´s Constitution. 
 
-{{<image "http://www.positief-atheisme.nl/_Media/imgres-5_med-2-3_med-2.jpeg">}}
+{{< image "http://www.positief-atheisme.nl/_Media/imgres-5_med-2-3_med-2.jpeg">}}
 Franco with cardinal
 {{< /image>}}
 

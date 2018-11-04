@@ -10,7 +10,7 @@ article: true
 skimmer: "During the Cold War, nations used sports to promote their political, social, and economic development. Between the end of World War II and the collapse of Communism, “Cold War sport” went beyond the bipolar USA-USSR rivalry to also include Africa, Asia, and Latin America. With success and failure measured every four years at the Olympic Games, sport assumed more significance during the Cold War than at any other time in its history."
 ---
 {{% swimmer %}}
-###The Chess Championships of 1972
+### The Chess Championships of 1972
 
 A notable occasion in the history of Cold War sports were the momentous Chess Championships of 1972.
 This event was a perfect example of the superpower rivalry, and has even been referred to as the ‘Match of
@@ -23,11 +23,11 @@ Nation had always thought of chess as a display of the intellectual superiority 
 overcome by the opposing nation was certainly a harsh blow.
 
 
-{{< image "https://imgur.com/r/HistoryPorn/xT8J4dR" >}}
+{{< image "https://imgur.com/r/HistoryPorn/xT8J4dR">}}
 Picture 1: A shot taken during the tense chess match
-{{< /image >}}
+{{< /image>}}
 
-###Miracle on Ice
+### Miracle on Ice
 
 Miracle On Ice was the match between the teams of the USSR and the USA at the 1980 Winter Olympics.
 The fact that this match was not, indeed, a final, emphasises the rivalry between the two superpowers, as
@@ -40,9 +40,9 @@ served as a major morale booster for citizens of the USA.
 
 {{< image "https://www.twincities.com/wp-content/uploads/2015/10/wpid-20150221__150222-Miracle.jpg" >}}
 Picture 2: The United States Hockey team celebrates after their victory.
-{{< /image >}}
+{{< /image>}}
 
-###Summer 1980 Moscow Olympics
+### Summer 1980 Moscow Olympics
 
 The Moscow Olympics saw the sparsest participation since 1956, with a total of only 80 countries taking
 part. This was due to the USA’s decision to boycott these Olympics. The USA, being a superpower, was
@@ -54,11 +54,11 @@ The organisers had hoped that these Olympics would help stabilise the fragile pe
 the lack of participation instead meant that rivalry and mistrust between opposing nations were as strong as
 ever. This building tension then contributed to the next boycott of the Summer 1984 Los Angeles Olympics.
 
-{{<image "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1987/2017/05/31182124/rpinski-2c-chun-son-kon-2c.jpeg">}}
+{{< image "https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1987/2017/05/31182124/rpinski-2c-chun-son-kon-2c.jpeg">}}
 Picture 3: Maarathon event being run in front of St Basil's Cathedral in Moscow.
-{{< /image >}}
+{{< /image>}}
 
-###Boycott of 1984
+### Boycott of 1984
 
 In May 1984, the year in which the next Olympics following the USA’s boycott of Moscow’s Olympics, were
 to be held, the Soviet Union turned the tables on the USA, issuing a statement that expressed their
@@ -73,9 +73,9 @@ countries had boycotted the US Olympics, but the USSR still insisted that the co
 promotion of peace and friendship between nations (hence its name). Some western states, such as Italy
 and West Germany, took part in both games.
 
-{{<image "https://usercontent1.hubstatic.com/6731898_f520.jpg">}}
+{{< image "https://usercontent1.hubstatic.com/6731898_f520.jpg">}}
 Picture 4: Opening Ceremonies at the 1984 Summer olympics, in Los Angeles.
-{{< /image >}}
+{{< /image>}}
 
 {{% /swimmer %}}
 
@@ -86,7 +86,7 @@ Picture 4: Opening Ceremonies at the 1984 Summer olympics, in Los Angeles.
 - [Timeline](http://digitalarchive.wilsoncenter.org/theme/sport-in-the-cold-war)
 - [1952-1992 Olympics](http://www.pbs.org/wnet/secrets/the-cold-war-sporting-front/53/)
 - [A pdcast on sports in the Cold War](https://soundcloud.com/coldwar-sport/the-cinematic-cold-war?in=the-wilson-center/sets/sport-in-the-cold-war)
--[A podcast on how the Cold War created doping](https://www.wnyc.org/story/how-cold-war-created-modern-sports-doping/)
+- [A podcast on how the Cold War created doping](https://www.wnyc.org/story/how-cold-war-created-modern-sports-doping/)
 - [Statistics and Facts about Olympics during the Cold War](http://proxy.espn.com/oly/summer08/fanguide/history?year=1980&amp;type=resume)
--[Advanced/In-Depth Walkthrough of sports during the Cold War](http://www.humankinetics.com/excerpts/excerpts/sport-in-the-cold-war)
+- [Advanced/In-Depth Walkthrough of sports during the Cold War](http://www.humankinetics.com/excerpts/excerpts/sport-in-the-cold-war)
 {{% /diver %}}
