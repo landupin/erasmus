@@ -41,6 +41,7 @@ func main() {
 	//next version - not working!!!!!!!!!!!!!!!!!!!!!!11!!!!elf
 	http.HandleFunc("/next/", next)
 	http.HandleFunc("/next/timeline/", timeline)
+	http.HandleFunc("/next/about", about)
 	http.Handle("/next/article/", http.StripPrefix("/next/article", http.FileServer(http.Dir("hugo/public"))))
 
 	//fmt.Println("listening at port :8080")
@@ -67,6 +68,18 @@ func timeline(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if err := timelines.ExecuteTemplate(w, "timeline.html", nil); err != nil {
+		HandleError(w, err)
+	}
+
+}
+
+func about(w http.ResponseWriter, r *http.Request) {
+	timelines, err := template.ParseFiles("about.html")
+	if err != nil {
+		HandleError(w, err)
+	}
+
+	if err := timelines.ExecuteTemplate(w, "about.html", nil); err != nil {
 		HandleError(w, err)
 	}
 
