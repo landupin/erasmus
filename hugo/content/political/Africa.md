@@ -83,7 +83,7 @@ In 1955 he met Fidel Castro, who convinced him to participate in a guerilla atta
 In the following years Guevara tried to realize his radical ideas in Cuba which led to conflicts with Fidel Castro. Due to the conflicts with Castro he retired from all his political posts and went to the Congo to support the revolution there. But it failed miserably and he went to  Bolivia in 1966 to support the communist party there. His armed group of revolutionaries was beaten and he was captured in a battle with the government military in 1967. After this he was sentenced to death and was shot at the same day.
 
 
-{{< image "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/210px-CheHigh.jpg"}}
+{{< image "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/210px-CheHigh.jpg">}}
 {{< /image  >}}
 
 ###Guatemalan and Chilean coup d’état 

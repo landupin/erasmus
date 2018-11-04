@@ -38,7 +38,7 @@ Star Trek, a famous sci-fi television series, is about a free and democratic all
 
 {{% /swimmer %}}
 
-{{% diver% }}
+{{% diver %}}
 -[“Blowin´ in the Wind “(1963)](https://youtu.be/G58XWF6B3AA)
 -[“Masters of War “(1963)](https://youtu.be/6isSH1VB3XQ)
 -[“A Hard rain´s a-Gonna Fall”](https://youtu.be/T5al0HmR4to)

@@ -34,7 +34,7 @@ In the UK the campaign for nuclear disarmament (CND) grew out of the church move
 
 {{% /swimmer %}}
 
-{{% diver% }}
+{{% diver %}}
 - [Beatniks, hippies and free love - counterculture video](https://youtu.be/_ucpG1RG56Y)
 - [Short documentary](https://www.youtube.com/watch?v=LSb3QWYXq-A)
 - [More information](https://www.britannica.com/art/Beat-movement)

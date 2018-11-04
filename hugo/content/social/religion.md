@@ -33,10 +33,10 @@ Franco with cardinal
 
 {{% /swimmer %}}
 
-{{% diver% }}
+{{% diver %}}
 - [Religion and the Cold War](https://www.history.ac.uk/reviews/review/362)
 - [The Christianity helped to end the Cold war](https://www.theguardian.com/commentisfree/belief/2009/nov/10/religion-christianity)
-- [Pope tugs at the Iron Curtain] (https://www.theguardian.com/world/1979/jun/04/catholicism.religion)
+- [Pope tugs at the Iron Curtain](https://www.theguardian.com/world/1979/jun/04/catholicism.religion)
 - [Demonstrations in Leipzig + interview with a participant of the demonstration - pastor Gottfried Schleinitz](https://www.huffingtonpost.com/john-feffer/the-monday-demonstrations_b_5631922.html?guccounter=1)
 - [Dianne Kirby on religion and the Cold War (Lucia Calekova)](https://www.youtube.com/watch?v=Oz2ihowxvTY&app=desktop)
 - [Bishop Sheen Condemns Communists (LC)](https://www.youtube.com/watch?v=LVBXzf4eUJg&app=desktop)

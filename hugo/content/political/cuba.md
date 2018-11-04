@@ -37,7 +37,7 @@ After overthrowing **Fulgencio Batista** in 1959, Fidel Castro became the leader
 
 * **October 24, 1962, at 10:00 EDT** - the quarantine officially started. Soviet ships carrying offensive weapons were turned back, but tankers, which didn't contain any military material, were let through the blocade.
 
-{{< image "https://upload.wikimedia.org/wikipedia/commons/1/18/President_Kennedy_signs_Cuba_quarantine_proclamation%2C_23_October_1962.jpg"}}
+{{< image "https://upload.wikimedia.org/wikipedia/commons/1/18/President_Kennedy_signs_Cuba_quarantine_proclamation%2C_23_October_1962.jpg">}}
 Picture 2: J.F.K. signs the proclamation about quarantine
 {{< /image  >}}
 * **October 26, 1962** - Khrushev for the first admitted the presence of missiles in Cuba.

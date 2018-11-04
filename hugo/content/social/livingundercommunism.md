@@ -10,6 +10,8 @@ article: true
 skimmer: "These cruel times occurred right after the Second World War and gradually spread into the countries which were controlled by USSR. It immediately affected people's lives in many ways such as economic, cultural or religious. However, the worst thing of this regime was the lack of freedom in everyday life."
 ---
 
+{{% swimmer %}}
+
 ###Life Under Communism in East Germany
 
 Children brought up in non-communist families were not given the right to the education that children following
@@ -31,8 +33,7 @@ Many citizens were very much isolated from Western culture, for example, many ch
 not knowing what a Barbie doll was.
 
 ###Image Link to be fixed
-{{<image "http://allthatsinteresting.com/thumb/500.500.http://allthatsinteresting.com/wordpress/wp-content/uploads/2014/10/couple-
-peers-over-berlin-wall.jpgas.">}}
+{{<image "http://allthatsinteresting.com/thumb/500.500.http://allthatsinteresting.com/wordpress/wp-content/uploads/2014/10/couple-peers-over-berlin-wall.jpgas.">}}
 {{< /image>}}
 
 ###Life Under Communism in Czechoslovakia
@@ -55,9 +56,9 @@ boarder control was less prominent in Czechoslovakia.
 
 {{% /swimmer  %}}
 
-{{% diver% }}
+{{% diver %}}
 -[The nature of the regimes required outward agreement and loyalty from their citizens, so those who wanted to live without trouble from the state had to create and maintain a stark divide between their public lives, in which they displayed obedience and deference to the government´s demands, and their private lives, where they could speak more freely.](https://www.socialismrealised.eu/catalogue/what-we-dont-talk-about/)
 -[While many talked openly at home about political and social issues, in public it was necessary to use official and conformist language. This was not only the case in the world of adultsht, but also in that of children, who at school in particular were confronted with the official, propaganda-defined version of reality](https://www.socialismrealised.eu/catalogue/back-to-the-past/)
 -[Invasion of privacy was one of the repressive strategies of the State Security apparatus. Extortion and pressure via family members was sometimes more effective than directly persecuting the opponents of the regime. Police harrassment was hard to bear without familial trust and strong emotional ties.](https://www.socialismrealised.eu/catalogue/invasion-of-privacy/)
 
-{{% /diver% }}
+{{% /diver %}}

@@ -23,7 +23,7 @@ Armistice: Agreement which is signed by two or more countries when they decide t
 {{ <image "http://3.bp.blogspot.com/-1XPFvSEcaS0/URek97KPEpI/AAAAAAAAAdg/E_thkFMJEmI/s200-p/1200399166_f.jpg">}}
 {{ < /image >}}
 
-{{< image "https://www.part-time-commander.com/wp-content/uploads/2018/06/stage2.gif"}}
+{{< image "https://www.part-time-commander.com/wp-content/uploads/2018/06/stage2.gif">}}
 Development of the Korean War
 {{< /image  >}}
 

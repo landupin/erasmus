@@ -12,6 +12,8 @@ imageLink: "http://www.sbs.com.au/news/sites/sbs.com.au.news/files/styles/full/p
 imageDescription: "American military in Vietnam territory"
 ---
 
+{{% swimmer %}}
+
 During the Cold War, information was a key commodity. It was vital to know what the adversary was up to, as the possibility of using the hi-tech surveillance that is used today was not around, yet. Instead of trusting technology they relied on spies: people who infiltrated enemy territory and tried to discover information while staying undetected.
 Soviet espionage in the United States during the Cold War was a continuation and further development of World War II nuclear espionage, and Cold Warespionage was depicted in works such as “James Bond” and “Matt Helm” booksand movies.
 
@@ -44,9 +46,9 @@ The F-21 pocket camera invented by the KGB
 Lipstick gun used in the Cold War
 {{< /image>}}
 
-{{% /swimmer  %}}
+{{% /swimmer %}}
 
-{{% diver% }}
+{{% diver %}}
 -[A very huge collection of Literature in the Cold War](http://intellit.muskingum.edu/maintoc.html)
 -[Russian spies, Cambridge five](https://en.wikipedia.org/wiki/Cambridge_Five)
 -[Secret files reveal techniques of Cold War Soviet spies](https://www.telegraph.co.uk/news/uknews/defence/11814627/Secret-files-reveal-techniques-of-Cold-War-Soviet-spies.html)

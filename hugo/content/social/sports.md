@@ -79,7 +79,7 @@ Picture 4: Opening Ceremonies at the 1984 Summer olympics, in Los Angeles.
 
 {{% /swimmer %}}
 
-{{% diver% }}
+{{% diver %}}
 - [Miracle on ice](https://www.youtube.com/watch?v=8gfD134ED54)
 - [Red Army, the story of the Soviet Union's famed Red Army hockey team through the eyes of fits players](https://www.imdb.com/title/tt3264102/)
 - [Miracle, the story of Herb Brooks, the player-turned-coach who led the 1989 U.S. Olympic hockey team to victory](https://www.imdb.com/title/tt3264102/)

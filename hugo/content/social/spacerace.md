@@ -43,7 +43,7 @@ To conclude, one can say that the USSR had a head start in the Space Race with t
 
 {{<image "https://cdni.rbth.com/rbthmedia/images/web/en-rbth/images/2014-10/top/ISS_Expedition_37_673.jpg">}}
 
-{{% divers %}}
+{{% diver %}}
 
 ####Films
 - [Apollo 13](https://www.youtube.com/watch?v=KtEIMC58sZo&feature=youtu.be)

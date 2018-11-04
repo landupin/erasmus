@@ -1,5 +1,5 @@
 ---
-title: "Sport"
+title: "Propaganda and censorship"
 date: 2018-05-17T00:31:13+02:00
 menu:
   main:
@@ -13,7 +13,7 @@ imageLink: "https://thaipoliticalprisoners.files.wordpress.com/2011/01/censorshi
 
 {{% swimmer %}}
 
-{{ <image "https://i.pinimg.com/originals/79/04/8e/79048ea90ebfee830fb9e1553159cbb4.jpg">}}
+{{<image "https://i.pinimg.com/originals/79/04/8e/79048ea90ebfee830fb9e1553159cbb4.jpg">}}
 Picture 2: Stalin spreading communism all over the world https://sk.pinterest.com/pin/575897871091961023/
 {{< /image>}}
 
@@ -33,7 +33,7 @@ American cartoon
 {{< /image>}}
 {{% /swimmer %}}
 
-{{% diver% }}
+{{% diver %}}
 - [Propaganda played a significant role in schools, where educational clips were shown in the event of nuclear attack. The most popular programme of this genre is Duck and Cover. Here is the original 1951 video.](https://www.youtube.com/watch?v=-2kdpAGDu8s)
 - [Rather see it once than hear it a thousand times. Here are some poster samples available to the public during the Cold War. They were highly creative, colorful and each one of them concealed a message.](http://allthatsinteresting.com/soviet-propaganda-posters)
 - [Published in 1947, Minnesota, this comic book was designed to provide information about the subversive nature of Communist infiltration. As stated on the opening page, it has only one purpose – to make you think.](https://ia801009.us.archive.org/10/items/IsThisTomorrowAmericaUnderCommunismCatecheticalGuild/IsThisTomorrow_AmericaUnderCommunism_CatecheticalGuild.pdf)
