@@ -1,9 +1,11 @@
-package erasmus
+package main
 
 import (
 	"html/template"
 	"net/http"
 	"strings"
+
+	"google.golang.org/appengine"
 )
 
 //templates
@@ -11,7 +13,7 @@ var glob *template.Template
 var soc *template.Template
 var pol *template.Template
 
-func init() {
+func main() {
 	//parsing the templates
 	glob = template.Must(template.ParseGlob("templates/*.html"))
 	soc = template.Must(template.ParseGlob("templates/social/*.html"))
@@ -32,6 +34,21 @@ func init() {
 
 	//routing assets
 	http.HandleFunc("/assets/", assets)
+
+	//test routing
+	http.HandleFunc("/ping", ping)
+
+	//next version
+	http.Handle("/next/", http.StripPrefix("/next", http.FileServer(http.Dir("hugo/public"))))
+
+	//fmt.Println("listening at port :8080")
+	//http.ListenAndServe(":8080", nil)
+	appengine.Main()
+}
+
+//handle the ping
+func ping(w http.ResponseWriter, r *http.Request) {
+	http.Error(w, "This is a teapot", http.StatusTeapot)
 }
 
 //handle the specific routes
@@ -97,7 +114,7 @@ func login(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	if CheckSession(r) ==true {
+	if CheckSession(r) == true {
 		http.Redirect(w, r, "/", http.StatusSeeOther)
 	}
 
@@ -117,7 +134,7 @@ func logout(w http.ResponseWriter, r *http.Request) {
 	http.Redirect(w, r, "/", http.StatusSeeOther)
 }
 
-
+/* send the client the answer HTTP 500 */
 func HandleError(w http.ResponseWriter, err error) {
 	if err != nil {
 		//http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -131,7 +148,7 @@ func HandleError(w http.ResponseWriter, err error) {
 }
 
 /* map the requested path and return a parameter set by getCode int */
-func getArticle(r *http.Request) (string) {
+func getArticle(r *http.Request) string {
 	p := strings.Split(r.URL.Path, "/")
 
 	if p[2] == "" {

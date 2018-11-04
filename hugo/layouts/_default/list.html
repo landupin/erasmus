@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h2>content:</h2>
+{{ .Content }}
+
+{{ $paginator := .Paginate (where .Data.Pages "Section" .Section) }}
+<ul>
+{{ range  $paginator.Pages }}
+    <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
+{{ end }}

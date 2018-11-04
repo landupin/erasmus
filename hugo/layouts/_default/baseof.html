@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default " en " }}">
+
+<head>
+    <meta charset="utf-8"> {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
+    <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }} {{ end }}{{ end }}</title>
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600" rel="stylesheet">
+    <!--
+    <link rel="stylesheet" href="https://landupin.tk/material-icons.css">
+    <link rel="stylesheet" href="{{ "/assets/bundle.css" | absURL }}">
+    -->
+
+    <style>
+        
+    </style>
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | relURL}}">    
+    <link rel="stylesheet" href="{{ "/css/header.css" | relURL}}">
+    <link rel="stylesheet" href="{{ "/css/aside.css" | relURL}}">
+    <link rel="stylesheet" href="{{ "/css/footer.css" | relURL}}">
+    <link rel="stylesheet" href="{{ "/css/gallery.css" | relURL}}">
+
+    {{ block "favicon" . }} {{ partial "site-favicon.html" . }} {{ end }}
+
+</head>
+
+<body class=" {{ $.Param " body_classes "  | default " "}}{{ with getenv "HUGO_ENV " }} {{ . }}{{ end }}">
+    {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
+    {{ block "aside" . }}{{ partial "crab-menu.html" .Site.Menus.main }}{{ end }}
+
+    <main>{{ block "main" . }}{{ end }}</main>
+
+    {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
+    {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
+</body>
+
+</html>
