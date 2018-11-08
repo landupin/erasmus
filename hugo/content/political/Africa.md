@@ -23,6 +23,7 @@ South Kasai was overrun by the ANS troops. The UN secretary general Dag Hammarsk
 Congo tried to reform their political system with renaming their country “Democratic Republic of the Congo” and establishing a new constitution in June 1964. Kasa-Vabu appointed Tshombe, the exiled Katangese leader, as interim Prime Minister but the rebellion broke out before the scheduled election. The Simba and Kwilu rebels were supported by the Soviet Union and China. The rebellion was pushed back months later by the ANS together with UN troops and soon dissolved completely. The country was not able to reform a functioning political system resulting in Mobutu taking over the control in his second coup d`état. He was supported by the USA and many other Western government because it promised economic and political stability. Mobutu established a dictatorship lasting till 1997 and renamed the country Zaire in 1971.
 
 {{< image "http://newsimg.bbc.co.uk/media/images/45168000/jpg/_45168443_unconvoy.jpg">}}
+Picture 1
 {{< /image>}}
 
 ### Egypt
@@ -47,9 +48,6 @@ The main principles of Pan-Africanism are:
 Mass murder in Latin America began as an operation called Condor. In the background of Operation Condor were the US, which supported dictators all over Latin America.
 The United States wanted to suppress all movements that opposed their interests to prevent the formation of socialist regimes in Latin America. The US funded this brutal terror, trained agents and security services of Latin American right-wing dictatorships. Operation Condor was officially launched in 1968 and lasted until 1989. With the help of the United States, takeovers were phased out in Paraguay, Brazil, Bolivia, Uruguay, Chile, and Argentina. According to estimates, more than 50,000 people were killed during the Condor operation in these countries. Among the victims were most communists, socialists, left-wingers of all shades, sedentary and trade unionists and activists, students, intellectuals, teachers, left-wing partisans, but also nuns and priests.
 
-### An image should be here but the source is taken down
-
-
 ### Nicaraguan Revolution 
 The Nicaraguan revolution was a process in which the Somoza dynasty was removed from
 power and a progressive left-handed government was imposed.
@@ -68,9 +66,6 @@ agricultural reform which increased the agriculture for own consume and to expor
 there were several problems, like the opposition of UNO (Unión Nacional Opositora) 14 the
 that made the Sandinistas be removed from power in 1990.
 
-### Another removed image (I know this isn't a comment syntax)
-
-
 ### Salvadoran civil war 
 It was a conflict between the government of El Salvador and a coalition of a several groups of left hand, called Farabundo Martí National Liberation Front (FMLN).
 It developed from 1980 until 1992. 
@@ -84,6 +79,7 @@ In the following years Guevara tried to realize his radical ideas in Cuba which 
 
 
 {{< image "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/210px-CheHigh.jpg">}}
+Picture 2
 {{< /image>}}
 
 ### Guatemalan and Chilean coup d’état 
@@ -102,9 +98,10 @@ ELN was formed by Che Guevara and it was a Marxist-Leninist guerrilla organizati
 During the Cold War, Latin America was a strategic defensive pillar between the United States and the Soviet Union. The Soviet Union gained more influence there after the Cuban Revolution, and they transferred their nuclear warheads to Cuba. Afterwards, the USA joined the Dirty War. From political point of view, Puerto Rico belonged to the United States and  from the cultural point of view, it belonged to the Latin America. United States allowed to enact their local Constitution, but Puerto Ricans could not use their sovereignty to remove the application of the Territorial Clause of the USA.  The United States Army maintained the status quo, because United States do not want to lose their presence in Caribbean.  A situation further complicated by the emergence of Marxist guerrillas, including the Fuerzas Armadas de Liberación Nacional Puertorriqueña and Boricua Popular Army, within the pre-existing independence movement in Puerto Rico. The status issue stagnated throughout the remainder of the Cold War. Eventually, it led to the current incarnation of the free association movement in Puerto Rico.
 
 {{< image "https://wagingnonviolence.org/wp-content/uploads/2017/10/Puerto-Rico-Independence-615x383.jpg">}}
+Picture 3
 {{< /image>}}
 
 
 {{% diver %}}
-- [I am not sure, how to make this diver section, see the original text on google drive for further information](https://docs.google.com/document/d/1jrkPYmxgWGXH23f3sycaSaJZ_Jd4-zbRXaJtECxkHrE/edit#)
+- [no real diver section... some information here](https://docs.google.com/document/d/1jrkPYmxgWGXH23f3sycaSaJZ_Jd4-zbRXaJtECxkHrE/edit#)
 {{% /diver %}}

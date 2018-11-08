@@ -21,15 +21,17 @@ South Korea: They had  more agrarian resources and goods commercial ports.
 Armistice: Agreement which is signed by two or more countries when they decide to stop fighting during some time with the final purpose to discuss a possible peace. Pablo Picasso: He made a picture called “Masacre en Corea”, Massacre in Korea, based on the famous Goya´s painting “3 de mayo”, 3rd may.
 
 {{< image "http://3.bp.blogspot.com/-1XPFvSEcaS0/URek97KPEpI/AAAAAAAAAdg/E_thkFMJEmI/s200-p/1200399166_f.jpg">}}
+Picture 1
 {{< /image >}}
 
 {{< image "https://www.part-time-commander.com/wp-content/uploads/2018/06/stage2.gif">}}
-Development of the Korean War
+Picture 2: Development of the Korean War
 {{< /image>}}
 
 Nowadays the armistice continues to rule the “peace” between these countries, although the tension can break the work of 64 years. 
 
 {{< image "https://cdn-01.belfasttelegraph.co.uk/opinion/article30433845.ece/03247/AUTOCROP/w620h342/COM_2014-07-16_UNC_026_32307607_I1.JPG">}}
+Picture 3
 {{< /image>}}
 
 {{< image "http://www.fasttrackteaching.com/ffap/Unit_11_Cold_War/Korean_War_woman_tank_1951_dbna_s.gif">}}
@@ -62,26 +64,31 @@ The paratroopers from the 187th Airborne Regimental Combat Team (better known as
 On the other hand, the Incheon War (1950) was an invasion through the Yellow Sea. It was the biggest victory of the USA army and the Americans turned the tables on what was previously considered a lost war. Also, the Korea war was the first one in which jet planes were used.
 
 {{< image "https://timedotcom.files.wordpress.com/2015/06/150609-korean-war-mydans-21.jpg">}}
+Picture 5
 {{< /image>}}
 
 ### Korean war and the atomic bomb
 In 1950, it was only five years after the atomic bomb in Hiroshima. So, at that moment, many people thought that this weapon could be very important in this conflict. The USA warned China that, if their troops were sent to Korea, they would throw the nuclear bomb on them, but China ignored this threat.
 
-Moreover, they threatened the USSR, but the Europeans opposed because the Soviets could use this argument to invade Europe. Finally, the Americans said that they would only use that weapon to
+Moreover, they threatened the USSR, but the Europeans opposed because the Soviets could use this argument to invade Europe. Finally, the Americans said that they would only use that weapon to prevent "a bigger military disaster".
 
-prevent "a bigger military disaster".
 {{< image "http://historyconflicts.com/wp-content/uploads/2017/04/hiroshima-bombing-article-about-atomic-bomb.jpg">}}
+Picture 6
 {{< /image>}}
 
 ### Espionage during Korean War
 After the USA had improved their espionage and cryptanalysis abilities, Russians duplicated them. In fact, during the famous Black Friday, the Soviets activated one new network of communications and methodology of encryption. The messages were sent by radio cutting off any emission. In response, the Defence Secretary of the USA ordered the creation of a new agency called AFSA, even though it wasn&#39;t too much effective against the Soviets. It was the key in the Korean War because it intercepted many messages. The North Koreans revealed all their attack techniques through those mechanisms.
 
 {{< image "https://i.pinimg.com/736x/3e/9f/50/3e9f501ccf2c032ebe5d4e09127bf73b--korean-star-war-photography.jpg">}}
+Picture 7
 {{< /image>}}
 
 {{< image "https://shadowproof.com/wp-content/uploads/2015/03/Korean-War-Troops-Photo-by-Corporal-Peter-McDonald-USMC-PD-Wikimedia-e1443569215825.jpg">}}
+Picture 8
 {{< /image>}}
+
 {{< image "https://cdn3.i-scmp.com/sites/default/files/styles/landscape/public/images/methode/2017/10/18/81e131de-af21-11e7-9cb1-5f6b75e2d8b2_1280x720_144337.JPG?itok=CFMQkHCi">}}
+Picture 9
 {{< /image>}}
 
 ### Current situation

@@ -14,7 +14,7 @@ imageLink: "https://thaipoliticalprisoners.files.wordpress.com/2011/01/censorshi
 {{% swimmer %}}
 
 {{< image "https://i.pinimg.com/originals/79/04/8e/79048ea90ebfee830fb9e1553159cbb4.jpg">}}
-Picture 2: Stalin spreading communism all over the world https://sk.pinterest.com/pin/575897871091961023/
+Picture 1: Stalin spreading communism all over the world https://sk.pinterest.com/pin/575897871091961023/
 {{< /image>}}
 
 During the Cold War the United States as well as the Soviet Union tried to influence their people in believing in their current system and defame the enemy´s system. Especially in the USSR, which was a dictatorship, the state censored system-critical writings because they feared the people would question the political system. System-critical writers and were seen as a danger and were persecuted, imprisoned or worse. People in the USSR were isolated from the rest of the world and the state tried to keep it that way at all costs.
@@ -25,12 +25,13 @@ Movies were heavily propagandistic because it was a perfect way to influence peo
 In conclusion and in summary one can say that the US and USSR tried to influence their own people in believing their system is best possible system and tried to defame their enemy´s system with propaganda in the media and society. 
 
 {{< image "https://i.pinimg.com/originals/24/76/0e/24760ecc336962e41f6cab51e3de0382.jpg">}}
-Picture 3: Soviet propaganda poster
+Picture 2: Soviet propaganda poster
 {{< /image>}}
 
 {{< image "https://d1ox703z8b11rg.cloudfront.net/uploads_image/012ed077-fbfb-4f24-8f81-f51fc3b029c3/c3c30392e17ddf92b06b4f660afb4de1.jpeg">}}
-American cartoon
+Picture 3: American cartoon
 {{< /image>}}
+
 {{% /swimmer %}}
 
 {{% diver %}}

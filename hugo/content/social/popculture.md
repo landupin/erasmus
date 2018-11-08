@@ -17,16 +17,17 @@ Films, such as The Blue Bird were also distinctly anti-capitalist. This 1970 ani
 
 Western Musicians were also affected by the shadow of the Cold War. Whereas the East allowed little artistic freedom the artists in the West often criticized the Cold War as well as their own government’s involvement, such as Paul Hardcastle’s “19” which criticized the Vietnam War. Anti-Establishment views also emerged in the form of counter-culture. Famous artists, such as Bob Dylan, also sang about the Cold War. His famous songs, “Blowin’ in the Wind”, “Masters of War”, and “A Hard rain’s a-Gonna fall” Other famous examples of cold war music are:
 
+- [“We didn’t start the fire” by Billy Joel](https://www.youtube.com/watch?v=eFTLKWw542g)
+- [99 Luftballons by Nena](https://www.youtube.com/watch?v=La4Dcd1aUcE)
+- [Two Tribes by Frankie Goes to Hollywood](https://www.youtube.com/watch?v=SXWVpcypf0w)
+- [Back in the USSR by the Beatles](https://www.youtube.com/watch?v=XrtnnLor2UM)
 
-{{< image "https://img.discogs.com/UsxBo1NMergEtMMM3dPRkSrehRQ=/fit-in/600x604/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1127749-1518181752-2562.jpeg.jpg">}}
+{{< image "http://3.bp.blogspot.com/-RkENZkB8Ulc/VdY7-pA7F_I/AAAAAAAAUkw/Ve6CzOwiYXg/s640/99%2BLuftballons%2BNenA.jpg">}}
+Picture 1
 {{< /image>}}
 
--[“We didn’t start the fire” by Billy Joel](https://www.youtube.com/watch?v=eFTLKWw542g)
--[99 Luftballons by Nena](https://www.youtube.com/watch?v=La4Dcd1aUcE)
--[Two Tribes by Frankie Goes to Hollywood](https://www.youtube.com/watch?v=SXWVpcypf0w)
--[Back in the USSR by the Beatles](https://www.youtube.com/watch?v=XrtnnLor2UM)
-
 {{< image "https://m.media-amazon.com/images/M/MV5BMjI2MDE0NjE1NV5BMl5BanBnXkFtZTcwNjYyMzY0NA@@._V1.._UX182_CR0,0,182,268_AL_.jpg">}}
+Picture 2
 {{< /image>}}
 
 Films were released throughout the Cold War and reinforced the East-West divide.
@@ -34,6 +35,7 @@ Films were released throughout the Cold War and reinforced the East-West divide.
 Star Trek, a famous sci-fi television series, is about a free and democratic alliance, called the “Federation”. Our heroes (the crew of the starship enterprise), can be thought of as representing the Western powers, whereas the Klingons – their arch-rivals –can be seen to represent the communist East. In the episode “Errand of Mercy” the Klingons are portrayed as being manipulative and deceitful as well as hungry for war. These traits were intended to be a reflection on the US’s perceptions of Russian culture.
 
 {{< image "https://vignette.wikia.nocookie.net/memoryalpha/images/a/ab/Klingon_First_Lieutenant.jpg/revision/latest/scale-to-width-down/180?cb=20081224102826&path-prefix=en">}}
+Picture 3
 {{< /image>}}
 
 {{% /swimmer %}}

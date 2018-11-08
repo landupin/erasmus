@@ -13,11 +13,18 @@ the `templates` folder contents the old version of the website
 
 run the server with the gcloud sdk
 
-the old version gets shipped by default. if you want the neew version instead, add `/next/` into the domain: `https.example.com/next/path/to/a/page`
+the old version gets shipped by default. if you want the new version instead, add `/next/` into the domain: `https.example.com/next/path/to/a/page`
 
 # ToDo next
 
 - articles
+    - africa pic 0, two missing, diver
+    - blockquote formatting
+    - pop pic 0
+    - space pic 0
+    - sport pic 0
+    - skimmer format
+    - pic numeration
 - about us page
 - splash and menu page
 - timeline page
@@ -26,6 +33,6 @@ the old version gets shipped by default. if you want the neew version instead, a
 - improve article topbar and skimmer
 - article overview popup thing
 - national skimmer sections -> including menu
-- cuba article -> image tag -> image on the right side with text around
+!- cuba article -> image tag -> image on the right side with text around
 - smooth scroll on splash page
 - colorful buttons in nav on splash page

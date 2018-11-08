@@ -16,7 +16,7 @@ imageDescription: ""
 During the Cold War, information was a key commodity. It was vital to know what the adversary was up to, as the possibility of using the hi-tech surveillance that is used today was not around, yet. Instead of trusting technology they relied on spies: people who infiltrated enemy territory and tried to discover information while staying undetected.
 Soviet espionage in the United States during the Cold War was a continuation and further development of World War II nuclear espionage, and Cold Warespionage was depicted in works such as “James Bond” and “Matt Helm” booksand movies.
 
-### Literature and movies
+## Literature and movies
 The topic of Espionage and especially the matter of spies and secret agents during the Cold War is often adopted in literature and various movies. Probably the most popular and iconic spy movie series is the James Bond series with many movies for example *“From Russia with love”* (1963) *“Goldfinger”* (1964) which have a direct connection to the topic of Espionage and Cold War. In fact, there are 16 James Bond movies which where published in the time of the Cold war.
 Besides this famous movie series there are many other more recent published movies with a similar topic for example the thriller “Bridge of Spies” (2015) or the more humorous “The man from U.N.C.L.E.” (2015).
 The wide variety of movies shows how fascinated people are still today by this topic. And there are not just movies which cover the topic of the Cold War, there are also lots of books, for example the book series from Ian Fleming about James Bond which was an inspiration for the eponymous movies.
@@ -24,8 +24,9 @@ Besides these more entertaining examples there are of course many informing and 
 
 So to conclude you could say that the topic of espionage during the Cold War is oftentimes covered in Literature and movies of any kind and genre and still today there is a big interest into this topic so the production of literature and movies to this topic will not stop soon.
 
-### Famous Spies/Agents and major spy rings
+## Famous Spies/Agents and major spy rings
 {{< image "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Julius_and_Ethel_Rosenberg_NYWTS.jpg/1200px-Julius_and_Ethel_Rosenberg_NYWTS.jpg">}}
+Picture 1
 {{< /image>}}
 
 Married in 1939, they lived in the New York City. Julius and Ethel Rosenberg were devoted communists who headed a spy ring that passed military secrets to the Soviets. The scheme got underway sometime after 1940, when Julius became a civilian engineer with the U.S. Army Signal Corps. He was dismissed in 1945 once the military learned of his communist sympathies, but not before recruiting Ethel’s brother, an Army machinist working on the Manhattan Project, to turn over handwritten notes and sketches pertaining to the atomic bomb. Meanwhile, other Rosenberg recruits purportedly delivered thousands of pages of documents detailing new radar and aircraft technologies. At trial following their 1950 arrest, Ethel’s brother testified against them, and a judge sentenced them to death, declaring their crime “worse than murder.”
@@ -33,16 +34,17 @@ Married in 1939, they lived in the New York City. Julius and Ethel Rosenberg wer
 President Dwight D. Eisenhower then sealed their fate by denying a petition for executive clemency. The two were sent to the electric chair at New York State’s Sing Sing prison on June 19, 1953, marking the first time American civilians had ever been executed for espionage. Although worldwide protests erupted over the Rosenbergs’ treatment, with many people feeling they had fallen victim to McCarthy-era red baiting, the post-Soviet release of decrypted KGB messages proved that Julius had in fact been a spy. The evidence against Ethel is less ironclad, and her guilt remains in dispute.
 
 {{< image "http://3.bp.blogspot.com/_183Y-MLUV4A/TNGMjWBpSYI/AAAAAAAAADQ/kwRHZT0ujuc/s1600/Fuchs.jpg">}}
+Picture 2
 {{< /image>}}
 
 Following Adolf Hitler’s rise to power in 1933, Klaus Fuchs fled his native Germany for the United Kingdom, where he received a doctorate in physics and eventually became a citizen. During World War II he was invited to join Britain’s clandestine atomic bomb development program, despite his known communist leanings, and from there was sent to the United States to take part in the Manhattan Project. Upon returning to the U.K., Fuchs secured a prestigious post at a nuclear energy research center. In 1950, however, he was apprehended after U.S. agents discovered that for years he had been handing nuclear secrets to the Soviets, who by now had their own atomic bomb. Fuch confessed, telling the authorities that he “had complete confidence in Russian policy” and that “the Western Allies deliberately allowed Russia and Germany to fight each other to the death.” Though Fuchs claimed not to know his American contact’s true name, the FBI quickly traced a trail back to the Rosenberg spy ring, resulting in the arrest of the Rosenbergs and several co-conspirators. Compared to the Rosenbergs, Fuchs got off easy. After nine years in British prison, he immigrated to East Germany, where he continued working as a nuclear physicist until his retirement in 1979. A winner of the Karl Marx Medal, East Germany’s highest civilian honor, Fuchs died in 1988 at age 76.
 
 {{< image "https://www.historyonthenet.com/wp-content/uploads/2014/10/spycamera.jpg">}}
-The F-21 pocket camera invented by the KGB
+Picture 3: The F-21 pocket camera invented by the KGB
 {{< /image>}}
 
 {{< image "https://www.historyonthenet.com/wp-content/uploads/2014/10/spylipstick.jpg">}}
-Lipstick gun used in the Cold War
+Picture 4: Lipstick gun used in the Cold War
 {{< /image>}}
 
 {{% /swimmer %}}

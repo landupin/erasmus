@@ -38,6 +38,10 @@ h1 {
     color: inherit;
 }
 
+p {
+    line-height: 1.5;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -93,9 +97,22 @@ img {
     text-align: center;
 }
 
-.header-img {
+#skimmer {
+    margin-bottom: 2rem;
+}
+
+#skimmer .header-img {
     margin-top: 2rem;
     margin-bottom: 0;
+}
+
+#skimmer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.25;
+    background-color: #eeeeee;
+    padding: 2rem;
 }
 
 #diver > ul > li {

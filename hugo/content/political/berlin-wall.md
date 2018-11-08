@@ -8,7 +8,7 @@ menu:
 article: true
 
 skimmer: "After World War II there were bad conditions in the East, so an increasing number of people fled to the West. To prevent them from running away, the GDR built a wall in 1961, and called it ironically “antifascist bulwark”. Soldiers had the order to kill people who wanted to cross the border. In 1989, there was the opening of the border and one year later the reunification of both Germanies was celebrated."
-imageLink: "http://www.echo-online.de/img_L2ZtLzgxOS90aHVtYm5haWxzLzQxMjgzNS5qcGcuMjYzNjI0MzYuanBn_L2ZtLzgxOS90aHVtYm5haWxzLzQxMjgzNS5qcGcuMjYzNjI0MzguanBn.jpg"
+imageLink: "http://i.idnes.cz/10/091/org/JB358e96_01.jpg"
 imageDescription: "A border soldier, who actually has to keep others from fleeing to the west, jumps over the first form of the Wall, here still barbed wire, during the construction of it"
 ---
 
@@ -19,7 +19,7 @@ After World War II Germany was divided into four occupation zones. There was a B
 
 The western part of Germany had a great development during the 1950s and 1960s known as &quot;Wirtschaftswunder&quot; (economic miracle). One reason for this development was the Marshall plan, which was an American initiative to rebuild Western Europe after the war. The GRD on the other hand was in a bad condition. After the occupation by the Soviet Union all businesses were taken over by the socialist system and most of them were closed. So, a lot of eastern Germans fled to the west to improve their opportunities.
 
-{{< image "https://www.german-way.com/imagesGW/410_Berlin-zones.jpg" >}}
+{{< image "http://s3-eu-west-1.amazonaws.com/pruebapd.esy.es/wp-content/uploads/2014/11/division-berlin.png" >}}
 Picture 1: Division of Berlin
 {{< /image >}}
 
@@ -85,7 +85,7 @@ Picture 8: Willy Brant kneeling in front of a Polish monument of war victims
 Mikhail Sergeyevich Gorbachev was the eight and the last leader of the Soviet Union from 1985 to 1991. Gorbachev reformed the USSR with his Perestroika ("restructuring") and his Glasnost ("publicity"). Amongst other aspects he brought the freedom of media and reconciliation with the USA under George H. W. Bush. In the GDR Gorbachev`s policy was seen as a call for reforms. This enabled the resolution or end of the USSR and of other Warsaw Pact nations.
 
 
-{{< image "https://www.bundesregierung.de/Content/DE/Artikel/2014_Deutsche_Einheit/Bilder/1989_12_02_malta_gipfel.jpg" >}}
+{{< image "https://www.bundesregierung.de/resource/image/201386/16x9/990/557/f00f3512cf39ff51182af56f6c0111d/IS/1989-12-02-malta-gipfel.jpg" >}}
 Picture 9: Gorbachev and Bush
 {{< /image >}}
 

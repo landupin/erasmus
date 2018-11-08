@@ -10,7 +10,7 @@ article: true
 skimmer: "During the Cold War, nations used sports to promote their political, social, and economic development. Between the end of World War II and the collapse of Communism, “Cold War sport” went beyond the bipolar USA-USSR rivalry to also include Africa, Asia, and Latin America. With success and failure measured every four years at the Olympic Games, sport assumed more significance during the Cold War than at any other time in its history."
 ---
 {{% swimmer %}}
-### The Chess Championships of 1972
+## The Chess Championships of 1972
 
 A notable occasion in the history of Cold War sports were the momentous Chess Championships of 1972.
 This event was a perfect example of the superpower rivalry, and has even been referred to as the ‘Match of
@@ -23,11 +23,11 @@ Nation had always thought of chess as a display of the intellectual superiority 
 overcome by the opposing nation was certainly a harsh blow.
 
 
-{{< image "https://imgur.com/r/HistoryPorn/xT8J4dR">}}
+{{< image "https://i.imgur.com/xT8J4dR.jpg">}}
 Picture 1: A shot taken during the tense chess match
 {{< /image>}}
 
-### Miracle on Ice
+## Miracle on Ice
 
 Miracle On Ice was the match between the teams of the USSR and the USA at the 1980 Winter Olympics.
 The fact that this match was not, indeed, a final, emphasises the rivalry between the two superpowers, as
@@ -42,7 +42,7 @@ served as a major morale booster for citizens of the USA.
 Picture 2: The United States Hockey team celebrates after their victory.
 {{< /image>}}
 
-### Summer 1980 Moscow Olympics
+## Summer 1980 Moscow Olympics
 
 The Moscow Olympics saw the sparsest participation since 1956, with a total of only 80 countries taking
 part. This was due to the USA’s decision to boycott these Olympics. The USA, being a superpower, was
@@ -58,7 +58,7 @@ ever. This building tension then contributed to the next boycott of the Summer 1
 Picture 3: Maarathon event being run in front of St Basil's Cathedral in Moscow.
 {{< /image>}}
 
-### Boycott of 1984
+## Boycott of 1984
 
 In May 1984, the year in which the next Olympics following the USA’s boycott of Moscow’s Olympics, were
 to be held, the Soviet Union turned the tables on the USA, issuing a statement that expressed their

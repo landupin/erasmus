@@ -20,6 +20,7 @@ Religion was also an excuse for the Americans to hate the Soviets even more. The
 There are some key examples of the importance of faith when resisting communism. In Poland, the opposition frequently gathered during Catholic liturgies and celebrations. Pope John Paul II, who was Polish himself, supported them when he travelled to Gniezno (the birthplace of Polish Christianity), on June 3rd 1979 to speak to the churches throughout Communist Europe and Christians in the Soviet bloc. He was also a key factor in bringing about freedom in Poland alongside with the Solidarity trade union. This inspired similar events in other Communist countries. 
 
 {{< image "https://www.aciprensa.com/imagespp/LechWalesaJPII_030511.jpg">}}
+Picture 1
 {{< /image>}}
 
 The famous Monday demonstrations in Leipzig, city in the former GDR (German Democratic Republic or East Germany) took place after prayers for peace at St Nikolai Church. Protesters gathered around this church in 1989; eventually these protests contributed to the fall of the Berlin Wall and the Communist regime.
@@ -28,7 +29,7 @@ When the Civil War finished, the Catholic religion supported Franco’s dictator
 Today, in Spain you can practice whatever religion you want, because freedom of religion is guaranteed by the 1978´s Constitution. 
 
 {{< image "http://www.positief-atheisme.nl/_Media/imgres-5_med-2-3_med-2.jpeg">}}
-Franco with cardinal
+Picture 2: Franco with cardinal
 {{< /image>}}
 
 {{% /swimmer %}}

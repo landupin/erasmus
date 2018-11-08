@@ -14,26 +14,27 @@ imageLink: "http://1.bp.blogspot.com/-aDapwWKFHIY/VHGF-BlrF4I/AAAAAAAAj4k/0DdY4A
 
 {{% swimmer %}}
 
-After overthrowing **Fulgencio Batista** in 1959, Fidel Castro became the leader of Cuba.                            The new-created government proclaimed land reform and nationalized American possession – banks, mines, ... Because of this, USA stopped the business with Cuba. After that, Cuba asked USSR for economic and military help. USA didn’t like the good relationship between Cuba and USSR and increasing communism in Cuba therefore USA wanted to overthrow Castro.
+After overthrowing ***Fulgencio Batista*** in 1959, Fidel Castro became the leader of Cuba. The new-created government proclaimed land reform and nationalized American possession – banks, mines, ... Because of this, USA stopped the business with Cuba. After that, Cuba asked USSR for economic and military help. USA didn’t like the good relationship between Cuba and USSR and ***increasing communism*** in Cuba therefore USA wanted to overthrow Castro.
 
-* **April 17, 1961** - more than 1400 Cuban exiles supported by CIA, landed on the     beach Playa Girón. However, Cuban army was prepared for this invasion (officially called Bay of Pigs Invasion) and they defeated Cuban exiles. The relationships between USA and USSR were getting worse and worse. 
+* **April 17, 1961** - more than 1400 Cuban exiles supported by CIA, landed on the beach Playa Girón. However, Cuban army was prepared for this invasion (officially called ***Bay of Pigs Invasion***) and they defeated Cuban exiles. The relationships between USA and USSR were getting worse and worse. 
 
-* **Scince the end of May 1962** -nuclear missiles had being placed on the island, because from this place it would have been really easy to hit important parts of America. Within this operation, which was called Anadyr, 128 special warheads were placed on the island and CIA didn’t have any idea about them. 
+* **Scince the end of May 1962** - nuclear missiles had being placed on the island, because from this place it would have been really easy to hit important parts of America. Within this operation, which was called Anadyr, 128 special warheads were placed on the island and CIA didn’t have any idea about them. 
 
 * **October 14, 1962** - the first photo evidence of missiles on Cuba was taken by American Major Heiser, who piloted the U-2 flight.
 
-*  **October 16, 1962** - president J.F.K. created a group named Executive Committee of the National Security Council – * **EXCOMM** * and they discussed the American possibilities: do nothing, diplomacy, air strike, naval blockade. The majority of EXCOMM wanted air strike, but the president, his brother and few other people wanted a naval blockade.
+*  **October 16, 1962** - president J.F.K. created a group named Executive Committee of the National Security Council – ***EXCOMM*** and they discussed the American possibilities: do nothing, diplomacy, air strike, naval blockade. The majority of EXCOMM wanted air strike, but the president, his brother and few other people wanted a naval blockade.
 
-* **October 18, 1962** - J.F.K. had a meeting with a soviet minister of foreign affairs, ** *Andrej Gromyko,* ** who claimed, that the missiles on Cuba were for defence only.
+* **October 18, 1962** - J.F.K. had a meeting with a soviet minister of foreign affairs, ***Andrej Gromyko***, who claimed, that the missiles on Cuba were for defence only.
 
-{{< image "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/CMC_Gromyko.jpg/800px-CMC_Gromyko.jpg">}}Picture 1: J.F.K. meets Andrej Gromyko
+{{< image "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/CMC_Gromyko.jpg/800px-CMC_Gromyko.jpg">}}
+Picture 1: J.F.K. meets Andrej Gromyko
 {{< /image>}}
 
-* **October 20, 1962** - another soviet rackets were were discovered on Cuba and EXCOMM decided for naval blockade, but there was a problem. Blockade means an act of war and because of this, they used term * **“quarantine”** *. 
+* **October 20, 1962** - another soviet rackets were were discovered on Cuba and EXCOMM decided for naval blockade, but there was a problem. Blockade means an act of war and because of this, they used term ***“quarantine”***. 
 
 * **October 22, 1962, at 7:00 EDT** - the American president delivered a spechial speech about discovered missiles on Cuba.
 
-* **October 23, 1962** - J.F.K. signed a * **proclamation** * about the quarantine. At the same time, American ambassadors in Turkey and NATO announced, that USA is thinking about withdrawal of rackets Jupiter placed in Turkey and Italy in exchange for withdrawal of soviet rackets on Cuba.
+* **October 23, 1962** - J.F.K. signed a ***proclamation*** about the quarantine. At the same time, American ambassadors in Turkey and NATO announced, that USA is thinking about withdrawal of rackets Jupiter placed in Turkey and Italy in exchange for withdrawal of soviet rackets on Cuba.
 
 * **October 24, 1962, at 10:00 EDT** - the quarantine officially started. Soviet ships carrying offensive weapons were turned back, but tankers, which didn't contain any military material, were let through the blocade.
 
@@ -42,7 +43,7 @@ Picture 2: J.F.K. signs the proclamation about quarantine
 {{< /image>}}
 * **October 26, 1962** - Khrushev for the first admitted the presence of missiles in Cuba.
 
-* **In the evening of October 27, 1962** - * **Robert Kennedy** * had a secret meeting with a soviet ambassador * **Anatoly Dobrynin** * and they made a deal: USSR withdraws the missiles from Cuba under U.N. control and USA has to promise to never invade Cuba and take out their missiles from Italy and Turkey.
+* **In the evening of October 27, 1962** - ***Robert Kennedy*** had a secret meeting with a soviet ambassador ***Anatoly Dobrynin*** and they made a deal: USSR withdraws the missiles from Cuba under U.N. control and USA has to promise to never invade Cuba and take out their missiles from Italy and Turkey.
 {{< image "https://upload.wikimedia.org/wikipedia/commons/9/9a/Jupiter_IRBM.jpg">}}
 Picture 3: The nuclear American missile Jupiter
 {{< /image>}}

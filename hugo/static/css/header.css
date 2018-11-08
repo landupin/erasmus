@@ -96,6 +96,10 @@ header .toolbar__title {
     overflow: hidden;
 }
 
+header .toolbar__title a {
+    font-family: "IBM Plex Mono";
+}
+
 main {
     padding-top: 64px;
 }

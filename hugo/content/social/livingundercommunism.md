@@ -11,7 +11,7 @@ skimmer: "These cruel times occurred right after the Second World War and gradua
 
 {{% swimmer %}}
 
-### Life Under Communism in East Germany
+## Life Under Communism in East Germany
 
 Children brought up in non-communist families were not given the right to the education that children following
 the regime were given. Socialized children at home were expected to never attempt to rise to any position due to
@@ -32,9 +32,10 @@ Many citizens were very much isolated from Western culture, for example, many ch
 not knowing what a Barbie doll was.
 
 {{< image "http://allthatsinteresting.com/thumb/500.500.http://allthatsinteresting.com/wordpress/wp-content/uploads/2014/10/couple-peers-over-berlin-wall.jpgas">}}
+Picture 1
 {{< /image>}}
 
-### Life Under Communism in Czechoslovakia
+## Life Under Communism in Czechoslovakia
 The state was controlling the economy which was working very poorly, as basic citizen supplies were often not
 found.
 Many foods such as coconuts and mandarins were seen as luxuries, and therefore were only present at times like
@@ -50,6 +51,7 @@ Of course, living in a communist country, everyone worked for the government in 
 Life was very similar to that of the control in East Germany, however, it can be noted that surveillance and
 boarder control was less prominent in Czechoslovakia.
 {{< image "https://i.pinimg.com/originals/b6/15/03/b61503005e7aaabde6fe8b9eb873cd43.jpg">}}
+Picture 2
 {{< /image>}}
 
 {{% /swimmer  %}}
