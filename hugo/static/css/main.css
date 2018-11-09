@@ -87,7 +87,9 @@ a:visited {
 
 img {
     width: fit-content;
+    width: -moz-fit-content;
     max-width: 100%;
+    height: auto;
     border-radius: 3px;
     display: block;
     margin-bottom: 1rem;
@@ -95,6 +97,17 @@ img {
 
 .img-container small{
     text-align: center;
+}
+
+blockquote p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+blockquote svg {
+    height: 2rem;
+    fill: #999;
+    margin: 0.25rem 0.5rem;
 }
 
 #skimmer {

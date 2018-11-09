@@ -7,10 +7,9 @@ menu:
 
 article: true
 
-skimmer: "The Space Race was a competition between the United States and the Soviet Union during the time of the Cold War to be the first country to go into space.
-In this “proxy war” the Soviet Union started off better than the US by sending the first satellite, Sputnik 1 (1957), and the first cosmonaut, Yuri Gagarin into space (1961). 
-The US reacted by boosting NASA with money to land the first man on the moon, which happened in 1969. 
+skimmer: "The Space Race was a competition between the United States and the Soviet Union during the time of the Cold War to be the first country to go into space. In this “proxy war” the Soviet Union started off better than the US by sending the first satellite, Sputnik 1 (1957), and the first cosmonaut, Yuri Gagarin into space (1961). The US reacted by boosting NASA with money to land the first man on the moon, which happened in 1969. 
 After that the USSR and USA did not compete with each other anymore in this field and until today they are working rather closely together in space."
+imageLink: "http://www.theindependentbd.com/assets/news_images/space-race.jpg"
 ---
 
 {{% swimmer %}}

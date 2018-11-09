@@ -7,7 +7,7 @@ menu:
 article: true
 
 skimmer: "From 1955-1975, a ‘Cold War-era Proxy war’ took part between North Vietnam who invaded South Vietnam; to expand their communist ideology and were supported by the Soviet Union and China. However, due to USAs Communism Containment Policy, South Vietnam received American much support, but in 1975 America withdrew all troops as defeat was inevitable."
-imageLink: ""
+imageLink: "https://mobimg.b-cdn.net/androidgame_img/spy_vs_spy/real/2_spy_vs_spy.jpg"
 imageDescription: ""
 ---
 

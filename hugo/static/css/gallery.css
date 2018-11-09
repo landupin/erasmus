@@ -1,4 +1,69 @@
-/* LIST */
+menu.mdc-image-list.standard-image-list.mdc-image-list--with-text-protection{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+menu section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+menu section#menu-social {
+    margin-bottom: 0;
+}
+
+menu article.mdc-image-list__item {
+    width: 100%;
+    margin: 2px;
+    position: relative;
+    background-color: rgba(0,0,0,.03);
+}
+
+@media (min-width: 601px) {
+    menu article.mdc-image-list__item {
+        width: calc(100% / 3 - 4px);
+    }
+}
+
+menu .mdc-image-list__image-aspect-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+menu img.mdc-image-list__image {
+    margin: 0;
+}
+
+menu .mdc-image-list__supporting {
+    position: absolute;
+    bottom: 0;
+    height: 48px;
+    width: 100%;
+    padding: 0 16px;
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+menu span.mdc-image-list__label {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: .00937em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/* LIST 
 .mdc-image-list {
     display: -ms-flexbox;
     display: flex;
@@ -11,7 +76,7 @@
     max-width: 900px;
 }
 
-/* LIST ITEM */
+/* LIST ITEM 
 .standard-image-list .mdc-image-list__item {
     width: calc(100% / 5 - 4.2px);
     margin: 2px;
@@ -33,12 +98,16 @@
     box-sizing: border-box;
 }
 
+/*
 .standard-image-list .mdc-image-list__image-aspect-container {
     padding-bottom: 66.66667%;
 }
+
 .mdc-image-list__image-aspect-container {
     padding-bottom: 100%;
 }
+
+
 .mdc-image-list__image-aspect-container, .mdc-image-list__item {
     position: relative;
     -webkit-box-sizing: border-box;
@@ -60,7 +129,7 @@
     width: 100%;
 }
 
-/* IMAGE SPAN */
+/* IMAGE SPAN 
 .mdc-image-list--with-text-protection .mdc-image-list__supporting {
     position: absolute;
     bottom: 0;
@@ -100,3 +169,4 @@
     white-space: nowrap;
     overflow: hidden;
 }
+*/

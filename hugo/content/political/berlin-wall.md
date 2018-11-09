@@ -23,9 +23,9 @@ The western part of Germany had a great development during the 1950s and 1960s k
 Picture 1: Division of Berlin
 {{< /image >}}
 
-## Warsaw Pact of 1952:
+## Warsaw Pact of 1955:
 
-In 1952 the eight nations, who were under control of the Soviet Union, signed the Warsaw Pact. Formally this pact was about the Treaty of Friendship, Cooperation and Mutual Assistance. But the real aim of this alliance was to make sure that these countries would stay under the leadership of communism. If needed the USSR would be ready to send military to suppress protestors like in Eastern Germany in 1953.
+In 1955 the eight nations, who were under control of the Soviet Union, signed the Warsaw Pact. Formally this pact was about the Treaty of Friendship, Cooperation and Mutual Assistance. But the real aim of this alliance was to make sure that these countries would stay under the leadership of communism. If needed the USSR would be ready to send military to suppress protestors like in Eastern Germany in 1953.
 
 {{< image "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Warsaw_Pact_Logo.svg/1200px-Warsaw_Pact_Logo.svg.png" >}}
 Picture 2: The eight nations of Warscaw Pact

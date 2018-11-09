@@ -8,6 +8,7 @@ menu:
 article: true
 
 skimmer: "Cornerstones of modern popular culture, such as music, films and literature were not only a source of entertainment but a powerful propaganda tool. The political ideologies of both the Eastern and the Western spheres were reflected in all of these areas (elements?). Whereas Eastern popular culture often had to conform to the politics of the state, Western popular culture was much more anti-authoritarian and often condemned Soviet beliefs and doctrine."
+imageLink: "http://www.laitdanceclub.co.uk/wp-content/uploads/2016/11/rock.jpg"
 ---
 
 {{% swimmer %}}
@@ -18,9 +19,10 @@ Films, such as The Blue Bird were also distinctly anti-capitalist. This 1970 ani
 Western Musicians were also affected by the shadow of the Cold War. Whereas the East allowed little artistic freedom the artists in the West often criticized the Cold War as well as their own government’s involvement, such as Paul Hardcastle’s “19” which criticized the Vietnam War. Anti-Establishment views also emerged in the form of counter-culture. Famous artists, such as Bob Dylan, also sang about the Cold War. His famous songs, “Blowin’ in the Wind”, “Masters of War”, and “A Hard rain’s a-Gonna fall” Other famous examples of cold war music are:
 
 - [“We didn’t start the fire” by Billy Joel](https://www.youtube.com/watch?v=eFTLKWw542g)
-- [99 Luftballons by Nena](https://www.youtube.com/watch?v=La4Dcd1aUcE)
-- [Two Tribes by Frankie Goes to Hollywood](https://www.youtube.com/watch?v=SXWVpcypf0w)
-- [Back in the USSR by the Beatles](https://www.youtube.com/watch?v=XrtnnLor2UM)
+- ["99 Luftballons" by Nena](https://www.youtube.com/watch?v=La4Dcd1aUcE)
+- ["Two Tribes" by Frankie Goes to Hollywood](https://www.youtube.com/watch?v=SXWVpcypf0w)
+- ["Back in the USSR" by the Beatles](https://www.youtube.com/watch?v=XrtnnLor2UM)
+- ["Winds of Change" (also called "Hymne of Change") by the Scorpions](https://www.youtube.com/watch?v=n4RjJKxsamQ)
 
 {{< image "http://3.bp.blogspot.com/-RkENZkB8Ulc/VdY7-pA7F_I/AAAAAAAAUkw/Ve6CzOwiYXg/s640/99%2BLuftballons%2BNenA.jpg">}}
 Picture 1
