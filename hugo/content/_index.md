@@ -1,7 +1,6 @@
 ---
 title: "Home Page"
 date: 2018-11-04T00:33:20+02:00
-draft: true
 ---
 
  # Dear visitor!

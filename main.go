@@ -3,46 +3,56 @@ package main
 import (
 	"html/template"
 	"net/http"
-	"strings"
 
 	"google.golang.org/appengine"
 )
 
 //templates
-var glob *template.Template
-var soc *template.Template
-var pol *template.Template
+//var glob *template.Template
+//var soc *template.Template
+//var pol *template.Template
 
 func main() {
-	//parsing the templates
-	glob = template.Must(template.ParseGlob("templates/*.html"))
-	soc = template.Must(template.ParseGlob("templates/social/*.html"))
-	pol = template.Must(template.ParseGlob("templates/political/*.html"))
+	/*
+		//parsing the templates
+		glob = template.Must(template.ParseGlob("templates/*.html"))
+		soc = template.Must(template.ParseGlob("templates/social/*.html"))
+		pol = template.Must(template.ParseGlob("templates/political/*.html"))
 
-	//adding includes to all templates
-	soc.ParseFiles("templates/includes.html")
-	pol.ParseFiles("templates/includes.html")
+		//adding includes to all templates
+		soc.ParseFiles("templates/includes.html")
+		pol.ParseFiles("templates/includes.html")
 
-	//routing specific paths
-	http.HandleFunc("/", index)
+		//routing specific paths
+		http.HandleFunc("/", index)
 
-	http.HandleFunc("/political/", political)
-	http.HandleFunc("/social/", social)
+		http.HandleFunc("/political/", political)
+		http.HandleFunc("/social/", social)
 
-	http.HandleFunc("/login", login)
-	http.HandleFunc("/logout", logout)
+		http.HandleFunc("/login", login)
+		http.HandleFunc("/logout", logout)
 
-	//routing assets
-	http.HandleFunc("/assets/", assets)
+		//routing assets
+		http.HandleFunc("/assets/", assets)
 
+		//test routing
+		http.HandleFunc("/ping", ping)
+
+		//next version - not working!!!!!!!!!!!!!!!!!!!!!!11!!!!elf
+		http.HandleFunc("/next/", next)
+		http.HandleFunc("/next/timeline/", timeline)
+		http.HandleFunc("/next/about", about)
+		http.Handle("/next/article/", http.StripPrefix("/next/article", http.FileServer(http.Dir("hugo/public"))))
+
+	*/
 	//test routing
 	http.HandleFunc("/ping", ping)
 
-	//next version - not working!!!!!!!!!!!!!!!!!!!!!!11!!!!elf
-	http.HandleFunc("/next/", next)
-	http.HandleFunc("/next/timeline/", timeline)
-	http.HandleFunc("/next/about", about)
-	http.Handle("/next/article/", http.StripPrefix("/next/article", http.FileServer(http.Dir("hugo/public"))))
+	http.HandleFunc("/", next)
+	http.Handle("/assets/", http.FileServer(http.Dir("hugo/public")))
+	http.HandleFunc("/timeline/", timeline)
+	http.HandleFunc("/about", about)
+	http.Handle("/article/", http.StripPrefix("/article", http.FileServer(http.Dir("hugo/public"))))
 
 	//fmt.Println("listening at port :8080")
 	//http.ListenAndServe(":8080", nil)
@@ -52,11 +62,11 @@ func main() {
 func next(w http.ResponseWriter, r *http.Request) {
 	splash, err := template.ParseFiles("splash.html")
 	if err != nil {
-		HandleError(w, err)
+		handleError(w, err)
 	}
 
 	if err := splash.ExecuteTemplate(w, "splash.html", nil); err != nil {
-		HandleError(w, err)
+		handleError(w, err)
 	}
 
 }
@@ -64,11 +74,11 @@ func next(w http.ResponseWriter, r *http.Request) {
 func timeline(w http.ResponseWriter, r *http.Request) {
 	timelines, err := template.ParseFiles("timeline.html")
 	if err != nil {
-		HandleError(w, err)
+		handleError(w, err)
 	}
 
 	if err := timelines.ExecuteTemplate(w, "timeline.html", nil); err != nil {
-		HandleError(w, err)
+		handleError(w, err)
 	}
 
 }
@@ -76,11 +86,11 @@ func timeline(w http.ResponseWriter, r *http.Request) {
 func about(w http.ResponseWriter, r *http.Request) {
 	timelines, err := template.ParseFiles("about.html")
 	if err != nil {
-		HandleError(w, err)
+		handleError(w, err)
 	}
 
 	if err := timelines.ExecuteTemplate(w, "about.html", nil); err != nil {
-		HandleError(w, err)
+		handleError(w, err)
 	}
 
 }
@@ -90,6 +100,11 @@ func ping(w http.ResponseWriter, r *http.Request) {
 	http.Error(w, "This is a teapot", http.StatusTeapot)
 }
 
+func handleError(w http.ResponseWriter, err error) {
+	http.Error(w, err.Error(), http.StatusInternalServerError)
+}
+
+/*
 //handle the specific routes
 func index(w http.ResponseWriter, r *http.Request) {
 	if HandleSession(w, r) == false {
@@ -178,7 +193,7 @@ func HandleError(w http.ResponseWriter, err error) {
 	if err != nil {
 		//http.Error(w, err.Error(), http.StatusInternalServerError)
 
-		/*send the client the "in-work"-page*/
+		/*send the client the "in-work"-page
 		err = glob.ExecuteTemplate(w, "in-work.html", nil)
 		if err != nil {
 			http.Error(w, err.Error(), http.StatusInternalServerError)
@@ -186,7 +201,7 @@ func HandleError(w http.ResponseWriter, err error) {
 	}
 }
 
-/* map the requested path and return a parameter set by getCode int */
+/* map the requested path and return a parameter set by getCode int
 func getArticle(r *http.Request) string {
 	p := strings.Split(r.URL.Path, "/")
 
@@ -224,3 +239,4 @@ func HandleSession(w http.ResponseWriter, r *http.Request) bool {
 
 	return true
 }
+*/
