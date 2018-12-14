@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"html/template"
 	"net/http"
 
@@ -8,11 +9,13 @@ import (
 )
 
 //templates
-//var glob *template.Template
+var glob *template.Template
+
 //var soc *template.Template
 //var pol *template.Template
 
 func main() {
+	glob = template.Must(template.ParseGlob("templates/*.html"))
 	/*
 		//parsing the templates
 		glob = template.Must(template.ParseGlob("templates/*.html"))
@@ -47,8 +50,14 @@ func main() {
 	*/
 	//test routing
 	http.HandleFunc("/ping", ping)
+	http.HandleFunc("/bruh", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprint(w, `<html><body style="background: rgb(255, 255, 255);display: flex;justify-content: center;align-items: center;height: 100vh;width: 100%;"><h1 style="font-size: 11rem;font-weight: 200;text-transform: lowercase;letter-spacing: 1rem;">Siesta y fiesta</h1></body></html>`)
+	})
 
 	http.HandleFunc("/", next)
+	http.HandleFunc("/favicon.ico", func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, "hugo/static/assets/img/favicon.png")
+	})
 	http.Handle("/assets/", http.FileServer(http.Dir("hugo/public")))
 	http.HandleFunc("/timeline/", timeline)
 	http.HandleFunc("/about", about)
@@ -60,36 +69,21 @@ func main() {
 }
 
 func next(w http.ResponseWriter, r *http.Request) {
-	splash, err := template.ParseFiles("splash.html")
-	if err != nil {
-		handleError(w, err)
-	}
-
-	if err := splash.ExecuteTemplate(w, "splash.html", nil); err != nil {
+	if err := glob.ExecuteTemplate(w, "splash.html", nil); err != nil {
 		handleError(w, err)
 	}
 
 }
 
 func timeline(w http.ResponseWriter, r *http.Request) {
-	timelines, err := template.ParseFiles("timeline.html")
-	if err != nil {
-		handleError(w, err)
-	}
-
-	if err := timelines.ExecuteTemplate(w, "timeline.html", nil); err != nil {
+	if err := glob.ExecuteTemplate(w, "timeline.html", nil); err != nil {
 		handleError(w, err)
 	}
 
 }
 
 func about(w http.ResponseWriter, r *http.Request) {
-	timelines, err := template.ParseFiles("about.html")
-	if err != nil {
-		handleError(w, err)
-	}
-
-	if err := timelines.ExecuteTemplate(w, "about.html", nil); err != nil {
+	if err := glob.ExecuteTemplate(w, "about.html", nil); err != nil {
 		handleError(w, err)
 	}
 

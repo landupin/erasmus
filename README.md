@@ -23,6 +23,7 @@ the old version gets shipped by default. if you want the new version instead, ad
     - espionage pic 0
     - africa diver
     - vietnam overflow
+    - religion erneuern
 - about us page
 - splash and menu page
 - timeline page

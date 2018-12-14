@@ -45,7 +45,7 @@ Communists regulated culture a lot. These restrictions also limited the performa
 People could travel, but only to the countries which were part of the Soviet bloc. When family wanted to go on vacation elsewhere, they had to go to a commission to get permission. But one family member had to stay at home because communists wanted to be sure, that they would return .
 
 ## The right to vote
-Voting was an obligation for everyone. The totalitarian regime bragged about with the large number of voters, which often exceeded 99% . However, voting was jusr some formal event, because the winning party was known before the voting. Voting was secret just in theory, those who were so brave and went behind the screen to vote, aroused suspicion.
+Voting was an obligation for everyone. The totalitarian regime bragged about with the large number of voters, which often exceeded 99% . However, voting was just some formal event, because the winning party was known before the voting. Voting was secret just in theory, those who were so brave and went behind the screen to vote, aroused suspicion.
 
 ## Assembly
 

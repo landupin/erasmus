@@ -1,0 +1,92 @@
+{{template "header"}}
+<script src="/assets/js/display.js"></script>
+
+<style>
+    #pic {
+        border-radius: 0.5em;
+    }
+
+    #heading {
+        border-bottom: 2px solid aliceblue;
+    }
+</style>
+</head>
+<body>
+
+<section id="welcome">
+
+    {{template "navigation"}}
+
+    <header id="skimmers" class="container">
+        <div class="inner">
+            <div id="heading" class="mb-3">
+                <p id="topic" class="h1">Vietnam</p>
+            </div>
+            <div id="paragraph">
+                <p class="font-weight-bold">From 1955-1975, a ‘Cold War-era Proxy war’ took part between North Vietnam
+                    who invaded South Vietnam;
+                    to expand their communist ideology and were supported by the Soviet Union and China. However, due to
+                    USAs Communism Containment Policy, South Vietnam received American much support, but in 1975 America
+                    withdrew all troops as defeat was inevitable.</p>
+            </div>
+
+            <div class="text-centered">
+                <div>
+                    <a href="http://www.sbs.com.au/news/sites/sbs.com.au.news/files/styles/full/public/vietnam_8.jpg"
+                       target="_blank"><img id="pic" class="img-fluid" src="/assets/images/politic/vietnam1.jpg"
+                                            alt="vietnam war">
+                    </a>
+                </div>
+                <small class="text-muted">American military in Vietnam territory</small>
+            </div>
+
+
+            <div id="show" class="mb-3">
+                <a role="button" class="btn btn-primary btn-lg btn-block mb-2" href="#swimmers"
+                   onclick="refactorMore('show')">Read On</a>
+            </div>
+        </div>
+    </header>
+</section>
+
+<section id="swimmers" class="container pt-4">
+    <blockquote class="blockquote">
+        <p class="mb-0">“The Vietnam War was a long, costly and divisive conflict that pitted the communist government
+            of North Vietnam against South Vietnam and its principal ally, the United States. The conflict was
+            intensified by the ongoing Cold War between the United States and the Soviet Union. More than 3 million
+            people (including over 58,000 Americans) were killed in the Vietnam War, and more than half of the dead were
+            Vietnamese civilians. Opposition to the war in the United States bitterly divided Americans, even after
+            President Richard Nixon ordered the withdrawal of U.S. forces in 1973. Communist forces ended the war by
+            seizing control of South Vietnam in 1975, and the country was unified as the Socialist Republic of Vietnam
+            the following year.”</p>
+        <a href="http://www.history.com/topics/vietnam-war/vietnam-war-history ">
+            <footer class="blockquote-footer">http://www.history.com/topics/vietnam-war/vietnam-war-history</footer>
+        </a>
+    </blockquote>
+</section>
+
+<section id="divers" class="container pt-4">
+    <p>Further reading:</p>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Vietnam_War" target="_blank">
+            Wikipedia Article about the Vietnam War
+        </a></li>
+        <li><a href="http://www.english.illinois.edu/maps/vietnam/timeline.htm" target="_blank">
+            some other reference
+        </a></li>
+    </ul>
+</section>
+
+<div id="hide" class="container mb-3">
+    <a role="button" class="btn btn-outline-secondary btn-lg btn-block mb-2" href="#"
+       onclick="refactorMore('hide')">Read Less</a>
+</div>
+
+<script>
+    //hide the swimmers section OnLoad
+    document.getElementById('swimmers').style.display = "none";
+    document.getElementById('divers').style.display = "none";
+    document.getElementById('hide').style.display = "none";
+</script>
+
+{{template "footer"}}

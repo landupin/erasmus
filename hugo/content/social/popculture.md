@@ -1,5 +1,5 @@
 ---
-title: "Pop culture (musics)"
+title: "Pop culture (music)"
 date: 2018-11-04T00:31:13+02:00
 menu:
   main:
@@ -23,6 +23,9 @@ Western Musicians were also affected by the shadow of the Cold War. Whereas the 
 - ["Two Tribes" by Frankie Goes to Hollywood](https://www.youtube.com/watch?v=SXWVpcypf0w)
 - ["Back in the USSR" by the Beatles](https://www.youtube.com/watch?v=XrtnnLor2UM)
 - ["Winds of Change" (also called "Hymne of Change") by the Scorpions](https://www.youtube.com/watch?v=n4RjJKxsamQ)
+- [„Solidaritätslied“ (Solidarity song) by Bertholt Brecht](https://www.youtube.com/watch?v=bcllk8-wEy0)
+- [„Unsere Heimat“(Our Homeland) by Ernst Thälmann](https://www.youtube.com/watch?v=YohW_wCbrPA)
+- ["Pravda víťazí" (The Truth wins) by Tublatanka](https://www.youtube.com/watch?v=kJucQNdBJo4)
 
 {{< image "http://3.bp.blogspot.com/-RkENZkB8Ulc/VdY7-pA7F_I/AAAAAAAAUkw/Ve6CzOwiYXg/s640/99%2BLuftballons%2BNenA.jpg">}}
 Picture 1
