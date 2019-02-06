@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"html/template"
 	"net/http"
-
-	"google.golang.org/appengine"
 )
 
 //templates
@@ -63,9 +61,9 @@ func main() {
 	http.HandleFunc("/about", about)
 	http.Handle("/article/", http.StripPrefix("/article", http.FileServer(http.Dir("hugo/public"))))
 
-	//fmt.Println("listening at port :8080")
-	//http.ListenAndServe(":8080", nil)
-	appengine.Main()
+	fmt.Println("listening at port :8080")
+	http.ListenAndServe(":8080", nil)
+	//appengine.Main()
 }
 
 func next(w http.ResponseWriter, r *http.Request) {
