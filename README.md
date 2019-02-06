@@ -14,16 +14,9 @@ just run `go run main.go` or compile it beforehand
 
 # ToDo next
 
-- articles
-    - pop pic 0
-    - space pic 0
-    - espionage pic 0
-    - africa diver
-    - vietnam overflow
-    - religion erneuern
+- timeline page
 - about us page
 - splash and menu page
-- timeline page
 - landing pages for games, teacher's and resources
 - timeline thing in sidemenu for articles
 - improve article topbar and skimmer
