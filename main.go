@@ -57,7 +57,9 @@ func main() {
 		http.ServeFile(w, r, "hugo/static/assets/img/favicon.png")
 	})
 	http.Handle("/assets/", http.FileServer(http.Dir("hugo/public")))
+    http.Handle("/gameAssets/", http.FileServer(http.Dir("hugo/public/games")))
 	http.HandleFunc("/timeline/", timeline)
+    http.HandleFunc("/games/", games)
 	http.HandleFunc("/about", about)
 	http.Handle("/article/", http.StripPrefix("/article", http.FileServer(http.Dir("hugo/public"))))
 
@@ -75,6 +77,13 @@ func next(w http.ResponseWriter, r *http.Request) {
 
 func timeline(w http.ResponseWriter, r *http.Request) {
 	if err := glob.ExecuteTemplate(w, "timeline.html", nil); err != nil {
+		handleError(w, err)
+	}
+
+}
+
+func games(w http.ResponseWriter, r *http.Request) {
+	if err := glob.ExecuteTemplate(w, "games.html", nil); err != nil {
 		handleError(w, err)
 	}
 
