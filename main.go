@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"html/template"
 	"net/http"
-
-	"google.golang.org/appengine"
 )
 
 //templates
@@ -56,16 +54,19 @@ func main() {
 
 	http.HandleFunc("/", next)
 	http.HandleFunc("/favicon.ico", func(w http.ResponseWriter, r *http.Request) {
-		http.ServeFile(w, r, "hugo/static/assets/img/favicon.png")
+	 		http.ServeFile(w, r, "hugo/static/assets/img/favicon.png")
 	})
 	http.Handle("/assets/", http.FileServer(http.Dir("hugo/public")))
+    http.Handle("/gameAssets/", http.FileServer(http.Dir("hugo/public/games")))
 	http.HandleFunc("/timeline/", timeline)
+    http.HandleFunc("/games/", games)
 	http.HandleFunc("/about", about)
 	http.Handle("/article/", http.StripPrefix("/article", http.FileServer(http.Dir("hugo/public"))))
 
-	//fmt.Println("listening at port :8080")
-	//http.ListenAndServe(":8080", nil)
-	appengine.Main()
+
+	fmt.Println("listening at port :8080")
+	http.ListenAndServe(":8080", nil)
+	//appengine.Main()
 }
 
 func next(w http.ResponseWriter, r *http.Request) {
@@ -88,6 +89,14 @@ func about(w http.ResponseWriter, r *http.Request) {
 	}
 
 }
+
+func games(w http.ResponseWriter, r *http.Request) {
+	if err := glob.ExecuteTemplate(w, "games.html", nil); err != nil {
+		handleError(w, err)
+	}
+
+}
+
 
 //handle the ping
 func ping(w http.ResponseWriter, r *http.Request) {

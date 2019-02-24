@@ -7,7 +7,7 @@
 
 the build static website is at hugo/public. rebuild it by `$ hugo [-D]` for further information about hugo visit [their documentation](http://gohugo.io/documentation "Hugo Documentation | Hugo<")
 
-the `templates` folder contents the old version of the website
+the `templatesOLD` folder contents the old version of the website
 
 # usage
 
