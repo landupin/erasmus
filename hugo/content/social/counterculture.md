@@ -46,4 +46,5 @@ In the UK the campaign for nuclear disarmament (CND) grew out of the church move
 - [Woodstock film](https://m.imdb.com/title/tt1127896/)
 - [Counterculture in Spain (PDF)](http://www.espaciotiempoyeducacion.com/ojs/index.php/ete/article/download/60/48)
 - [San Francisco - song](https://youtu.be/bch1_Ep5M1s)
+- [Vamos a la playa - an antinuclearweapon song](/assets/files/vamos-a-la-playa_an-antinuclear-weapon-song.pdf)
 {{% /diver %}}
