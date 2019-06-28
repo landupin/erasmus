@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold War | Artefacts</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/gallery.css">
+    <style>
+        h1 {
+            margin: 0;
+        }
+
+        main{
+            margin-top: 1rem;
+        }
+
+        header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        header .header-left {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .header-right {
+            display: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        @media (max-width: 600px) {
+            .mdc-image-list .mdc-image-list__item {
+                width: calc(100% / 2 - 4px);
+            }
+
+            .mdc-image-list__image-vertical {
+                max-height: 230px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-left">
+            <button class="material-icons mdc-toolbar__menu-icon menu menu-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-menu">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <h1 class="toolbar__title"><a href="/">Cold War</a><span> > </span><a href="/resources">Resources</a><span>
+                    > </span><a href="/resources/artefacts">Artefacts</a></h1>
+        </div>
+    </header>
+    <main>
+        <section class="mdc-image-list">
+            {{range .}}
+            <article class="mdc-image-list__item" id="{{.Key}}">
+                <a href="/resources/artefacts/{{.Key}}">
+                    <div class="mdc-image-list__image-aspect-container">
+                        <img class="mdc-image-list__image" src="{{.Photo}}" alt="{{.Name}}">
+                    </div>
+                    <div class="mdc-image-list__supporting">
+                        <span class="mdc-image-list__label">{{.Name}}</span>
+                    </div>
+                </a>
+            </article>
+            {{end}}
+        </section>
+
+    </main>
+    {{template "footer"}}
+    <script src="/article/assets/js/header.js"></script>
+
+    <script>
+        document.querySelector("#naranjito img").classList.add("mdc-image-list__image-vertical");
+    </script>
+</body>
+
+</html>

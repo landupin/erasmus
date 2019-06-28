@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold War - Resources</title>
+
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/interview-list.css">
+
+    <style>
+        h1 {
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        header .header-left {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .header-right {
+            display: none;
+        }
+
+        .introduction {
+            line-height: 1.5;
+            font-size: 1.25rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-left">
+            <button class="material-icons mdc-toolbar__menu-icon menu menu-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-menu">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <h1 class="toolbar__title"><a href="/">Cold War</a><span> > </span><a href="/resources">Resources</a><span> > </span><a href="/resources/interviews">Interviews</a></h1>
+        </div>
+    </header>
+
+    <main>
+
+        <p class="introduction">
+            People like You and me have all various kinds of individual memory about the past.
+            History is always a mix of combined, subjective impressions, so listen to the stories
+            and experiences of individuals to get Your own perspective on what happened and how it still effects us
+            nowadays.
+        </p>
+
+        {{range .}}
+        <article class="interview-single">
+            <a href="interviews/{{.Key}}">
+                <div class="interview-thumbnail-wrapper">
+                    <div class="interview-thumbnail">
+                        <img src="raw/{{.Key}}.jpg" alt="Thumbnail:{{.Key}}">
+                    </div>
+                </div>
+                <div class="interview-text">
+                    <h3 class="interview-title">{{.Title}}</h3>
+                    <p class="interview-description">{{.Description}}</p>
+                </div>
+            </a>
+        </article>
+        {{end}}
+    </main>
+
+    {{template "footer"}}
+    <script src="/article/assets/js/header.js"></script>
+
+</body>
+</html>

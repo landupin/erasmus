@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold War - Games</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+
+    <style>
+        * {
+            color: inherit;
+            /*font: inherit;*/
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        button {
+            appearance: none;
+            -webkit-appearance: none;
+            background: inherit;
+            color: inherit;
+            border: none;
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        button::-moz-focus-inner {
+            border: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a:visited {
+            color: inherit;
+        }
+
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        header .header-left {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+
+        .header-right {
+            display: none;
+        }
+
+        .article-close-icon {
+            fill: white;
+        }
+
+        .header-right.active {
+            display: block;
+        }
+
+        main {
+            flex: 1;
+            max-width: 900px;
+            width: 100vw;
+            margin: 0 auto;
+            padding: 72px 16px 100px;
+        }
+
+        /****************************/
+
+        h2 {
+            font-size: 1rem;
+            line-height: 1.75rem;
+            font-weight: 400;
+            letter-spacing: .009375em;
+
+            font-family: Roboto, sans-serif;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            text-decoration: inherit;
+            text-transform: inherit;
+        }
+
+        ul.list {
+            font-family: Roboto,
+                sans-serif;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-size: 1rem;
+            line-height: 1.75rem;
+            font-weight: 400;
+            letter-spacing: .009375em;
+            text-decoration: inherit;
+            text-transform: inherit;
+            line-height: 1.5rem;
+            margin: 0;
+            padding: 8px 0;
+            list-style-type: none;
+            color: rgba(0, 0, 0, .87);
+        }
+    </style>
+    <style>
+        .game {
+            height: 72px;
+            position: relative;
+            /*single line | height: 48px;*/
+            padding: 0 16px;
+            overflow: hidden;
+            user-select: none;
+        }
+
+        .game:hover:not(.active) {
+            cursor: pointer;
+        }
+
+        .game:hover:not(.raised):not(.placeholder) {
+            background-color: #f5f5f5;
+        }
+
+        .game.raised {
+            position: absolute;
+            z-index: 1;
+            width: 100vw;
+            left: 0;
+            background-color: #e0e0e0;
+            box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+            top: var(--original-top);
+        }
+
+        :root {
+            --original-top: 0;
+            --view-top: 0;
+        }
+
+        .game.game-grow{
+            animation: game-grow 310ms ease-in-out;
+        }
+
+        @keyframes game-grow {
+            0% {
+                background-color: #e0e0e0;
+                top: var(--original-top);
+                height: 72px;
+                /*opacity: 1;*/
+
+            }
+
+            10% {
+                /*opacity: 0;*/
+            }
+
+            to {
+                background-color: white;
+                top: var(--view-top);
+                height: 100vh;
+            }
+        }
+
+        /**/
+        .game h3 {
+            margin: 0;
+            height: 2rem;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .game h3 span {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            height: 19px;
+            font-size: 17px;
+            line-height: 17px;
+            font-weight: normal;
+            color: rgba(0, 0, 0, .87);
+        }
+
+        .game p {
+            margin: 0;
+            height: 23px;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .game p span {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            height: 17px;
+            font-size: 14px;
+            line-height: 14px;
+            color: rgba(0, 0, 0, .54);
+        }
+
+        .game .game-img-wrapper,
+        .game .file-list {
+            display: none;
+            opacity: 0;
+        }
+
+        /**/
+
+        .game.active {
+            /*top: 0 !important;*/
+            top: var(--view-top);
+            height: 100vh;
+            padding: 64px 0 0;
+            background-color: white;
+        }
+
+        .game.active .game-img-wrapper,
+        .game.active .file-list {
+            display: block;
+            opacity: 1;
+        }
+
+        .game.active .game-img-wrapper:not(.preview) {
+            height: 40vh;
+            background-color: #fcfcfc;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position-y: 20%;
+            background-size: contain;
+        }
+
+        .game.active .game-img-wrapper {
+            background-image: url("/assets/img/picture-icon.svg");
+            background-size: 22vw;
+            background-position: bottom;
+        }
+
+        .game.active .game-content-wrapper {
+            height: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 .5rem;
+            box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+        }
+
+        .game.active h3 {
+            height: auto;
+            font-family: Roboto, sans-serif;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-weight: 300;
+            text-decoration: inherit;
+            text-transform: inherit;
+            margin-bottom: .5rem;
+        }
+
+        .game.active h3 span {
+            padding-top: 1rem;
+            font-size: 2.3rem;
+            line-height: 3.125rem;
+            height: auto;
+            font-weight: 300;
+        }
+
+        @media (min-width: 993px) {
+            .game.active h3 span {
+                font-size: 3rem;
+                line-height: 3.125rem;
+            }
+        }
+
+        .game.active p {
+            font-family: Roboto, sans-serif;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            height: auto;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+
+        .game.active p span {
+            font-size: 1rem;
+            line-height: 1.5rem;
+            letter-spacing: .03125em;
+            height: auto;
+            color: black;
+        }
+
+        .game.active .file-list {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .game.active .game-file {
+            display: inline;
+            margin: .2rem .5rem;
+        }
+
+        .game.active .file-button {
+            font-family: Roboto, sans-serif;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-weight: 500;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            font-size: .875rem;
+            line-height: 2.25rem;
+            letter-spacing: .0892857143em;
+
+            display: block;
+            width: max-content;
+            padding: 0 .5rem;
+            border-radius: 5px;
+        }
+
+        .game.active .file-button:hover {
+            background-color: rgba(93, 153, 198, .04)
+        }
+
+        .game.active .file-button:focus,
+        .game.active .file-button:visited {
+            background-color: rgba(93, 153, 198, .12);
+            -moz-outline-style: none;
+        }
+
+        .game.active .file-button:active {
+            background-color: rgba(93, 153, 198, .12);
+            outline: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <button class="material-icons mdc-toolbar__menu-icon menu menu-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-menu">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <h1 class="toolbar__title"><a href="/">Games</a></h1>
+        </div>
+        <div class="header-right">
+            <button class="material-icons article-close-icon menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                    <path d="M0 0h24v24H0z" fill="none" />
+                </svg>
+            </button>
+        </div>
+    </header>
+    <main id="games"></main>
+
+    </div>
+
+    {{template "footer"}}
+
+    <template id="template-topic">
+        <section>
+            <h2>{topic}</h2>
+            <ul class="list" id="{article}">{games}</ul>
+        </section>
+    </template>
+    <template id="template-game">
+        <li class="game" id="{game-id}">
+            <div class="game-img-wrapper preview" data-src="{img}">
+            </div>
+            <div class="game-content-wrapper">
+                <div class="game-preview-wrapper">
+                    <h3><span>{name}</span></h3>
+                    <p><span>{description}</span></p>
+                </div>
+                <ul class="file-list">{files}</ul>
+
+            </div>
+        </li>
+    </template>
+    <template id="template-file">
+        <li class="game-file"><a class="file-button" href="{link}" target="_blank" rel="noopener noreferrer">{text}</a>
+        </li>
+    </template>
+
+    <script>
+        function loadJSON(file, callback) {
+            if (localStorage.allData == null || localStorage.allData == undefined) {
+                var xobj = new XMLHttpRequest();
+                xobj.overrideMimeType("application/json");
+                xobj.open('GET', file, true); // Replace 'my_data' with the path to your file
+                xobj.onreadystatechange = function () {
+                    if (xobj.readyState == 4 && xobj.status == "200") {
+                        //save JSON in localStorage for later
+                        localStorage.allData = JSON.stringify(xobj.response);
+                        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                        callback(xobj.responseText);
+                    }
+                };
+                xobj.send(null);
+            } else callback(JSON.parse(localStorage.allData))
+        }
+
+        loadJSON("/games/index.json", function (response) {
+            // Parse JSON string into object
+            let actual_JSON = JSON.parse(response);
+
+            // Cache of the template
+            let templateTopic = document.querySelector("#template-topic").innerHTML;
+            let templateGame = document.querySelector("#template-game").innerHTML;
+            let templateFile = document.querySelector("#template-file").innerHTML;
+
+            // Final HTML variable as empty string
+            let finalHtml = "";
+
+            // Loop through topics, replace placeholder tags
+            // with actual data, and generate final HTML
+            actual_JSON.forEach(function (p, i) {
+                let tempTopic = templateTopic.replace(/{topic}/g, p.topic).replace(/{article}/g, p.article.split("/")[1]);
+                //let tempTopic = templateTopic.replace(/{topic}/g, p.topic).replace(/{article}/g, p.article);                
+                let tempGame = "";
+
+                p.games.forEach(function (pr, ind) {
+                    tempGame += templateGame.replace(/{name}/g, pr.name)
+                        .replace(/{description}/g, pr.description)
+                        .replace(/{game-id}/g, pr.name.split(" ").join("").toLowerCase().replace(/\?/g, ""))
+                        .replace(/{img}/g, pr.img);
+
+                    let tempFile = "";
+                    pr.files.forEach(function (pro, inde) {
+                        //tempFile += tempGame.replace(/{files}/g, templateFile.replace(/{text}/g, pro.text).replace(/{link}/g, pro.link));
+                        tempFile += templateFile.replace(/{text}/g, pro.text).replace(/{link}/g, pro.link);
+                    });
+                    tempGame = tempGame.replace(/{files}/g, tempFile);
+                });
+                tempTopic = tempTopic.replace(/{games}/g, tempGame)
+
+                finalHtml += tempTopic;
+            });
+            // Replace the HTML of #list with final HTML
+            document.querySelector("main").innerHTML = finalHtml;
+
+            //set game click handler
+            document.querySelectorAll("li.game").forEach(function (e, k) {
+                e.addEventListener("click", handleGame);
+            });
+        });
+
+        function handleGame(ev) {
+            if (this.classList.contains("animate-in") || this.classList.contains("animate-out") || this.classList.contains("active") || this.classList.contains("raised")) return;
+            else {
+                //set url
+                history.pushState({}, 'Cold War | Games', "#" + this.parentNode.id + "-" + this.id);
+
+                //disable scrolling
+                document.body.style.overflow = "hidden";
+                //create placeholder and raise element
+                let toop = this.getBoundingClientRect().y;
+
+                let placeholder = document.createElement("li");
+                placeholder.classList.add("game", "placeholder");
+                this.before(placeholder);
+                document.documentElement.style.setProperty('--original-top', (toop + window.scrollY) + "px");
+                this.classList.add("raised");
+
+                //start animation
+                document.documentElement.style.setProperty('--view-top', window.scrollY + "px");
+                this.classList.add("game-grow");
+
+                let ctx = this;
+                this.addEventListener("animationend", function(e){
+                    ctx.classList.remove("game-grow");
+                    ctx.classList.add("active");
+
+                    let imgWrap = this.querySelector(".game-img-wrapper");
+                    imgWrap.style.backgroundImage = "url(" + imgWrap.getAttribute("data-src") + ")";
+                    imgWrap.classList.remove("preview");
+
+                    //set header as scrolled
+                    document.querySelector("header").classList.add("scrolled");
+
+                    let close = document.querySelector(".article-close-icon");
+                    close.parentElement.classList.add("active");
+                    close.addEventListener("click", function(e){
+                        location.reload();
+                    });
+                }, false);
+                //let left = this.getBoundingClientRect().x;
+
+                console.log(ev);
+
+
+                //this.classList.add("active");
+                //this.style.top = window.scrollY + "px";
+
+                //set image
+                //let imgWrap = this.querySelector(".game-img-wrapper");
+                //imgWrap.style.backgroundImage = "url(" + imgWrap.getAttribute("data-src") + ")";
+                //imgWrap.classList.remove("preview");
+
+                //set header as scrolled
+                //document.querySelector("header").classList.add("scrolled");
+
+
+                /*this.classList.add("animate-in");
+                //create placeholder
+                let place = event.target.parentNode.insertBefore(document.createElement(div), event.target);
+                place.classList.add("placeholder");
+                */
+            }
+
+            //this.addEventListener("animationend", onAnimationend, false);
+        }
+
+        function onAnimationend(event) {
+            if (event.target.classList.contains("active")) {
+                document.querySelector(".placeholder").remove();
+                event.target.classList.remove("active");
+                event.target.classList.remove("animate-out")
+            } else {
+                event.target.classList.add("active");
+                event.target.classList.remove("animate-in")
+            }
+        }
+    </script>
+    <script src="/article/assets/js/header.js"></script>
+
+</body>
+
+</html>
+
+<!--
+
+    - save json to localStorage
+-----------------------------------------------
+    - set url
+    - disable scrolling
+    - create placeholder
+    - put game up
+    - animate game & closing
+    - switch animate to active
+    - set heading
+    - load image
+-----------------------------------------------
+    - unset heading
+    - switch active to animating
+    - animate game & closing
+    - put game down
+    - remove placeholder
+    - enable scrolling
+    - unset url
+-->
