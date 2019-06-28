@@ -66,19 +66,19 @@ var Interviews = []Interview{
 	},
 	{
 		"haffke-candels",
-		"J. Haffke - Candels",
+		"Dr. J. Haffke - Candels",
 		"",
 		"VNMymHyqgNQ",
 	},
 	{
 		"haffke-cuba",
-		" J. Haffke about Cuba Crisis",
+		"Dr. J. Haffke - Cuba Crisis",
 		"",
 		"gTP9rE6U1Ng",
 	},
 	{
 		"haffke-sputnik",
-		"Haffke über den Sputnik",
+		"Dr. J. Haffke - Sputnik",
 		"",
 		"ZcspzbTc8yQ",
 	},
