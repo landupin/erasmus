@@ -41,9 +41,9 @@ Picture 2: General Franco
 - [The Christianity helped to end the Cold war](https://www.theguardian.com/commentisfree/belief/2009/nov/10/religion-christianity)
 - [Pope tugs at the Iron Curtain](https://www.theguardian.com/world/1979/jun/04/catholicism.religion)
 - [Demonstrations in Leipzig + interview with a participant of the demonstration - pastor Gottfried Schleinitz](https://www.huffingtonpost.com/john-feffer/the-monday-demonstrations_b_5631922.html?guccounter=1)
-- [Dianne Kirby on religion and the Cold War (Lucia Calekova)](https://www.youtube.com/watch?v=Oz2ihowxvTY&app=desktop)
-- [Bishop Sheen Condemns Communists (LC)](https://www.youtube.com/watch?v=LVBXzf4eUJg&app=desktop)
-- [The Cold War and American Religion (LC)](http://religion.oxfordre.com/view/10.1093/acrefore/9780199340378.001.0001/acrefore-9780199340378-e-398)
-- [Finding Spirituality in the Cold War (LC)](https://www.youtube.com/watch?v=tXBHrxpef_0&app=desktop)
+- [Dianne Kirby on religion and the Cold War](https://www.youtube.com/watch?v=Oz2ihowxvTY&app=desktop)
+- [Bishop Sheen Condemns Communists](https://www.youtube.com/watch?v=LVBXzf4eUJg&app=desktop)
+- [The Cold War and American Religion](http://religion.oxfordre.com/view/10.1093/acrefore/9780199340378.001.0001/acrefore-9780199340378-e-398)
+- [Finding Spirituality in the Cold War](https://www.youtube.com/watch?v=tXBHrxpef_0&app=desktop)
 - [John Paul II as a liberating force from communism](https://www.youtube.com/watch?v=_4sii5TvE5c)
 {{% /diver %}}
