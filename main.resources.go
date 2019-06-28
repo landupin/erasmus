@@ -18,7 +18,7 @@ type Interview struct {
 var Interviews = []Interview{
 	{
 		"spain-moonlanding",
-		"Spanish perception of the landing on the moon",
+		"<img src="/files/assets/icon/Flag_of_Spain.svg"/> Spanish perception of the landing on the moon",
 		"In this video,  a women and a men, from differents cities of Spain, explains their point of view about the landing on the moon.",
 		"qoD9r_agYVs",
 	},
