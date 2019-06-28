@@ -57,7 +57,7 @@
             },
             {
                 "name": "Photo Quiz (Kahoot)",
-                "description": "description",
+                "description": "Challenge your classmates to a game of a Kahoot Photo Quiz where each question is linked to a photo.",
                 "img": "counterCulture/kahoot.svg",
                 "files": [
                     {
