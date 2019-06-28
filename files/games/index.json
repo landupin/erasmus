@@ -125,7 +125,7 @@
         ]
     },
 	{
-        "topic": "Latin Amerika & Africa",
+        "topic": "Latin America & Africa",
         "article": "political/africa",
         "games": [
             {
@@ -208,7 +208,7 @@
                 "files": [
                     {
                         "text": "Secret Code.pdf",
-                        "link": "espionage/secretCpode.pdf"
+                        "link": "espionage/secretCode.pdf"
                     }
                 ]
             }
