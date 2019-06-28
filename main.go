@@ -21,6 +21,9 @@ func main() {
 
 	//test routing
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 9fa83dffe2dffbfc94d9ac8d03722587529da8d4
 	http.HandleFunc("/bruh", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprint(w, `<html><body style="background: rgb(255, 255, 255);display: flex;justify-content: center;align-items: center;height: 100vh;width: 100vwmargin: 0;"><h1 style="font-size: 10rvw;font-weight: 200;text-transform: lowercase;letter-spacing: 1vw;">Siesta y fiesta</h1></body></html>`)
 	})
@@ -37,6 +40,7 @@ func main() {
 	http.Handle("/article/", http.StripPrefix("/article", http.FileServer(http.Dir("hugo/public"))))
 
 	fmt.Println("listening at port :8080")
+<<<<<<< HEAD
 =======
 	http.HandleFunc("/ping", ping)
 
@@ -48,6 +52,8 @@ func main() {
 
 	//fmt.Println("listening at port :8080")
 >>>>>>> new
+=======
+>>>>>>> 9fa83dffe2dffbfc94d9ac8d03722587529da8d4
 	//http.ListenAndServe(":8080", nil)
 	appengine.Main()
 }
