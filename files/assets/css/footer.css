@@ -81,6 +81,10 @@ footer {
         flex: 45 45;
     }
 
+    footer .container .left img {
+        width: 100%;
+    }
+
      footer .container .middle {
         width: 45%;
         flex: 45 45;
