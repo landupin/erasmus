@@ -69,6 +69,18 @@ header button.menu.active::after {
 
 }
 
+header button.menu:focus {
+    outline: none;
+}
+
+header button.menu::-moz-focus-inner {
+    border:0;
+}
+
+header button.menu:active{
+    padding: 0;
+}
+
 @keyframes ripple-in {
     from {
         transform: scale(0);

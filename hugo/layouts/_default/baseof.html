@@ -8,19 +8,13 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
-    <!--
-    <link rel="stylesheet" href="https://landupin.tk/material-icons.css">
-    -->
 
-    <style>
-        
-    </style>
-
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relURL}}">    
-    <link rel="stylesheet" href="{{ "/assets/css/header.css" | relURL}}">
-    <link rel="stylesheet" href="{{ "/assets/css/aside.css" | relURL}}">
-    <link rel="stylesheet" href="{{ "/assets/css/footer.css" | relURL}}">
-    <link rel="stylesheet" href="{{ "/assets/css/gallery.css" | relURL}}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | absURL}}">  
+    <link rel="stylesheet" href="{{ "/assets/css/article.css" | absURL}}">    
+    <link rel="stylesheet" href="{{ "/assets/css/header.css" | absURL}}">
+    <link rel="stylesheet" href="{{ "/assets/css/aside.css" | absURL}}">
+    <link rel="stylesheet" href="{{ "/assets/css/footer.css" | absURL}}">
+    <link rel="stylesheet" href="{{ "/assets/css/gallery.css" | absURL}}">
 
     {{ block "favicon" . }} {{ partial "site-favicon.html" . }} {{ end }}
 

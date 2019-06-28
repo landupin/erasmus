@@ -8,7 +8,7 @@ menu:
 article: true
 
 skimmer: "After  World War II countries including Poland, Hungary and Czechoslovakia were occupied by USSR, which was considered the “mother” of communism. This led to a lack of human rights and freedom for citizens. Those who refused to support the regime were often imprisoned or given sanctions. The era of communism ended after several uprisings and demonstrations throughout Eastern Europe in the late 1980’s."
-imageLink: "http://mediad.publicbroadcasting.net/p/radiowest/files/201710/101217_chains.jpg"
+imageLink: "https://upload.wikimedia.org/wikipedia/commons/3/3c/10_Soviet_Invasion_of_Czechoslovakia_-_Flickr_-_The_Central_Intelligence_Agency.jpg"
 
 ---
 
@@ -18,7 +18,7 @@ imageLink: "http://mediad.publicbroadcasting.net/p/radiowest/files/201710/101217
 
 Czechoslovakia was a part of the Soviet block from 1948 to 1989. The rule of the Communist party started with the Victorious February (1948) and end Velvet Revolution (November 1989).
 
-{{< image "https://qph.fs.quoracdn.net/main-qimg-ca9b7ba294a79b97d18bd2b3349072fa">}}
+{{< image "https://upload.wikimedia.org/wikipedia/commons/1/10/Eastern_block_flags.png">}}
 Picture 1
 {{< /image>}}
 
@@ -27,14 +27,14 @@ In the first election (May 26, 1946) the Communist party won and achieved the ma
 The 1960s was a period of liberalization. Alexander Dubček became the first secretary of the communist party in Czechoslovakia (1968), he started to practise socialism “with the human face” (with a more relaxed approach). The Prague Spring was a period of liberalization, meetings of writers and a demonstrations of university students. However, the Soviet Union did not like these liberalizations. As a reaction,  the protesting students were beaten not only in the streets, but also in their dormitory buildings. On top of this, on 21st August 1968, the Soviet Union and other members of the Warsaw Pact invaded the country to halt the reforms.
 
 {{< image "https://cdn.britannica.com/09/62009-004-D2601400.jpg">}}
-Picture 2: Alexander Dubček
+Picture 2
 {{< /image>}}
 
 For the first few months, there was a lot of aversion and hostility, however for the following months, people became discouraged and opposed less as a result.
 
 In the 1980s the socio-political decline from the 70s was continuing to show. It culminated with the Velvet Revolution. These were the bloodless events which helped to remove the Communist regime in Czechoslovakia. The initiators of this were students, as well as some actors and other well-known people. Two major movements were formed, Public Against Violence in Slovakia,  and Civic Forum in Czechia. After the police brutality on students the public protested by organising walkouts. On 27th November 1989 there was a large protest and in early December, after the resignation of communists, a new state government was created.
 
-{{< image "https://eu.boell.org/sites/default/files/styles/980x/public/uploads/2014/09/praha_1989_sametova_revoluce.jpg">}}
+{{< image "https://upload.wikimedia.org/wikipedia/commons/c/cf/Prague_November_1989_-_Wenceslas_Square_3.jpg">}}
 Picture 3
 {{< /image>}}
 
@@ -55,7 +55,7 @@ Strikes and demonstrations broke out in Gdansk and some other cities in 1970, du
 A turning point for the opposition came in 1980 when a strike at the shipyard in Gdansk forced the government to accept the creation of Solidarity (Solidarność), a free trade union under the leadership of Lech Wałęsa. Hard struggles between the free trade unions and the Communist regime took place over virtually the next ten years, including many demonstrations that ended in fatalities and mass arrests.
 In 1989, after the collapse of Communism, Tadeusz Mazowiecki was elected as the first non-Communist Prime Minister  in any Soviet bloc country.
 
-{{< image "https://cdn.britannica.com/50/71350-004-75E35FF9.jpg">}}
+{{< image "https://upload.wikimedia.org/wikipedia/commons/0/05/Yalta_Conference_%28Churchill%2C_Roosevelt%2C_Stalin%29_%28B%26W%29.jpg">}}
 Picture 4: Churchill(England), Roosevelt(United States) and Stalin(USSR) at the Yalta Conference.
 {{< /image>}}
 
@@ -63,7 +63,7 @@ Picture 4: Churchill(England), Roosevelt(United States) and Stalin(USSR) at the 
 Picture 5: Poznań 1956 protests  "We demand bread!" (secret police photo)
 {{< /image>}}
 
-{{< image "http://histclo.com/imagef/date/2010/08/pol-dest01s.jpg">}}
+{{< image "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bombed_Bathory_Chapel.jpg">}}
 Picture 7: Polish town after WWII
 {{< /image>}}
 

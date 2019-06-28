@@ -8,7 +8,7 @@ menu:
 article: true
 
 skimmer: "In 1959, Fidel Castro became the leader of Cuba, and later on April 17, 1961, Cuban exiles trained by the CIA led the failed Bay of Pigs invasion to overthrow Fidel Castro. In October 1962, the US spotted Soviet nuclear weaponry on Cuba causing the US to blockade Cuba, leading to worldwide terror of nuclear warfare called the Cuban Missile Crisis."
-imageLink: "http://1.bp.blogspot.com/-aDapwWKFHIY/VHGF-BlrF4I/AAAAAAAAj4k/0DdY4AjEI3s/s1600/fidel-castro-john-f-kenne"
+imageLink: "https://live.staticflickr.com/1816/29119891517_9ff1ab84f1_b.jpg"
 
 ---
 
@@ -41,21 +41,25 @@ Picture 1: J.F.K. meets Andrej Gromyko
 {{< image "https://upload.wikimedia.org/wikipedia/commons/1/18/President_Kennedy_signs_Cuba_quarantine_proclamation%2C_23_October_1962.jpg">}}
 Picture 2: J.F.K. signs the proclamation about quarantine
 {{< /image>}}
+
 * **October 26, 1962** - Khrushev for the first admitted the presence of missiles in Cuba.
 
 * **In the evening of October 27, 1962** - ***Robert Kennedy*** had a secret meeting with a soviet ambassador ***Anatoly Dobrynin*** and they made a deal: USSR withdraws the missiles from Cuba under U.N. control and USA has to promise to never invade Cuba and take out their missiles from Italy and Turkey.
 {{< image "https://upload.wikimedia.org/wikipedia/commons/9/9a/Jupiter_IRBM.jpg">}}
 Picture 3: The nuclear American missile Jupiter
 {{< /image>}}
-* **On October 28, 1962** - Khrushchev announced through Moscow broadcast the withdrawal soviet rackets from Cuba. The Cuban crisis was over. 
+
+* **On October 28, 1962** - Khrushchev announced through Moscow broadcast the withdrawal soviet rackets from Cuba. The Cuban crisis was over.
+
 * **On November 20, 1962** - J.F.K. cancelled the naval blockade (quarantine).   
 
 *Other pictures:*
+
 {{< image "https://upload.wikimedia.org/wikipedia/commons/1/1b/EXCOMM_meeting%2C_Cuban_Missile_Crisis%2C_29_October_1962.jpg">}}
 Picture 4: EXCOMM meeting
 {{< /image>}}
 
-{{< image "https://www.itstactical.com/wp-content/uploads/2014/08/missile-range-map-768x763.jpg">}}
+{{< image "/assets/img/CubaMap.jpg">}}
 Picture 5: Missile range
 {{< /image>}}
 

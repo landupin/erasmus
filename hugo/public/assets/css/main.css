@@ -146,3 +146,41 @@ blockquote svg {
     line-height: 1.25em;
     color: #c49000;
 }
+
+.interview-title{
+    line-height: 1.25em;
+    color: #c49000;
+}
+
+.interview-title:hover{
+    cursor: pointer;
+}
+
+
+.interview-box {
+    display: none;
+}
+
+.interview-box.active {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .7);
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.interview-rim{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .7);
+}*/

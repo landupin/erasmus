@@ -8,8 +8,9 @@ menu:
 article: true
 
 skimmer: "After World War II there were bad conditions in the East, so an increasing number of people fled to the West. To prevent them from running away, the GDR built a wall in 1961, and called it ironically “antifascist bulwark”. Soldiers had the order to kill people who wanted to cross the border. In 1989, there was the opening of the border and one year later the reunification of both Germanies was celebrated."
-imageLink: "http://i.idnes.cz/10/091/org/JB358e96_01.jpg"
-imageDescription: "A border soldier, who actually has to keep others from fleeing to the west, jumps over the first form of the Wall, here still barbed wire, during the construction of it"
+imageLink: "https://www.hdg.de/lemo/img_hd/bestand/objekte/geteiltesdeutschland/geteiltes-deutschland_plakat_1993-07-620.jpg"
+imageDescription: "A little girl waving through the closed border fence/wall to her relatives. Title: “We stay together.”
+Subtitle: “Inseparable Germany”"
 ---
 
 {{% swimmer %}}
@@ -19,8 +20,8 @@ After World War II Germany was divided into four occupation zones. There was a B
 
 The western part of Germany had a great development during the 1950s and 1960s known as &quot;Wirtschaftswunder&quot; (economic miracle). One reason for this development was the Marshall plan, which was an American initiative to rebuild Western Europe after the war. The GRD on the other hand was in a bad condition. After the occupation by the Soviet Union all businesses were taken over by the socialist system and most of them were closed. So, a lot of eastern Germans fled to the west to improve their opportunities.
 
-{{< image "http://s3-eu-west-1.amazonaws.com/pruebapd.esy.es/wp-content/uploads/2014/11/division-berlin.png" >}}
-Picture 1: Division of Berlin
+{{< image "/assets/img/berlin-zonen.jpg" >}}
+Picture 1: Division of Berlin (Source: own; taken in Museum “Tränenpalast” (Palace of tears) in Berlin)
 {{< /image >}}
 
 ## Warsaw Pact of 1955:
@@ -36,13 +37,8 @@ Picture 2: The eight nations of Warscaw Pact
 On June 17th, 1953 more than 40 000 citizens of the GRD protested against the socialist system. The government suppressed the protesters with the help of Soviet tanks. The next day the ruling SED-party published an article in which they claimed that the protest was the direct result of the attempts by "western agencies" to disrupt the national stability.
 
 
-{{< image "http://reds-on.postalstamps.biz/DDR/03-uprising-1953.jpg" >}}
-Picture 3: remembrance stamp of East German protestors fighting against Soviet tanks
-{{< /image >}}
-
-
-{{< image "http://www.gifex.com/images/0X0/2011-05-20-13696/Occupation-zones-in-Germany-1947.png" >}}
-Picture 4: Division of Germany
+{{< image "/assets/img/ddr-zonen.jpg" >}}
+Picture 4: Division of Germany (Source: own; taken in Museum "Tränenpalast" (Palace of tears) in Berlin)
 {{< /image >}}
 
 ### The Wall:
@@ -52,7 +48,7 @@ The leader of the GRD, Walter Ulbricht, wanted to keep the population inside his
 The Communist government of the GDR first began to build a barbed wire wall, then a concrete wall “Antifaschistischer Schutzwall,” or “antifascist bulwark,” between East and West Berlin. The official purpose of this Berlin Wall was to keep Western “fascists” from entering East Germany and undermining the socialist state, but it primarily served the objective of stemming mass defections (escapes) from East to West. The first victim of the wall was a woman, Ida Siekmann. Nine days after the Wall was built she jumped out of her apartment, because the front door of her tenement was barricaded, as the house belonged to the East and the street and the sidewalk to the West. The first victim who was shot was Günter Litfin when he tried to cross the bulwark in 1961. After that Russians started to manoeuvre against the West to get the Americans, the British and French out of the city.
 
 
-{{< image "http://www.taz.de/picture/199990/948/mauerbau2.jpg" >}}
+{{< image "/assets/img/mauerbau-zimmerstrasse.jpg" >}}
 Picture 5: building of the Wall
 {{< /image >}}
 
@@ -60,7 +56,7 @@ Picture 5: building of the Wall
 
 In 1958 the Soviet Premier Nikita Khrushchev demanded the Western powers to pull their forces out of West Berlin. He gave them an ultimatum of 6 months. The Western powers did not accept this ultimatum and reinforced the border with tanks. At the border crossing Western tanks faced eastern tanks. One single shot could have started a nuclear war.
 
-{{< image "https://www.aref.de/kalenderblatt/2002/pics/kubakrise_karikatur.jpg" >}}
+{{< image "/assets/img/die-letzte-bruecke_karikatur.jpg" >}}
 Picture 6: cartoon about the Soviet American relationship
 {{< /image >}}
 
@@ -68,15 +64,15 @@ Picture 6: cartoon about the Soviet American relationship
 
 The Prime Minister of Czechoslovakia, Alexander Dubcek, made the attempt to reform the political system of his country. He wanted to create a socialist system "with a human face". On August 21st, 1968 the USSR reacted by invading Czechoslovakia. They restored the old order.
 
-{{< image "https://revolutionsarethelocomotivesofhistory.files.wordpress.com/2015/10/prague-spring-cartoon.jpg" >}}
-Picture 7: cartoon about the Soviet-Slovak relationship
+{{< image "https://www.hdg.de/lemo/img_hd/bestand/objekte/biografien/dubcek-alexander_LEMO-F-6-122_uls.jpg" >}}
+Picture 7: Alexander Dubcek during a speech
 {{< /image >}}
 
 ## Warsaw Genuflection of 1970:
 
 During a visit in Warsaw on December 7th, 1970 the German chancellor Willy Brandt knelt down in front of a monument to the victims of the Nazi regime. This gesture of humanity and the German acceptance of Poland‘s new borders improved the relationship between these two nations.
 
-{{< image "https://www.planet-wissen.de/geschichte/persoenlichkeiten/willy_brandt/willybrandtwaehrenddeskniefallsvordemdenkmalfuerdieopferdeswarschauerghettos100~_v-gseapremiumxl.jpg" >}}
+{{< image "https://www.hdg.de/lemo/img_hd/bestand/objekte/geteiltesdeutschland/1970_brandt-kniefall_foto_LEMO-F-4-109_bbst.jpg" >}}
 Picture 8: Willy Brant kneeling in front of a Polish monument of war victims
 {{< /image >}}
 
@@ -85,7 +81,7 @@ Picture 8: Willy Brant kneeling in front of a Polish monument of war victims
 Mikhail Sergeyevich Gorbachev was the eight and the last leader of the Soviet Union from 1985 to 1991. Gorbachev reformed the USSR with his Perestroika ("restructuring") and his Glasnost ("publicity"). Amongst other aspects he brought the freedom of media and reconciliation with the USA under George H. W. Bush. In the GDR Gorbachev`s policy was seen as a call for reforms. This enabled the resolution or end of the USSR and of other Warsaw Pact nations.
 
 
-{{< image "https://www.bundesregierung.de/resource/image/201386/16x9/990/557/f00f3512cf39ff51182af56f6c0111d/IS/1989-12-02-malta-gipfel.jpg" >}}
+{{< image "http://www.bundesarchiv.de/DE/Content/Virtuelle-Ausstellungen/Wege-Zur-Deutschen-Einheit/001__helmut-kohl-und-michail-gorbatschow-bei-einem-abendessen-in-der-redoute-in-bad-godesberg-12-juni-1989.jpg?__blob=normal&height=343&key=L" >}}
 Picture 9: Gorbachev and Bush
 {{< /image >}}
 
@@ -110,7 +106,7 @@ To this day, the Berlin Wall remains one of the most powerful and enduring symbo
 One year later on October 3rd, 1990 the GDR became a part of the FRG, called reunification. This is considered as the end of the Cold War, because it could only happen with the agreement of all four victorious powers of World War II. Since then the Germans have been celebrating this day of unity as their national holiday.
 
 
-{{< image "https://www.br.de/radio/bayern1/inhalt/aktionen/mauerfall-berlin-89-november-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg" >}}
+{{< image "ttps://www.hdg.de/lemo/img_hd/bestand/objekte/deutscheeinheit/menschen-auf-der-mauer-am-brandenburger-tor_foto_LEMO-F-6-176_uls.jpg" >}}
 Picture 10: Reunification
 {{< /image >}}
 

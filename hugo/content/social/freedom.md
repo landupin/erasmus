@@ -10,7 +10,8 @@ skimmer: "Countries under totalitarianism wanted freedom and because of that the
 fall of the socialist political system. Communist ideology did not tolerate opinion of plurality or democracy. All
 political and economic spheres were conformed to communist ideology. Political power was gained over the
 people step by step, constantly denying basic human rights and liberties. Due to this, effort was growing for
-defense of human rights against communist totalitarian power in the 1950s."
+defense of human rights against communist totalitarian power in the 1950s.Lack of freedom was not exclusive to the Eastern bloc during the Cold War. Despite being geographically located in the democratic West, Spain was under General Franco’s fascist regime, where human rights were severely restricted. If you want to learn more about this time in Spanish history, please watch the interviews to witnesses of that era."
+
 imageLink: "https://76crimes.files.wordpress.com/2014/09/freedom-sudan-image.jpg"
 imageDescription: ""
 ---
@@ -26,7 +27,7 @@ These are things which were restricted by communists:
 - Voting
 - Assembly
 
-{{< image "http://www.ep.tc/problems/55/01.jpg">}}
+{{< image "https://upload.wikimedia.org/wikipedia/commons/d/df/Tygodnik_Solidarnosc_1981_lipiec.jpg">}}
 Picture 1
 {{< /image>}}
 
