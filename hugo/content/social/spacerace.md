@@ -50,6 +50,7 @@ Picture 4
 ### Films
 - [Apollo 13](https://www.youtube.com/watch?v=KtEIMC58sZo&feature=youtu.be)
 - [Hidden Figures](https://www.youtube.com/watch?v=RK8xHq6dfAo&feature=youtu.be)
+- [First Man](https://www.youtube.com/watch?v=PSoRx87OO6k)
 
 ### Books
 - Brief history of the Space Race
