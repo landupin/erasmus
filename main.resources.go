@@ -115,6 +115,34 @@ var Interviews = []Interview{
 		"hW2lSJngFYk",
 		"Flag_of_Germany.svg",
 	},
+	{
+		"zak",
+		"Žák",
+		"Mr Žák talks about religion during the Cold War. He mentions how people suffered for being Christians and reading religious literature. ",
+		"cI-29USjpM4",
+		"Flag of Slovakia.svg",
+	},
+	{
+		"muzikova",
+		"Muzikova",
+		"Mrs Muziková talks about her experience of being found guilty and imprisoned during the socialist era and the suppression of freedom of religion.",
+		"5yRlDIDvHvE",
+		"Flag of Slovakia.svg",
+	},
+	{
+		"mikloskova",
+		"An interview with Mrs Mikloskova",
+		"Mrs Miklošková talks about her attendance at Candle Manifestation (a demonstration leading to the Velvet Revolution) which took place in Slovakia on March 25th, 1988.",
+		"Qrh-_4WP4ZM",
+		"Flag of Slovakia.svg",
+	},
+	{
+		"hilton",
+		"Views of an Ex British serviceman stationed in Germany",
+		"Mr Hilton, a former UK army engineer who served in Germany for many years during the Cold War talks about exercises and preparedness for a possible Soviet nuclear attack."
+		"DB5Z25jWxBs",
+		"Flag_of_Wales.svg",
+	},
 }
 
 /*Link bla*/
