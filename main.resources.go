@@ -19,37 +19,37 @@ var Interviews = []Interview{
 	{
 		"spain-moonlanding",
 		"Spanish perception of the landing on the moon",
-		"",
+		"In this video,  a women and a men, from differents cities of Spain, explains their point of view about the landing on the moon.",
 		"qoD9r_agYVs",
 	},
 	{
 		"spain-franco-freedom",
 		"Lack of freedom in Spain during Franco's dictatorship",
-		"",
+		"Three persons tells us how Franco’s dictatorship suppress freedom and rights of spanish people. They explain their own life and experiences.",
 		"Dy1HKOXQ134",
 	},
 	{
 		"spain-franco-school",
 		"Going to school in Francoist Spain",
-		"",
+		"Three grandmother explain how was their daily life, specially in the school. They explain how was school during Franco´s dictatorship and what they learnt. We are able to see the differences between Franco´s school in Spain and the one of nowadays.",
 		"gRyD_t1slJg",
 	},
 	{
 		"colonial-conflicts-morocco",
 		"Colonial conflicts during the Cold War Sidi Ifni Morocco",
-		"",
+		"In this video, a spanish men tells us  about his experience in the conflict in Morocco from his own point of view as a soldier. In Spain, they hadn’t any notice about this war.",
 		"4j7p1epi_Dw",
 	},
 	{
 		"coup-1981",
 		"Failed coup d'etat in 1981 23 F",
-		"",
+		"A woman talks about the failed coup d’etat, her feelings and how Spain reacted to it.",
 		"c0C1_hyDsJA",
 	},
 	{
 		"spain-franco-child-3",
 		"Being a child in Spain during the first years of Franco's dictatorship III",
-		"",
+		"A spanish grandmother talks about her life and the difficulties that she had to face, specially during her childhood. She also tells us about the perception of religion she had.",
 		"Atoj2myC0q0",
 	},
 	{
