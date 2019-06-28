@@ -20,6 +20,7 @@ func main() {
 	glob = template.Must(template.ParseGlob("templates/*.html"))
 
 	//test routing
+<<<<<<< HEAD
 	http.HandleFunc("/bruh", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprint(w, `<html><body style="background: rgb(255, 255, 255);display: flex;justify-content: center;align-items: center;height: 100vh;width: 100vwmargin: 0;"><h1 style="font-size: 10rvw;font-weight: 200;text-transform: lowercase;letter-spacing: 1vw;">Siesta y fiesta</h1></body></html>`)
 	})
@@ -36,6 +37,17 @@ func main() {
 	http.Handle("/article/", http.StripPrefix("/article", http.FileServer(http.Dir("hugo/public"))))
 
 	fmt.Println("listening at port :8080")
+=======
+	http.HandleFunc("/ping", ping)
+
+	//next version
+	http.HandleFunc("/next/", next)
+	http.HandleFunc("/next/timeline/", timeline)
+	http.HandleFunc("/next/about", about)
+	http.Handle("/next/article/", http.StripPrefix("/next/article", http.FileServer(http.Dir("hugo/public"))))
+
+	//fmt.Println("listening at port :8080")
+>>>>>>> new
 	//http.ListenAndServe(":8080", nil)
 	appengine.Main()
 }
