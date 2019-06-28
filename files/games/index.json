@@ -54,6 +54,17 @@
                         "link": "general/taboo.pdf"
                     }
                 ]
+            },
+            {
+                "name": "Photo Quiz (Kahoot)",
+                "description": "description",
+                "img": "counterCulture/kahoot.svg",
+                "files": [
+                    {
+                        "text": "Photo Quiz (Kahoot)",
+                        "link": "https://create.kahoot.it/share/cold-war-photo-quiz/38553e1e-fc81-4878-921f-ffd34c81bdb8"
+                    }
+                ]
             }
         ]
     },
@@ -74,7 +85,6 @@
             }
         ]
     },
-    
     {
         "topic": "Korean War",
         "article": "political/korea",
@@ -124,7 +134,7 @@
             }
         ]
     },
-	{
+    {
         "topic": "Latin America & Africa",
         "article": "political/africa",
         "games": [
@@ -213,7 +223,8 @@
                 ]
             }
         ]
-    },{
+    },
+    {
         "topic": "Propaganda & censorship",
         "article": "social/propagandacensorship",
         "games": [
@@ -230,7 +241,7 @@
             }
         ]
     },
-	{
+    {
         "topic": "Sports",
         "article": "social/sports",
         "games": [
