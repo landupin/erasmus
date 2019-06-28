@@ -33,6 +33,7 @@ func main() {
 	http.HandleFunc("/games/", games)
 	http.HandleFunc("/resources/", resources)
 	http.HandleFunc("/about", about)
+	http.HandleFunc("/policy", policy)
 	http.Handle("/article/", http.StripPrefix("/article", http.FileServer(http.Dir("hugo/public"))))
 
 	fmt.Println("listening at port :8080")
@@ -119,6 +120,13 @@ func resources(w http.ResponseWriter, r *http.Request) {
 
 func about(w http.ResponseWriter, r *http.Request) {
 	if err := glob.ExecuteTemplate(w, "about.html", nil); err != nil {
+		handleError(w, err)
+	}
+
+}
+
+func policy(w http.ResponseWriter, r *http.Request) {
+	if err := glob.ExecuteTemplate(w, "policy.html", nil); err != nil {
 		handleError(w, err)
 	}
 
