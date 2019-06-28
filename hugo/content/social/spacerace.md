@@ -66,4 +66,7 @@ Picture 4
 - [Video of the moon landing - July 20, 1969](https://www.youtube.com/watch?v=sTBIr65cL_E&feature=youtu.be)
 - [Information about Human Spaceflight Programs](https://www.hq.nasa.gov/office/pao/History/humansp.html)
 
+### Interviews
+- [Spanish perception of the landing on the moon](/resources/interviews/spain-moonlanding)
+
 {{% /diver %}}

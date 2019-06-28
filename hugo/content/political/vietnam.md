@@ -11,8 +11,8 @@ skimmer: "From 1955-1975, a ‘Cold War-era Proxy war’ took part between North
           to expand their communist ideology and were supported by the Soviet Union and China. However, due to
           USAs Communism Containment Policy, South Vietnam received American much support, but in 1975 America
           withdrew all troops as defeat was inevitable."
-imageLink: "http://www.sbs.com.au/news/sites/sbs.com.au.news/files/styles/full/public/vietnam_8.jpg"
-imageDescription: "American military in Vietnam territory"
+imageLink: "https://upload.wikimedia.org/wikipedia/commons/7/76/Bruce_Crandall%27s_UH-1D.jpg"
+#imageDescription: "American military in Vietnam territory"
 ---
 
 {{% swimmer %}}
@@ -21,7 +21,7 @@ imageDescription: "American military in Vietnam territory"
 The Vietnam War was a long, costly and divisive conflict that pitted the communist government of North Vietnam against South Vietnam and its principal ally, the United States. The conflict was intensified by the ongoing Cold War between the United States and the Soviet Union. More than 3 million people (including over 58,000 Americans) were killed in the Vietnam War, and more than half of the dead were Vietnamese civilians. Opposition to the war in the United States bitterly divided Americans, even after President Richard Nixon ordered the withdrawal of U.S. forces in 1973. Communist forces ended the war by seizing control of South Vietnam in 1975, and the country was unified as the Socialist Republic of Vietnam the following year.
 {{< /blockquote >}}
 
-{{< image "http://jackietywls.weebly.com/uploads/1/7/2/7/17279018/7394841_orig.png">}}
+{{< image "https://upload.wikimedia.org/wikipedia/commons/9/9b/Vietnam_war_1971-1973_map_es.svg">}}
 Picture 1
 {{< /image>}}
 
@@ -43,7 +43,7 @@ He was important because he established the Vietnam republic and he was the firs
 His government was supported by the USA due to its anti-communist stance.
 On November 1st, 1963 the first coup began and he was killed the following day.
 
-{{< image "https://i1.wp.com/michaelpdo.com/wp-content/uploads/2015/10/Nowest-001.jpg">}}
+{{< image "https://upload.wikimedia.org/wikipedia/commons/0/08/Ngo_Dinh_Diem_-_Thumbnail_-_ARC_542189.png">}}
 Picture 2
 {{< /image>}}
 
@@ -51,7 +51,7 @@ Picture 2
 
 Ho Chi Minh was a poet, and a communist Vietnamese politician. He was the President of North Vietnam and leader of Viet Minh, the guerilla oganisation that kicked the French soldiers out of the country.
 
-{{< image "https://i1.wp.com/fthmb.tqn.com/m982Y2oYns26wS6Sc1yKS882JpE=/768x0/filters:no_upscale()/HOChiMinh1969CentralPressGetty-56a040963df78cafdaa0af8d.jpg">}} 
+{{< image "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ho_Chi_Minh_1946_and_signature_%28cropped%29.jpg">}} 
 Picture 3
 {{< /image>}}
 
@@ -61,7 +61,7 @@ The Viet Cong Communist rebels, supported by the North Vietnamese Army, were sup
 
 Many Americans were opposed to the Vietnam War for several reasons; firstly, the draft threatened blue-collar working-class Americans far more than it affected richer US citizens. In addition, there were many people with moral objections to the Vietnam War, particularly college students. Civilian casualties were also massively downplayed in the Western media and when photographic evidence surfaced, such as the infamous photo of General Nguyen Ngoc Loan shooting an alleged terrorist, it caused mass public outcry. As well as this, the perception that US intervention in Vietnam was not legally justifiable was an argument made by some. They believed that the domino theory had simply been used as an excuse to mask American imperial intentions (the desire to extend the power of one's country through colonization or military force). War Crimes were also horrifically abundant during the Vietnam War. Massacres of civilians, bombing of civilian targets, terrorism and the wide use of torture were committed by both sides, these crimes are one of the biggest reasons why the Vietnam War is so controversial to this day.
 
-{{< image "https://socialnewsdaily.com/wp-content/uploads/2016/02/screen-shot-2014-03-01-at-1-46-57-am.png">}}
+{{< image "https://upload.wikimedia.org/wikipedia/en/0/0b/Execution_of_Nguy%E1%BB%85n_V%C4%83n_L%C3%A9m.jpg">}}
 Picture 4: The execution of Nguyen Van Lem at the hands of General Nguyen Ngoc Loan
 {{< /image>}}
 

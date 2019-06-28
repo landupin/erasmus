@@ -1,0 +1,295 @@
+[
+    {
+        "topic": "Latin Amerika & Africa",
+        "article": "political/africa",
+        "games": [
+            {
+                "name": "Bingo",
+                "description": "description",
+                "img": "africa/bingo.jpg",
+                "files": [
+                    {
+                        "text": "Bingo.pdf",
+                        "link": "africa/bingo.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Crossword",
+                "description": "description",
+                "img": "africa/crossword.jpg",
+                "files": [
+                    {
+                        "text": "Crossword.pdf",
+                        "link": "africa/crossword.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Living under Communism",
+        "article": "social/livingundercommunism",
+        "games": [
+            {
+                "name": "Who is the traitor?",
+                "description": "description",
+                "img": "communism/whoIsTheTraitor.jpg",
+                "files": [
+                    {
+                        "text": "Who is the traitor.pdf",
+                        "link": "communism/whoIsTheTraitor.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Counter Culture",
+        "article": "social/counterculture",
+        "games": [
+            {
+                "name": "Crossword",
+                "description": "description",
+                "img": "counterCulture/crossword.jpg",
+                "files": [
+                    {
+                        "text": "Crossword.pdf",
+                        "link": "counterCulture/crossword.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Kahoot",
+                "description": "description",
+                "img": "counterCulture/kahoot.svg",
+                "files": [
+                    {
+                        "text": "Counter Coulture Kahoot",
+                        "link": "https://play.kahoot.it/#/k/8586bc87-7621-401e-bc59-a5ee61b16575"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Espionage",
+        "article": "social/espionage",
+        "games": [
+            {
+                "name": "Crossword",
+                "description": "description",
+                "img": "espionage/crossword.jpg",
+                "files": [
+                    {
+                        "text": "Crossword.pdf",
+                        "link": "espionage/crossword.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Secret Code",
+                "description": "description",
+                "img": "espionage/secretCode.jpg",
+                "files": [
+                    {
+                        "text": "Secret Code.pdf",
+                        "link": "espionage/secretCpode.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Freedom",
+        "article": "social/freedom",
+        "games": [
+            {
+                "name": "Word Matching",
+                "description": "description",
+                "img": "freedom/wordMatching.jpg",
+                "files": [
+                    {
+                        "text": "Word Matching.pdf",
+                        "link": "freedom/wordMatching.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "General",
+        "article": "/general",
+        "games": [
+            {
+                "name": "Activity",
+                "description": "description",
+                "img": "general/activity/spinnerboard.png",
+                "files": [
+                    {
+                        "text": "Advises.pdf",
+                        "link": "general/activity/advises.pdf"
+                    },
+                    {
+                        "text": "Game.pdf",
+                        "link": "general/activity/game.pdf"
+                    },
+                    {
+                        "text": "Spinner board",
+                        "link": "general/activity/spinnerboard.png"
+                    }
+                ]
+            },
+            {
+                "name": "Crossword",
+                "description": "description",
+                "img": "general/crossword.jpg",
+                "files": [
+                    {
+                        "text": "Crossword.pdf",
+                        "link": "general/crossword.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Next Word",
+                "description": "description",
+                "img": "general/nextword.jpg",
+                "files": [
+                    {
+                        "text": "Next Word.pdf",
+                        "link": "general/nextword.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "Taboo",
+                "description": "description",
+                "img": "general/taboo.jpg",
+                "files": [
+                    {
+                        "text": "Taboo.pdf",
+                        "link": "general/taboo.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Korean War",
+        "article": "political/korea",
+        "games": [
+            {
+                "name": "Bingo",
+                "description": "description",
+                "img": "korea/bingo.jpg",
+                "files": [
+                    {
+                        "text": "Bingo.pdf",
+                        "link": "korea/bingo.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Pop Culture",
+        "article": "social/popculture",
+        "games": [
+            {
+                "name": "Quiz",
+                "description": "description",
+                "img": "pop/quiz.jpg",
+                "files": [
+                    {
+                        "text": "Quiz.pdf",
+                        "link": "pop/quiz.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Propaganda & censorship",
+        "article": "social/propagandacensorship",
+        "games": [
+            {
+                "name": "Propaganda Game",
+                "description": "description",
+                "img": "propaganda/propaganda.jpg",
+                "files": [
+                    {
+                        "text": "Propanda Game.pdf",
+                        "link": "propaganda/propaganda.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Sports",
+        "article": "social/sports",
+        "games": [
+            {
+                "name": "Who am I?",
+                "description": "description",
+                "img": "sports/whoAmI.jpg",
+                "files": [
+                    {
+                        "text": "Who am I.pdf",
+                        "link": "sports/whoAmI.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Uprising in Hungary, Czechoslovakia & Poland",
+        "article": "political/uprising",
+        "games": [
+            {
+                "name": "Pasapalabra",
+                "description": "description",
+                "img": "uprising/Pasapalabra.jpg",
+                "files": [
+                    {
+                        "text": "Pasalabra.pdf",
+                        "link": "uprising/Pasapalabra.pdf"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topic": "Vietnam war",
+        "article": "political/vietnam",
+        "games": [
+            {
+                "name": "Ho Chi Minh Trail Board",
+                "description": "description",
+                "img": "vietnam/HoChiMinhTrailBord/instructions.jpg",
+                "files": [
+                    {
+                        "text": "Game.pdf",
+                        "link": "vietnam/HoChiMinhTrailBoard"
+                    },
+                    {
+                        "text": "Instructions.pdf",
+                        "link": "instruction.pdf"
+                    }
+                ]
+            },
+            {
+                "name": "4 Pictures 1 word",
+                "description": "description",
+                "img": "vietnam/4picture1word.jpg",
+                "files": [
+                    {
+                        "text": "4 Pictures 1 word",
+                        "link": "vietnam/4picture1word.pdf"
+                    }
+                ]
+            }
+        ]
+    }
+]

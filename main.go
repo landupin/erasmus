@@ -3,7 +3,11 @@ package main
 import (
 	"fmt"
 	"html/template"
+	"math/rand"
 	"net/http"
+	"strings"
+
+	"google.golang.org/appengine"
 )
 
 //templates
@@ -14,7 +18,141 @@ var glob *template.Template
 
 func main() {
 	glob = template.Must(template.ParseGlob("templates/*.html"))
-	/*
+
+	//test routing
+	http.HandleFunc("/bruh", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprint(w, `<html><body style="background: rgb(255, 255, 255);display: flex;justify-content: center;align-items: center;height: 100vh;width: 100vwmargin: 0;"><h1 style="font-size: 10rvw;font-weight: 200;text-transform: lowercase;letter-spacing: 1vw;">Siesta y fiesta</h1></body></html>`)
+	})
+
+	http.HandleFunc("/", splash)
+	http.HandleFunc("/favicon.ico", func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, "hugo/static/assets/img/favicon.png")
+	})
+	http.Handle("/assets/", http.StripPrefix("/assets", http.FileServer(http.Dir("files/assets"))))
+	http.HandleFunc("/timeline/", timeline)
+	http.HandleFunc("/games/", games)
+	http.HandleFunc("/resources/", resources)
+	http.HandleFunc("/about", about)
+	http.Handle("/article/", http.StripPrefix("/article", http.FileServer(http.Dir("hugo/public"))))
+
+	fmt.Println("listening at port :8080")
+	//http.ListenAndServe(":8080", nil)
+	appengine.Main()
+}
+
+func splash(w http.ResponseWriter, r *http.Request) {
+	if err := glob.ExecuteTemplate(w, "splash.html", nil); err != nil {
+		handleError(w, err)
+	}
+
+}
+
+func timeline(w http.ResponseWriter, r *http.Request) {
+	if err := glob.ExecuteTemplate(w, "timeline.html", nil); err != nil {
+		handleError(w, err)
+	}
+
+}
+
+func games(w http.ResponseWriter, r *http.Request) {
+	p := strings.Split(r.URL.Path, "/")
+
+	if p[2] == "" {
+		if err := glob.ExecuteTemplate(w, "games.html", nil); err != nil {
+			handleError(w, err)
+		}
+	} else if p[2] == "index.json" {
+		http.ServeFile(w, r, "files/games/index.json")
+	} else {
+		http.ServeFile(w, r, "files/games/"+strings.Join(p[2:], "/"))
+	}
+}
+
+func resources(w http.ResponseWriter, r *http.Request) {
+	p := strings.Split(r.URL.Path, "/")
+
+	if p[2] == "" {
+		//get 3 random vids
+		vids := getRandom(3, len(Interviews)-1)
+		arts := getRandom(3, len(Artefacts)-1)
+
+		//write response
+		if err := glob.ExecuteTemplate(w, "resources.index.html", Resource{[]Interview{Interviews[vids[0]], Interviews[vids[1]], Interviews[vids[2]]}, []Artefact{Artefacts[arts[0]], Artefacts[arts[1]], Artefacts[arts[2]]}}); err != nil {
+			handleError(w, err)
+		}
+	} else if p[2] == "interviews" {
+		if len(p) < 4 || p[3] == "" {
+			if err := glob.ExecuteTemplate(w, "resources.interviews.html", Interviews); err != nil {
+				handleError(w, err)
+			}
+		} else {
+			//p[3] = Interviews[x].Key
+			for _, interv := range Interviews {
+				if interv.Key == p[3] {
+					if err := glob.ExecuteTemplate(w, "resources.interview-single.html", interv); err != nil {
+						handleError(w, err)
+					}
+				}
+			}
+		}
+	} else if p[2] == "artefacts" {
+		if len(p) < 4 || p[3] == "" {
+			if err := glob.ExecuteTemplate(w, "resources.artefacts.html", Artefacts); err != nil {
+				handleError(w, err)
+			}
+		} else {
+			//p[3] = Artefacts[x].Key
+			for _, artf := range Artefacts {
+				if artf.Key == p[3] {
+					if err := glob.ExecuteTemplate(w, "resources.artefact-single.html", artf); err != nil {
+						handleError(w, err)
+					}
+				}
+			}
+		}
+	} else if p[2] == "raw" {
+		http.ServeFile(w, r, "files/interviews/"+strings.Join(p[3:], "/"))
+	} else {
+		fmt.Fprint(w, p)
+	}
+}
+
+func about(w http.ResponseWriter, r *http.Request) {
+	if err := glob.ExecuteTemplate(w, "about.html", nil); err != nil {
+		handleError(w, err)
+	}
+
+}
+
+func handleError(w http.ResponseWriter, err error) {
+	http.Error(w, err.Error(), http.StatusInternalServerError)
+}
+
+func getRandom(n int, max int) []int {
+	var ret []int
+	i := 0
+
+	for i < n {
+		x := rand.Intn(max)
+		yep := false
+		for j := 0; j < i; j++ {
+			if ret[j] == x {
+				yep = true
+				break
+			}
+		}
+		if !yep {
+			ret = append(ret, x)
+			i++
+		}
+	}
+	return ret
+}
+
+/*
+
+//main START
+
 		//parsing the templates
 		glob = template.Must(template.ParseGlob("templates/*.html"))
 		soc = template.Must(template.ParseGlob("templates/social/*.html"))
@@ -45,58 +183,9 @@ func main() {
 		http.HandleFunc("/next/about", about)
 		http.Handle("/next/article/", http.StripPrefix("/next/article", http.FileServer(http.Dir("hugo/public"))))
 
-	*/
-	//test routing
-	http.HandleFunc("/ping", ping)
-	http.HandleFunc("/bruh", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprint(w, `<html><body style="background: rgb(255, 255, 255);display: flex;justify-content: center;align-items: center;height: 100vh;width: 100%;"><h1 style="font-size: 11rem;font-weight: 200;text-transform: lowercase;letter-spacing: 1rem;">Siesta y fiesta</h1></body></html>`)
-	})
+//main END
 
-	http.HandleFunc("/", next)
-	http.HandleFunc("/favicon.ico", func(w http.ResponseWriter, r *http.Request) {
-		http.ServeFile(w, r, "hugo/static/assets/img/favicon.png")
-	})
-	http.Handle("/assets/", http.FileServer(http.Dir("hugo/public")))
-	http.HandleFunc("/timeline/", timeline)
-	http.HandleFunc("/about", about)
-	http.Handle("/article/", http.StripPrefix("/article", http.FileServer(http.Dir("hugo/public"))))
 
-	fmt.Println("listening at port :8080")
-	http.ListenAndServe(":8080", nil)
-	//appengine.Main()
-}
-
-func next(w http.ResponseWriter, r *http.Request) {
-	if err := glob.ExecuteTemplate(w, "splash.html", nil); err != nil {
-		handleError(w, err)
-	}
-
-}
-
-func timeline(w http.ResponseWriter, r *http.Request) {
-	if err := glob.ExecuteTemplate(w, "timeline.html", nil); err != nil {
-		handleError(w, err)
-	}
-
-}
-
-func about(w http.ResponseWriter, r *http.Request) {
-	if err := glob.ExecuteTemplate(w, "about.html", nil); err != nil {
-		handleError(w, err)
-	}
-
-}
-
-//handle the ping
-func ping(w http.ResponseWriter, r *http.Request) {
-	http.Error(w, "This is a teapot", http.StatusTeapot)
-}
-
-func handleError(w http.ResponseWriter, err error) {
-	http.Error(w, err.Error(), http.StatusInternalServerError)
-}
-
-/*
 //handle the specific routes
 func index(w http.ResponseWriter, r *http.Request) {
 	if HandleSession(w, r) == false {

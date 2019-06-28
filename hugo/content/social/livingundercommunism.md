@@ -7,7 +7,8 @@ menu:
 article: true
 
 skimmer: "These cruel times occurred right after the Second World War and gradually spread into the countries which were controlled by USSR. It immediately affected people's lives in many ways such as economic, cultural or religious. However, the worst thing of this regime was the lack of freedom in everyday life."
-imageLink: "https://api.culture.pl/sites/default/files/images/imported/inne/PRL_ODDITIES/wroclaw-moda-polska-1982-fot-chris-niedenthal-forum.jpg"
+imageLink: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Kolejka.jpeg"
+imageDescription: "People waiting in a queue to buy toilet paper, Poland"
 ---
 
 {{% swimmer %}}
@@ -16,8 +17,8 @@ imageLink: "https://api.culture.pl/sites/default/files/images/imported/inne/PRL_
 
 Those who did not comply with socialism were not only interrogated, intimidated and put under surveillance but also subject to house searches, during which the Secret Police invaded citizens’ privacy while searching for illegal literature. Bribes abounded; the presence of bugs in homes prevented people from speaking openly; there were long lines at the shops; people were imprisoned for filing complaints or signing petitions. Furthermore, the rich turned poor as owners of extravagant housing were given new accommodation in the country. Tradesmen were chosen to head companies. Members of the intelligentsia were forced to do menial jobs such as cleaning streets or washing windows. If a citizen defected, the family left behind was severely punished. People socializing with dissidents were interrogated and accused of subversion.
 
-{{< image "http://2.bp.blogspot.com/-KPZtBn8F1-0/UOx7v4SMqTI/AAAAAAAABe8/4oV-jgXPRWA/s640/Kolejka.jpeg">}}
-Picture 1: People waiting in long lines for hours
+{{< image "https://upload.wikimedia.org/wikipedia/commons/c/ca/IDET2007_StB_steam_envelope_opener.jpg">}}
+Picture 1: "The Steamer" - mobile steaming equipment used for unsticking of envelopes during correspondence surveillance and censorship. Used by Czechoslovak StB - secret police
 {{< /image>}}
 
 ### Life Under Communism in East Germany
@@ -32,16 +33,16 @@ Despite essentials for life being cheap (i.e. bread, water), salaries were low a
 
 As soon as the regime had collapsed, many requested Stasi files to see what the government had picked up on whilst spying on citizens. Many citizens were very much isolated from Western culture, for example, many children may have grown up not knowing what a Barbie doll was.
 
-{{< image "https://i.pinimg.com/originals/46/54/80/46548001b6a47ac8d58b2d15f798f245.jpg">}}
-Picture 2: A couple looking over Berlin Wall
+{{< image "https://upload.wikimedia.org/wikipedia/commons/b/b7/Winken_ueber_die_Berliner_Mauer.jpg">}}
+Picture 2: An elderly woman, standing at Berlin Wall, in west sector, with hands raised, after waiting three hours to see her East Berlin friends and relatives (1961).
 {{< /image>}}
 
 ### Life Under Communism in Czechoslovakia
 
 The state was controlling the economy which was working very poorly, as basic citizens supplies were often not to be found. Many foods such as coconuts and mandarins were seen as luxuries, and therefore were only present at times like Christmas. Criticizing the state, of course, meant that you would be disadvantaged by the state in many ways. Children would not be accepted into universities, companies could decide not to offer people jobs, and so on. There were thousands of police members working undercover to listen in on conversations of daily life and often random people were paid to report any news to government officials. Not being employed at the time was a crime. Work was found for everyone of all classes and there was no unemployment. Of course, living in a communist country, everyone worked for the government in some way or another. Life was very similar to that of the control in East Germany, however, it can be noted that surveillance and border control was less prominent in Czechoslovakia.
 
-{{< image "https://i.pinimg.com/originals/b6/15/03/b61503005e7aaabde6fe8b9eb873cd43.jpg">}}
-Picture 3: Mass gymnastics display in a communist stadium
+{{< image "https://i.imgur.com/AI4VVkx.jpg">}}
+Picture 3: Czechoslovak Spartakiad, Strahov Stadium, Praha (1985)
 {{< /image>}}
 
 The Communist era marked the end of the Sokol organization – sokol means falcon – which had displayed a strong democratic tradition as far back as the 19th century. After 1948 the Spartakiáda festivals, held every five years, took its place. In these sport shows thousands of gymnasts performed choreographed feats, emphasizing the importance of the group over the individual.
@@ -66,8 +67,8 @@ Children between the ages of 6 and 8 were among the group so called “Iskričky
  
 The free time of the pioneers was organized, especially during the summer months by the so called children's pioneer camps. International pioneer camps were also organized in the Soviet Union, Hungary or Poland. At schools, children regularly attended pioneer class meetings and class events (visits to museums, exhibitions, trips, castles, monuments and memorials of victims of the Second World War). For pioneers there were many opportunities for developing their hobbies (technical, natural sciences, reading, arts, sports) organized in schools. Pioneer actions included part-time jobs, collection of secondary materials, collection of garbage through cities and others. Compulsory membership in socialist youth organizations ended this revolution in 1989.
 
-{{< image "https://upload.wikimedia.org/wikipedia/commons/7/78/Pioneers_Romania_1986.jpg">}}
-Picture 4
+{{< image "https://upload.wikimedia.org/wikipedia/commons/1/1b/Soviet_Young_Pioneers_in_1983_in_the_Zeravshan_Mountains_of_Tajik_SSR.jpg">}}
+Picture 4: Soviet young pioneers, 1983
 {{< /image>}}
 
 ## Culture and media
@@ -76,16 +77,16 @@ Authors whose writings did not conform to socialism found their works banned, an
 
 Also controlled by the government, the media were a mouthpiece for the Communist regime. Censorship became law and television, for example, was full of official optimism, Tractors and factories often appeared on the screen as symbols of working class successes. Editorials were riddled with clichés, and platitudes abounded. During the normalization purges of 1969-70, dozens of magazines and journals were shut down. 
 
-{{< image "https://24b3f6.medialib.edu.glogster.com/1bJSr84N26n1hMtfNxb0/media/3e/3e4a835580c6572dbaf2758ce847697bbc9c1c0a/pravda-2.jpg">}}
-Picture 5
+{{< image "https://upload.wikimedia.org/wikipedia/commons/2/2c/Kotlasskiy_kraevedcheskiy_musey_%28093%29.JPG">}}
+Picture 5: The front page of Pravda (Truth), official newspaper of the Communist Party of the Soviet Union
 {{< /image>}}
 
 ## The glorification of the worker
  
 Under Communism workers were worshipped as heroes and exploited as propaganda for the regime. Miners, for example, received excellent pensions and comfortable housing. Workers had better salaries than university professors. The working-class employees who obeyed Communist doctrine were rewarded with holidays abroad – in Bulgaria, Romania, the Soviet Union or Yugoslavia rather than in the West. 
 
-{{< image "https://img.etsystatic.com/il/4b89b2/770834823/il_570xN.770834823_2w48.jpg?version=0">}}
-Picture 6: Propaganda poster to enforce workers
+{{< image "https://upload.wikimedia.org/wikipedia/commons/d/dc/USSRRepublicsPoster.jpg">}}
+Picture 6: Propaganda poster celebrating the unity of Soviet republics
 {{< /image>}}
 
 ## Agriculture

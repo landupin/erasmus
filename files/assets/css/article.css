@@ -1,0 +1,68 @@
+.img-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+img {
+    width: fit-content;
+    width: -moz-fit-content;
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.img-container small {
+    text-align: center;
+}
+
+.img-container small svg {
+    height: 20px;
+    margin-bottom: -5px;
+}
+
+blockquote p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+blockquote svg {
+    height: 2rem;
+    fill: #999;
+    margin: 0.25rem 0.5rem;
+}
+
+#skimmer {
+    margin-bottom: 2rem;
+}
+
+#skimmer .header-img {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+#skimmer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.25;
+    background-color: #eeeeee;
+    padding: 2rem;
+}
+
+#diver>ul>li {
+    margin-bottom: .5rem;
+}
+
+#diver>ul>li:hover {
+    cursor: pointer;
+}
+
+#diver>ul>li>a {
+    line-height: 1.25em;
+    color: #c49000;
+}

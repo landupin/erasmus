@@ -8,7 +8,7 @@ menu:
 article: true
 
 skimmer: "Cornerstones of modern popular culture, such as music, films and literature were not only a source of entertainment but a powerful propaganda tool. The political ideologies of both the Eastern and the Western spheres were reflected in all of these areas (elements?). Whereas Eastern popular culture often had to conform to the politics of the state, Western popular culture was much more anti-authoritarian and often condemned Soviet beliefs and doctrine."
-imageLink: "http://www.laitdanceclub.co.uk/wp-content/uploads/2016/11/rock.jpg"
+imageLink: "https://live.staticflickr.com/3040/2582085749_49850842ba_b.jpg"
 ---
 
 {{% swimmer %}}
@@ -27,11 +27,11 @@ Western Musicians were also affected by the shadow of the Cold War. Whereas the 
 - [„Unsere Heimat“(Our Homeland) by Ernst Thälmann](https://www.youtube.com/watch?v=YohW_wCbrPA)
 - ["Pravda víťazí" (The Truth wins) by Tublatanka](https://www.youtube.com/watch?v=kJucQNdBJo4)
 
-{{< image "http://3.bp.blogspot.com/-RkENZkB8Ulc/VdY7-pA7F_I/AAAAAAAAUkw/Ve6CzOwiYXg/s640/99%2BLuftballons%2BNenA.jpg">}}
-Picture 1
+{{< image "https://upload.wikimedia.org/wikipedia/en/0/02/99luftballons.jpg">}}
+Picture 1: Album Cover of "99 Luftballons"
 {{< /image>}}
 
-{{< image "https://m.media-amazon.com/images/M/MV5BMjI2MDE0NjE1NV5BMl5BanBnXkFtZTcwNjYyMzY0NA@@._V1.._UX182_CR0,0,182,268_AL_.jpg">}}
+{{< image "https://upload.wikimedia.org/wikipedia/en/d/d7/The_Spy_Who_Loved_Me_%28UK_cinema_poster%29.jpg">}}
 Picture 2
 {{< /image>}}
 
@@ -39,7 +39,7 @@ Films were released throughout the Cold War and reinforced the East-West divide.
 
 Star Trek, a famous sci-fi television series, is about a free and democratic alliance, called the “Federation”. Our heroes (the crew of the starship enterprise), can be thought of as representing the Western powers, whereas the Klingons – their arch-rivals –can be seen to represent the communist East. In the episode “Errand of Mercy” the Klingons are portrayed as being manipulative and deceitful as well as hungry for war. These traits were intended to be a reflection on the US’s perceptions of Russian culture.
 
-{{< image "https://vignette.wikia.nocookie.net/memoryalpha/images/a/ab/Klingon_First_Lieutenant.jpg/revision/latest/scale-to-width-down/180?cb=20081224102826&path-prefix=en">}}
+{{< image "https://vignette.wikia.nocookie.net/memoryalpha/images/7/79/Kor%2C_2266.jpg/revision/latest/scale-to-width-down/1000?cb=20090212231042&path-prefix=en">}}
 Picture 3
 {{< /image>}}
 

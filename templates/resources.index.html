@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold War - Resources</title>
+
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:600" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/gallery.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/interview-list.css">
+
+
+    <style>
+        h1 {
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        header .header-left {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .header-right {
+            display: none;
+        }
+
+        .button-more {
+            font-family: Roboto, sans-serif;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-size: .875rem;
+            line-height: 2.25rem;
+            font-weight: 500;
+            letter-spacing: .0892857143em;
+            text-decoration: none;
+            text-transform: uppercase;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            position: relative;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            min-width: 64px;
+            height: 36px;
+            border: none;
+            outline: none;
+            line-height: inherit;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-appearance: none;
+            overflow: hidden;
+            vertical-align: middle;
+            border-radius: 4px;
+            color: rgb(185, 0, 11);
+            float: right;
+            padding: 0;
+            margin: 1rem 2rem 0 0;
+        }
+
+        .button-more a {
+            height: 100%;
+            width: 100%;
+            padding: 0 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button-more a:hover {
+            background-color: rgba(185, 0, 11, .04);
+        }
+
+        .button-more:focus,
+        .button-more a:active {
+            background-color: rgba(185, 0, 11, .12);
+        }
+
+        nav {
+            margin: 1rem 0 1.5rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            color: #f44336;
+        }
+
+        nav a {
+            display: inline;
+            margin: .2rem .5rem;
+            font-family: Roboto, sans-serif;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-weight: 500;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: .875rem;
+            line-height: 2.25rem;
+            letter-spacing: .0892857143em;
+            display: block;
+            /*width: max-content;*/
+            padding: 0 .5rem;
+            border-radius: 5px;
+            color: #f44336;
+            border: 1.5px solid #f44336;
+            transition: background-color 100ms ease, color 100ms ease;
+        }
+
+        nav a:hover {
+            background-color: #f44336;
+            color: white;
+            border-color: rgba(244, 67, 54, .04);
+        }
+
+        .artefact-list {
+            margin-top: 5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <button class="material-icons mdc-toolbar__menu-icon menu menu-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-menu">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <h1 class="toolbar__title"><a href="/">Cold War</a><span> > </span><span>Resources</span></h1>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <a href="interviews">Interviews</a>
+            <a href="artefacts">Artefacts</a>
+            <a href="#">Detailed Introduction into the Cold War</a>
+        </nav>
+
+        <section class="interview-list">
+            <h3>Listen to some contemporary witnesses and their stories from the Cold War</h3>
+            {{range .Interviews}}
+            <article class="interview-single">
+                <a href="interviews/{{.Key}}">
+                    <div class="interview-thumbnail-wrapper">
+                        <div class="interview-thumbnail">
+                            <img src="raw/{{.Key}}.jpg" alt="Thumbnail:{{.Key}}">
+                        </div>
+                    </div>
+                    <div class="interview-text">
+                        <h4 class="interview-title">{{.Title}}</h4>
+                        <p class="interview-description">{{.Description}}</p>
+                    </div>
+                </a>
+            </article>
+            {{end}}
+            <button id="interview-more" class="button-more"><a href="interviews">See all Interviews</a></button>
+        </section>
+
+        <section class="artefact-list">
+            <h3>Have a look on specific objects and their role in the everyday life during the Cold War</h3>
+            <section class="mdc-image-list">
+                {{range .Artefacts}}
+                <article class="mdc-image-list__item" id="{{.Key}}">
+                    <a href="/resources/artefacts/{{.Key}}">
+                        <div class="mdc-image-list__image-aspect-container">
+                            <img class="mdc-image-list__image" src="{{.Photo}}" alt="{{.Name}}">
+                        </div>
+                        <div class="mdc-image-list__supporting">
+                            <h4 class="mdc-image-list__label">{{.Name}}</h4>
+                        </div>
+                    </a>
+                </article>
+                {{end}}
+            </section>
+            <button id="artefact-more" class="button-more"><a href="artefacts">See all Artefacts</a></button>
+        </section>
+    </main>
+
+    {{template "footer"}}
+    <script src="/article/assets/js/header.js"></script>
+    <script>
+        document.querySelector("#naranjito img").classList.add("mdc-image-list__image-vertical");
+    </script>
+
+</body>
+
+</html>

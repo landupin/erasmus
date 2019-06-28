@@ -8,15 +8,15 @@ menu:
 article: true
 
 skimmer: "The counterculture of the 1960s refers to an anti-establishment cultural phenomenon that was first developed in the US as a response to previous generations’ old religious and social standards. They opened up questions about sexuality, women's rights, respecting authorities and experimenting with drugs. The movement also protested against war in Vietnam and war in general."
-imageLink: "https://i1.wp.com/collegetribune.ie/wp-content/uploads/2017/02/Protest.jpg?resize=1050%2C700"
+imageLink: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Woodstock_redmond_crowd.JPG"
 ---
 
 {{% swimmer %}}
 
 Vietnam became important to the Eastern and western blocs, the east wanted to win more communist satellite states and the west feared a communist revolt. The US supported South Vietnam with equipment and advise. This proxy war, which was typical of the Cold War, became almost like a conflict between the Soviet Union and US. Images and news from the war, for example the “Napalm Girl”, could now be seen on televisions across the world, they shocked people and many became opposed to what was happening. The divide between supporters and opponents of the Vietnam War was an important factor contributing to the rise of the counterculture movement. The movement began as an anti-war culture which then grew into the “hippy movement”, a desire for peace.
 
-{{< image "https://www.haaretz.com/polopoly_fs/1.5651584.1515409903!/image/1018316866.jpg_gen/derivatives/landscape_625/1018316866.jpg">}}
-Picture 1: Soviet propaganda poster
+{{< image "https://upload.wikimedia.org/wikipedia/commons/3/3e/Vietnam_War_protestors_at_the_March_on_the_Pentagon.jpg">}}
+Picture 1: A crowd protesting  against the Vietnam War in Washinghton D.C., 1967
 {{< /image>}}
 
 The Beat Generation was an important influence on the hippies. Beat movement (also called Beat Generation) was an American social and literary movement originating in the 1950s and centred in the bohemian artist communities of San Francisco’s North Beach, Los Angeles’ Venice West, and New York City’s Greenwich Village.

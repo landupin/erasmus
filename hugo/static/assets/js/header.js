@@ -6,7 +6,7 @@ document.addEventListener("scroll", function (e){
     }
 }, {passive: true});
 
-document.querySelector("button.menu").addEventListener("mousedown", function(ev) {
+document.querySelector("button.menu-toggle").addEventListener("mousedown", function(ev) {
     this.classList.add("active");
     let ctx = this;
     document.addEventListener("mouseup", function mouseupHandler(ev){
@@ -14,7 +14,7 @@ document.querySelector("button.menu").addEventListener("mousedown", function(ev)
     });
 });
 
-document.querySelector("button.menu").addEventListener("touchstart", function(ev) {
+document.querySelector("button.menu-toggle").addEventListener("touchstart", function(ev) {
     this.classList.add("active");
     let ctx = this;
     document.addEventListener("touchend", function touchendHandler(ev){
@@ -22,6 +22,6 @@ document.querySelector("button.menu").addEventListener("touchstart", function(ev
     });
 }, {passive: true});
 
-document.querySelector("button.menu").addEventListener("click", function handler(ev){
+document.querySelector("button.menu-toggle").addEventListener("click", function handler(ev){
     document.dispatchEvent(new CustomEvent('toggle-menu', {}));
 });
