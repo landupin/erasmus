@@ -127,8 +127,7 @@ Khrushchevs policy of de-Stalinisation caused problems in many Eastern European 
 
 ### Hungarian Revolution 1956
 - [Video showing what the revolution was like](https://www.youtube.com/watch?v=ihS_D0Btaz8)
-- [Extra reading on the Hungarian revolution (1)](http://www.enrs.eu/pl/news/1113-the-hungarian-revolution-1956)
-- [Extra reading on the Hungarian revolution (2)](https://libcom.org/library/hungarian-revolution-1956)
-- [Extra reading on the Hungarian revolution (3)](http://budapestbeacon.com/hungarian-revolution-1956/)
+- [Extra reading on the Hungarian revolution (1)](https://libcom.org/library/hungarian-revolution-1956)
+- [Extra reading on the Hungarian revolution (2)](http://budapestbeacon.com/hungarian-revolution-1956/)
 
 {{% /diver %}}
