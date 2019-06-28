@@ -69,7 +69,7 @@ var Interviews = []Interview{
 	{
 		"spain-franco-child-1",
 		"Being a child in Spain during the first years of Franco's dictatorship I",
-		"",
+		"A Spanish grandfather tells us what his school yeras were like, and how he became a high rank military man during Franco´s dicatorship.",
 		"g9rFUFraBYY",
 		"Flag_of_Spain.svg",
 	},
@@ -97,21 +97,21 @@ var Interviews = []Interview{
 	{
 		"ewald-full",
 		"German Interviews: Ewald (Full Version)",
-		"",
+		"Mr. Ewald, a former boarder patrol officer of the Federal Republic of Germany, talks about his time working on the boarder to the German Democratic Republic during the Cold War. (Full Interview)",
 		"RGYfdVMCkEw",
 		"Flag_of_Germany.svg",
 	},
 	{
 		"beckmann",
 		"German Interview with Mrs. Beckmann",
-		"",
+		"Mrs Beckmann talks about her experience in the GDR.",
 		"XbmqcL4mzv4",
 		"Flag_of_Germany.svg",
 	},
 	{
 		"ewald-cut",
 		"German Interviews: Ewald (Cut Version)",
-		"",
+		"Mr. Ewald, a former boarder patrol officer of the Federal Republic of Germany, talks about his time working on the boarder to the German Democratic Republic during the Cold War. (Teaser)",
 		"hW2lSJngFYk",
 		"Flag_of_Germany.svg",
 	},
