@@ -47,7 +47,7 @@ footer {
     }
 }
 
- footer .container>* {
+footer .container>* {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -55,13 +55,17 @@ footer {
     justify-content: flex-start;
 }
 
- footer .container .right {
+footer .container .right {
     margin-top: 2rem;
 }
 
 
- footer .container * {
+footer .container * {
     text-align: center;
+}
+
+footer .container .left img {
+    width: 100%;
 }
 
 @media (min-width: 993px) {
@@ -76,13 +80,9 @@ footer {
         text-align: start;
     }
 
-     footer .container .left {
+    footer .container .left {
         width: 45%;
         flex: 45 45;
-    }
-
-    footer .container .left img {
-        width: 100%;
     }
 
      footer .container .middle {
