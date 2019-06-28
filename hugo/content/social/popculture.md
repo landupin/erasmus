@@ -47,7 +47,6 @@ Picture 3
 
 {{% diver %}}
 - [“Blowin´ in the Wind “(1963)](https://youtu.be/G58XWF6B3AA)
-- [“Masters of War “(1963)](https://youtu.be/6isSH1VB3XQ)
 - [“A Hard rain´s a-Gonna Fall”](https://youtu.be/T5al0HmR4to)
 - [“Errand of Mercy”](https://www.imdb.com/title/tt0708429/)
 - [Star Trek TOS opening](https://www.youtube.com/watch?v=hdjL8WXjlGI)
