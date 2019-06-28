@@ -40,20 +40,7 @@ func main() {
 	http.Handle("/article/", http.StripPrefix("/article", http.FileServer(http.Dir("hugo/public"))))
 
 	fmt.Println("listening at port :8080")
-<<<<<<< HEAD
-=======
-	http.HandleFunc("/ping", ping)
 
-	//next version
-	http.HandleFunc("/next/", next)
-	http.HandleFunc("/next/timeline/", timeline)
-	http.HandleFunc("/next/about", about)
-	http.Handle("/next/article/", http.StripPrefix("/next/article", http.FileServer(http.Dir("hugo/public"))))
-
-	//fmt.Println("listening at port :8080")
->>>>>>> new
-=======
->>>>>>> 9fa83dffe2dffbfc94d9ac8d03722587529da8d4
 	//http.ListenAndServe(":8080", nil)
 	appengine.Main()
 }
@@ -139,7 +126,6 @@ func about(w http.ResponseWriter, r *http.Request) {
 	if err := glob.ExecuteTemplate(w, "about.html", nil); err != nil {
 		handleError(w, err)
 	}
-
 }
 
 func handleError(w http.ResponseWriter, err error) {
