@@ -7,7 +7,7 @@ menu:
 
 article: true
 
-skimmer: "After World War II there were bad conditions in the East, so an increasing number of people fled to the West. To prevent them from running away, the GDR built a wall in 1961, and called it ironically “antifascist bulwark”. Soldiers had the order to kill people who wanted to cross the border. In 1989, there was the opening of the border and one year later the reunification of both Germanies was celebrated."
+skimmer: "After World War II the conditions were so bad, more and more people fled to the West. To prevent them from running away, the GDR built a wall in 1961,  ironically named “antifascist bulwark”. Soldiers had the order to kill anyone who tried to cross the border. In 1989 the border opened and one year later the reunification of both Germanies was celebrated."
 imageLink: "https://www.hdg.de/lemo/img_hd/bestand/objekte/geteiltesdeutschland/geteiltes-deutschland_plakat_1993-07-620.jpg"
 imageDescription: "A little girl waving through the closed border fence/wall to her relatives. Title: “We stay together.”
 Subtitle: “Inseparable Germany”"
@@ -16,9 +16,9 @@ Subtitle: “Inseparable Germany”"
 {{% swimmer %}}
 ### After the war:
 
-After World War II Germany was divided into four occupation zones. There was a British, a French and an American part in the west and a Soviet part in the east. In 1949 the western occupation zones were merged to the Federal Republic of Germany (FRG). In the same year the USSR founded the German Democratic Republic (GDR) in the east of Germany.
+After World War II Germany was divided into four occupation zones. There was a joint British, French and an American zone in the west and a Soviet zone in the east. In 1949 the western occupation zones were merged into the Federal Republic of Germany (FRG). In the same year the USSR founded the German Democratic Republic (GDR) in the east of Germany.
 
-The western part of Germany had a great development during the 1950s and 1960s known as &quot;Wirtschaftswunder&quot; (economic miracle). One reason for this development was the Marshall plan, which was an American initiative to rebuild Western Europe after the war. The GRD on the other hand was in a bad condition. After the occupation by the Soviet Union all businesses were taken over by the socialist system and most of them were closed. So, a lot of eastern Germans fled to the west to improve their opportunities.
+In the western part of Germany there was a great development during the 1950s and 1960s known as &quot;Wirtschaftswunder&quot; (economic miracle). One reason for this development was the Marshall plan, which was an American initiative to rebuild Western Europe after the war. The GRD on the other hand was in a bad condition. After the occupation by the Soviet Union all businesses were taken over by the socialist system and most of them were closed. So, a lot of eastern Germans fled to the west to find better opportunities.
 
 {{< image "/assets/img/berlin-zonen.jpg" >}}
 Picture 1: Division of Berlin (Source: own; taken in Museum “Tränenpalast” (Palace of tears) in Berlin)
@@ -26,7 +26,7 @@ Picture 1: Division of Berlin (Source: own; taken in Museum “Tränenpalast” 
 
 ## Warsaw Pact of 1955:
 
-In 1955 the eight nations, who were under control of the Soviet Union, signed the Warsaw Pact. Formally this pact was about the Treaty of Friendship, Cooperation and Mutual Assistance. But the real aim of this alliance was to make sure that these countries would stay under the leadership of communism. If needed the USSR would be ready to send military to suppress protestors like in Eastern Germany in 1953.
+In 1955 the eight nations, who were under control of the Soviet Union, signed the Warsaw Pact. Formally this pact was about the Treaty of Friendship, Cooperation and Mutual Assistance but the real aim of this alliance was to make sure that these countries would stay under the leadership of communism. If needed the USSR would be ready to send troops to suppress protestors such as in Eastern Germany in 1953.
 
 {{< image "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Warsaw_Pact_Logo.svg/1200px-Warsaw_Pact_Logo.svg.png" >}}
 Picture 2: The eight nations of Warscaw Pact
@@ -34,8 +34,9 @@ Picture 2: The eight nations of Warscaw Pact
 
 ## Uprising of 1953:
 
-On June 17th, 1953 more than 40 000 citizens of the GRD protested against the socialist system. The government suppressed the protesters with the help of Soviet tanks. The next day the ruling SED-party published an article in which they claimed that the protest was the direct result of the attempts by "western agencies" to disrupt the national stability.
-
+On June 17th, 1953 more than 40 000 citizens of the GRD protested against the socialist system. The government suppressed the protesters with the help of Soviet tanks and the next day the ruling SED-party published an article in which they claimed that the protest was the direct result of the attempts by "western agencies" to disrupt the national stability.
+eans:
+Find your own way through 
 
 {{< image "/assets/img/ddr-zonen.jpg" >}}
 Picture 4: Division of Germany (Source: own; taken in Museum "Tränenpalast" (Palace of tears) in Berlin)
