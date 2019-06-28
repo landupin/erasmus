@@ -12,7 +12,7 @@ type Interview struct {
 	Title       string
 	Description string
 	Link        string
-	Flag		string
+	Flag        string
 }
 
 /*Interviews bla*/
@@ -139,7 +139,7 @@ var Interviews = []Interview{
 	{
 		"hilton",
 		"Views of an Ex British serviceman stationed in Germany",
-		"Mr Hilton, a former UK army engineer who served in Germany for many years during the Cold War talks about exercises and preparedness for a possible Soviet nuclear attack."
+		"Mr Hilton, a former UK army engineer who served in Germany for many years during the Cold War talks about exercises and preparedness for a possible Soviet nuclear attack.",
 		"DB5Z25jWxBs",
 		"Flag_of_Wales.svg",
 	},
