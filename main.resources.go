@@ -18,7 +18,7 @@ type Interview struct {
 var Interviews = []Interview{
 	{
 		"spain-moonlanding",
-		"<img src="/files/assets/icon/Flag_of_Spain.svg"/> Spanish perception of the landing on the moon",
+		"<img src=\"/files/assets/icon/Flag_of_Spain.svg\"/> Spanish perception of the landing on the moon",
 		"In this video,  a women and a men, from differents cities of Spain, explains their point of view about the landing on the moon.",
 		"qoD9r_agYVs",
 	},
@@ -49,13 +49,13 @@ var Interviews = []Interview{
 	{
 		"spain-franco-child-3",
 		"Being a child in Spain during the first years of Franco's dictatorship III",
-		"A spanish grandmother talks about her life and the difficulties that she had to face, specially during her childhood. She also tells us about the perception of religion she had.",
+		"",
 		"Atoj2myC0q0",
 	},
 	{
 		"spain-franco-child-2",
 		"Being a child in Spain during the first years of Franco's dictatorship II",
-		"",
+		"A spanish grandmother talks about her life and the difficulties that she had to face, specially during her childhood. She also tells us about the perception of religion she had.",
 		"pq1Re5h-_IU",
 	},
 	{
