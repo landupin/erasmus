@@ -114,7 +114,8 @@ Picture 10: Reunification
 
 {{% diver %}}
 - ["The building of the Berlin Wall, which began on August 13th , 1961, gave a stark architectural face to the Cold War and spawned a slew of spy movies located on the fault line of East-West intrigue. Hollywood masters like Billy Wilder and Alfred Hitchcock were among the first to spin political fables in this divided city. But in the ’80s and beyond, as Soviet ideology cracked along with its most notorious edifice, German filmmakers addressed their own fissured history."](http://entertainment.time.com/2011/08/11/top-10-berlin-wall-movies/slide/introduction/)
-- [A documentary film about the history of the Berlin Wall and how it was built and which ideas people inside had to escape. It was nearly impossible to get out of the country, but there are some examples how some people escaped.](https://www.youtube.com/watch?v=S_282GyZWBM)
-- [A cartoon to describe the Berlin Wall and its history.](https://www.youtube.com/watch?v=naqS-BlpfU4)
-- [A page where you can find everything about the Berlin Wall victims from A-Z](http://www.chronik-der-mauer.de/en/victims/)
+- [A documentary film about the history of the Berlin Wall and how it was built and which ideas people inside had to escape. It was nearly impossible to get out of the country, but there are some examples how some people escaped.](https://www.youtube.com/watch?v=QwOfphFsUwM)
+- ["A rather detailed information about the Berlin Wall (Building 1961 until destruction 1989)"](https://www.youtube.com/watch?v=W7YE-N448fg)
+- [A cartoon to describe the Berlin Wall and its history.](https://www.youtube.com/watch?v=W7YE-N448fg)
+- [A page where you can find everything about the Berlin Wall victims from A-Z](https://www.youtube.com/watch?v=W7YE-N448fg)
 {{% /diver %}}
