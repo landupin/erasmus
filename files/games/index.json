@@ -5,7 +5,7 @@
         "games": [
             {
                 "name": "Activity",
-                "description": "description",
+                "description": "A fun game consisting of different minigames like a quiz or Taboo. By playing this game you will gain some basic knowledge about the Cold War in a fun way.",
                 "img": "general/activity/spinnerboard.png",
                 "files": [
                     {
@@ -24,7 +24,7 @@
             },
             {
                 "name": "Crossword",
-                "description": "description",
+                "description": "Answer the questions correctly in order to fill in the blanks and solve the crossword puzzle about the Cold war!",
                 "img": "general/crossword.jpg",
                 "files": [
                     {
@@ -35,7 +35,7 @@
             },
             {
                 "name": "Next Word",
-                "description": "description",
+                "description": "A fast and fun two player game. You will have to guess different terms related to the Cold War. But be fast! You will be competing against your partner, and the fastest one wins!",
                 "img": "general/nextword.jpg",
                 "files": [
                     {
@@ -46,7 +46,7 @@
             },
             {
                 "name": "Taboo",
-                "description": "description",
+                "description": "A classic game of Taboo. You have to describe a term, but pay attention, as you are not allowed to say certain words!",
                 "img": "general/taboo.jpg",
                 "files": [
                     {
@@ -63,7 +63,7 @@
         "games": [
             {
                 "name": "Pasapalabra",
-                "description": "description",
+                "description": "Guess all the words beginning with or containing each letter of the alphabet based on the clues you ́re given. In case you do not know the answer, other players take their turn. The time limit is two minutes, the winner is the one who has guessed the most words.",
                 "img": "uprising/Pasapalabra.jpg",
                 "files": [
                     {
@@ -81,7 +81,7 @@
         "games": [
             {
                 "name": "Bingo",
-                "description": "description",
+                "description": "Play a challenging game of Korean War themed Bingo with a group. In order to win you need to be informed about the War.",
                 "img": "korea/bingo.jpg",
                 "files": [
                     {
@@ -98,7 +98,7 @@
         "games": [
             {
                 "name": "Ho Chi Minh Trail Board",
-                "description": "description",
+                "description": "Play a challenging Quiz on the Vietnam War and see who can make it the farthest on the Ho Chi Minh trail!",
                 "img": "vietnam/HoChiMinhTrailBord/instructions.jpg",
                 "files": [
                     {
@@ -113,7 +113,7 @@
             },
             {
                 "name": "4 Pictures 1 word",
-                "description": "description",
+                "description": "Guess the term which link the four pictures.",
                 "img": "vietnam/4picture1word.jpg",
                 "files": [
                     {
@@ -130,7 +130,7 @@
         "games": [
             {
                 "name": "Bingo",
-                "description": "description",
+                "description": "Test your knowledge about Latin America & Africa in a game of \"Bingo\".",
                 "img": "africa/bingo.jpg",
                 "files": [
                     {
@@ -141,7 +141,7 @@
             },
             {
                 "name": "Crossword",
-                "description": "description",
+                "description": "Answer the questions correctly in order to fill in the blanks and solve the crossword puzzle!",
                 "img": "africa/crossword.jpg",
                 "files": [
                     {
@@ -158,7 +158,7 @@
         "games": [
             {
                 "name": "Word Matching",
-                "description": "description",
+                "description": "Find matching terms, titles and explanations to test your knowledge on the subject of freedom.",
                 "img": "freedom/wordMatching.jpg",
                 "files": [
                     {
@@ -175,7 +175,7 @@
         "games": [
             {
                 "name": "Who is the traitor?",
-                "description": "description",
+                "description": "A role play game based on the social strategy game c v \"Werewolf\". A community of Berlin citizens tries to kill all the traitors among them aiming to attack the communists. Who can be trusted and who is a traitor?",
                 "img": "communism/whoIsTheTraitor.jpg",
                 "files": [
                     {
@@ -191,8 +191,8 @@
         "article": "social/espionage",
         "games": [
             {
-                "name": "Crossword",
-                "description": "description",
+                "name": "Wordsoup",
+                "description": " Answer the questions. The answers are hidden somewhere in the wordsoup.",
                 "img": "espionage/crossword.jpg",
                 "files": [
                     {
@@ -203,7 +203,7 @@
             },
             {
                 "name": "Secret Code",
-                "description": "description",
+                "description": "Test your knowledge of Cold War espionage. The anagrams will help you to find the correct answer.",
                 "img": "espionage/secretCode.jpg",
                 "files": [
                     {
@@ -219,7 +219,7 @@
         "games": [
             {
                 "name": "Propaganda Game",
-                "description": "description",
+                "description": "A fun guessing game, in which you have to be creative and fast at the same time.",
                 "img": "propaganda/propaganda.jpg",
                 "files": [
                     {
@@ -236,7 +236,7 @@
         "games": [
             {
                 "name": "Who am I?",
-                "description": "description",
+                "description": "This game is for 6 people. At the beginning everybody has 3 counters. Each player takes one card and puts it on their forehead. The youngest player begins. Everyone has 1 minute to ask the other players questions to try to find out who they are. The first person who gets rid of all of their counters wins.",
                 "img": "sports/whoAmI.jpg",
                 "files": [
                     {
@@ -252,8 +252,8 @@
         "article": "social/counterculture",
         "games": [
             {
-                "name": "Crossword",
-                "description": "description",
+                "name": "Wordsoup",
+                "description": "Answer the questions. The answers are hidden somewhere in the wordsoup.",
                 "img": "counterCulture/crossword.jpg",
                 "files": [
                     {
@@ -264,7 +264,7 @@
             },
             {
                 "name": "Kahoot",
-                "description": "description",
+                "description": "Play a game of Kahoot and find out who has knows the most about the Counter Culture movement!",
                 "img": "counterCulture/kahoot.svg",
                 "files": [
                     {
@@ -280,8 +280,8 @@
         "article": "social/popculture",
         "games": [
             {
-                "name": "Quiz",
-                "description": "description",
+                "name": "Cloze",
+                "description": "Solve this simple clozes to learn something about the Pop Culture during the Cold War. You will encounter some of the most famous songs from this time, like the german song \"99 Luftballons\" or the famous Billy Joel song \"We didn't start the fire.\"",
                 "img": "pop/quiz.jpg",
                 "files": [
                     {
