@@ -91,10 +91,10 @@
         /****************************/
 
         h2 {
-            font-size: 1rem;
+            font-size: 1.3rem;
             line-height: 1.75rem;
             font-weight: 400;
-            letter-spacing: .009375em;
+            letter-spacing: .05em;
 
             font-family: Roboto, sans-serif;
             -moz-osx-font-smoothing: grayscale;
@@ -345,6 +345,9 @@
             background-color: rgba(93, 153, 198, .12);
             outline: none;
         }
+        .gameSection{
+            bottom-border: 2px solid #565656;
+        }
     </style>
 
 </head>
@@ -380,7 +383,7 @@
     {{template "footer"}}
 
     <template id="template-topic">
-        <section>
+        <section class="gameSection">
             <h2>{topic}</h2>
             <ul class="list" id="{article}">{games}</ul>
         </section>
