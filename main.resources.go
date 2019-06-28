@@ -55,7 +55,7 @@ var Interviews = []Interview{
 	{
 		"spain-franco-child-3",
 		"Being a child in Spain during the first years of Franco's dictatorship III",
-		"",
+		"A man tells us about his daily life and the differences between the past and the actual educative system.",
 		"Atoj2myC0q0",
 		"Flag_of_Spain.svg",
 	},
@@ -76,21 +76,21 @@ var Interviews = []Interview{
 	{
 		"haffke-candels",
 		"Dr. J. Haffke - Candels",
-		"",
+		"Dr. Jürgen Haffke, former history teacher and currently an author, recounts his memories during the German partition and how the people in West German showed compassion for the people living in East Germany.",
 		"VNMymHyqgNQ",
 		"Flag_of_Germany.svg",
 	},
 	{
 		"haffke-cuba",
 		"Dr. J. Haffke - Cuba Crisis",
-		"",
+		"Dr. Jürgen Haffke, former history teacher and currently an author, recounts his memories during the Cuba Crisis and explains protection measures in this time.",
 		"gTP9rE6U1Ng",
 		"Flag_of_Germany.svg",
 	},
 	{
 		"haffke-sputnik",
 		"Dr. J. Haffke - Sputnik",
-		"",
+		"Dr. Jürgen Haffke, former history teacher and currently an author, recounts his first experiences with the Cold War at the age of four.",
 		"ZcspzbTc8yQ",
 		"Flag_of_Germany.svg",
 	},
