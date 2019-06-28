@@ -54,6 +54,17 @@
                         "link": "general/taboo.pdf"
                     }
                 ]
+            },
+            {
+                "name": "Photo Quiz (Kahoot)",
+                "description": "description",
+                "img": "counterCulture/kahoot.svg",
+                "files": [
+                    {
+                        "text": "Photo Quiz (Kahoot)",
+                        "link": "https://create.kahoot.it/share/cold-war-photo-quiz/38553e1e-fc81-4878-921f-ffd34c81bdb8"
+                    }
+                ]
             }
         ]
     },
