@@ -39,6 +39,17 @@
             letter-spacing: .0073529412em;
             font-weight: 400;
         }
+
+        .img-wrap{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 80vh;
+        }
     </style>
 </head>
 
@@ -62,7 +73,7 @@
 
     <main>
         <h2>{{.Name}}</h2>
-        <img src="{{.Photo}}" alt="{{.Key}}">
+        <div class="img-wrap"><img src="{{.Photo}}" alt="{{.Key}}"></div>
         <p>{{.Text}}</p>
 
         {{range .Links}}

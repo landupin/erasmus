@@ -24,8 +24,8 @@ Nation had always thought of chess as a display of the intellectual superiority 
 overcome by the opposing nation was certainly a harsh blow.
 
 
-{{< image "https://i.imgur.com/xT8J4dR.jpg">}}
-Picture 1: A shot taken during the tense chess match
+{{< image "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bundesarchiv_Bild_183-76052-0335%2C_Schacholympiade%2C_Tal_(UdSSR)_gegen_Fischer_(USA).jpg">}}
+Picture 1: A shot taken during the tense chess match (by Ulrich Kohl)
 {{< /image>}}
 
 ## Miracle on Ice

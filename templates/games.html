@@ -154,7 +154,7 @@
             --view-top: 0;
         }
 
-        .game.game-grow{
+        .game.game-grow {
             animation: game-grow 310ms ease-in-out;
         }
 
@@ -349,7 +349,8 @@
             background-color: rgba(93, 153, 198, .12);
             outline: none;
         }
-        .gameSection{
+
+        .gameSection {
             border-bottom: 2px solid #565656;
         }
     </style>
@@ -368,7 +369,7 @@
                     <line x1="3" y1="18" x2="21" y2="18"></line>
                 </svg>
             </button>
-            <h1 class="toolbar__title"><a href="/">Games</a></h1>
+            <h1 class="toolbar__title"><a href="/">Cold War</a><span> > </span><a href="/games">Games</a></h1>
         </div>
         <div class="header-right">
             <button class="material-icons article-close-icon menu">
@@ -496,7 +497,7 @@
                 this.classList.add("game-grow");
 
                 let ctx = this;
-                this.addEventListener("animationend", function(e){
+                this.addEventListener("animationend", function (e) {
                     ctx.classList.remove("game-grow");
                     ctx.classList.add("active");
 
@@ -509,7 +510,7 @@
 
                     let close = document.querySelector(".article-close-icon");
                     close.parentElement.classList.add("active");
-                    close.addEventListener("click", function(e){
+                    close.addEventListener("click", function (e) {
                         location.reload();
                     });
                 }, false);

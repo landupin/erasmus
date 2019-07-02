@@ -106,11 +106,11 @@ To this day, the Berlin Wall remains one of the most powerful and enduring symbo
 
 One year later on October 3rd, 1990 the GDR became a part of the FRG, called reunification. This is considered as the end of the Cold War, because it could only happen with the agreement of all four victorious powers of World War II. Since then the Germans have been celebrating this day of unity as their national holiday.
 
-
+<!--
 {{< image "ttps://www.hdg.de/lemo/img_hd/bestand/objekte/deutscheeinheit/menschen-auf-der-mauer-am-brandenburger-tor_foto_LEMO-F-6-176_uls.jpg" >}}
 Picture 10: Reunification
 {{< /image >}}
-
+-->
 {{% /swimmer %}}
 
 {{% diver %}}

@@ -100,3 +100,17 @@ button, object, embed {
 menu{
     padding: 0;
 }
+
+#skimmer .img-container,
+#swimmer .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skimmer img,
+#swimmer img {
+    max-width: 100%;
+    max-height: 80vh;
+    width: auto;
+}

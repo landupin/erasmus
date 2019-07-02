@@ -26,7 +26,7 @@ func main() {
 
 	http.HandleFunc("/", splash)
 	http.HandleFunc("/favicon.ico", func(w http.ResponseWriter, r *http.Request) {
-		http.ServeFile(w, r, "hugo/static/assets/img/favicon.png")
+		http.ServeFile(w, r, "files/assets/img/favicon.png")
 	})
 	http.Handle("/assets/", http.StripPrefix("/assets", http.FileServer(http.Dir("files/assets"))))
 	http.HandleFunc("/timeline/", timeline)
@@ -34,6 +34,7 @@ func main() {
 	http.HandleFunc("/resources/", resources)
 	http.HandleFunc("/about", about)
 	http.HandleFunc("/policy", policy)
+	http.HandleFunc("/welcome", welcome)
 	http.Handle("/article/", http.StripPrefix("/article", http.FileServer(http.Dir("hugo/public"))))
 
 	fmt.Println("listening at port :8080")
@@ -112,6 +113,10 @@ func resources(w http.ResponseWriter, r *http.Request) {
 				}
 			}
 		}
+	} else if p[2] == "introduction" {
+		if err := glob.ExecuteTemplate(w, "resources.introduction.html", nil); err != nil {
+			handleError(w, err)
+		}
 	} else if p[2] == "raw" {
 		http.ServeFile(w, r, "files/interviews/"+strings.Join(p[3:], "/"))
 	} else {
@@ -130,6 +135,12 @@ func policy(w http.ResponseWriter, r *http.Request) {
 		handleError(w, err)
 	}
 
+}
+
+func welcome(w http.ResponseWriter, r *http.Request) {
+	if err := glob.ExecuteTemplate(w, "welcome.html", nil); err != nil {
+		handleError(w, err)
+	}
 }
 
 func handleError(w http.ResponseWriter, err error) {
