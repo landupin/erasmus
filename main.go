@@ -117,6 +117,11 @@ func resources(w http.ResponseWriter, r *http.Request) {
 		if err := glob.ExecuteTemplate(w, "resources.introduction.html", nil); err != nil {
 			handleError(w, err)
 		}
+	} else if p[2] == "introduction" {
+		//if err := glob.ExecuteTemplate(w, "resources.introduction.html", nil); err != nil {
+		//	handleError(w, err)
+		//}
+		fmt.Fprint(w, "hello at the teaching guide")
 	} else if p[2] == "raw" {
 		http.ServeFile(w, r, "files/interviews/"+strings.Join(p[3:], "/"))
 	} else {

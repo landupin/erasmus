@@ -50,6 +50,10 @@ h2.interview-list-heading {
     fill: aquamarine;
 }
 
+.interview-thumbnail img{
+    max-width: -webkit-fill-available;
+}
+
 .interview-text {
     width: 100%;
     display: flex;
