@@ -6,7 +6,7 @@ menu:
     parent: 'Social'
 article: true
 
-skimmer: "From 1955-1975, a ‘Cold War-era Proxy war’ took part between North Vietnam who invaded South Vietnam; to expand their communist ideology and were supported by the Soviet Union and China. However, due to USAs Communism Containment Policy, South Vietnam received American much support, but in 1975 America withdrew all troops as defeat was inevitable."
+skimmer: "The Cold War is often considered the golden age of espionage, a time when the United States and Soviet Union used all available tools to uncover each other’s secrets by operating with great secrecy and living double lives so they could infiltrate enemy governments. They certainly spent large amounts of money recruiting, training and outfitting spies and agents. The purpose of espionage was to collect information about the enemy, their army and technical abilities, their actions and intentions."
 imageLink: "/assets/img/spy.jpg"
 imageDescription: ""
 ---
